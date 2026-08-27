@@ -1,0 +1,57 @@
+slug,country,adjective,region,scale_name,unit,scale_min,scale_max,higher_is_better,pass_mark,band_count,top_classification
+argentina,Argentina,Argentine,Latin America,0 to 10,points,0,10,true,4,5,Sobresaliente / Distinguido
+australia,Australia,Australian,Oceania,HD / D / C / P,percent,0,100,true,50,5,High Distinction (HD)
+austria,Austria,Austrian,Europe,1 to 5 (inverted),points,1,5,false,4,5,Sehr gut
+bangladesh,Bangladesh,Bangladeshi,Asia,4.0 CGPA,points,0,4,true,2,7,A+ (Outstanding)
+belgium,Belgium,Belgian,Europe,0 to 20,points,0,20,true,10,6,La plus grande distinction / Grootste onderscheiding
+brazil,Brazil,Brazilian,Latin America,0 to 10,points,0,10,true,6,5,Excelente
+canada,Canada,Canadian,North America,Percentage,percent,0,100,true,50,11,A+
+chile,Chile,Chilean,Latin America,1 to 7,points,1,7,true,4,5,Sobresaliente (outstanding)
+china,China,Chinese,Asia,100-point scale,percent,0,100,true,60,7,优秀 Excellent
+colombia,Colombia,Colombian,Latin America,0 to 5,points,0,5,true,3,5,Excelente
+czechia,Czechia,Czech,Europe,1 to 4 (inverted),points,1,4,false,3,4,Výborně (excellent)
+denmark,Denmark,Danish,Europe,7-step scale,points,-3,12,true,2,6,12 (Excellent)
+egypt,Egypt,Egyptian,Africa,Percentage,percent,0,100,true,50,5,امتياز Excellent
+finland,Finland,Finnish,Europe,0 to 5,points,0,5,true,1,6,5 (Excellent / Erinomainen)
+france,France,French,Europe,0 to 20,points,0,20,true,10,5,Très bien (very good)
+germany,Germany,German,Europe,1.0 to 5.0 (inverted),points,1,5,false,4,7,sehr gut (very good)
+ghana,Ghana,Ghanaian,Africa,4.0 CGPA,points,0,4,true,1,6,First Class
+greece,Greece,Greek,Europe,0 to 10,points,0,10,true,5,4,Άριστα (Excellent)
+hong-kong,Hong Kong,Hong Kong,Asia,4.0 GPA,points,0,4.3,true,1,8,A / A- (Excellent)
+india,India,Indian,Asia,Percentage (division system),percent,0,100,true,35,5,Distinction
+india-cgpa,India (10-point CGPA),Indian CGPA,Asia,10-point CGPA,points,0,10,true,4,7,Outstanding / Distinction
+indonesia,Indonesia,Indonesian,Asia,4.0 IPK,points,0,4,true,2,6,A (Cum laude / Dengan Pujian)
+iran,Iran,Iranian,Middle East,0 to 20,points,0,20,true,10,6,ممتاز Excellent
+ireland,Ireland,Irish,Europe,Honours classification,percent,0,100,true,40,5,First-Class Honours
+israel,Israel,Israeli,Middle East,0 to 100,percent,0,100,true,60,6,Excellent
+italy,Italy,Italian,Europe,18 to 30 (with lode),points,0,30,true,18,7,30 / 30 e lode (excellent)
+japan,Japan,Japanese,Asia,S / A / B / C / F,percent,0,100,true,60,5,S / 秀 (Outstanding)
+kenya,Kenya,Kenyan,Africa,Percentage / class,percent,0,100,true,40,5,First Class Honours
+malaysia,Malaysia,Malaysian,Asia,4.0 CGPA,points,0,4,true,2,7,A / A- (First Class)
+mexico,Mexico,Mexican,Latin America,0 to 10,points,0,10,true,6,6,Excelente
+nepal,Nepal,Nepali,Asia,Percentage (division system),percent,0,100,true,35,5,Distinction
+netherlands,Netherlands,Dutch,Europe,1 to 10,points,1,10,true,5.5,6,Uitmuntend (outstanding)
+new-zealand,New Zealand,New Zealand,Oceania,A+ to E,percent,0,100,true,50,10,A+
+nigeria,Nigeria,Nigerian,Africa,5.0 CGPA,points,0,5,true,1.5,5,First Class Honours
+norway,Norway,Norwegian,Europe,A to F,points,0,5,true,1,6,A (Excellent)
+pakistan,Pakistan,Pakistani,Asia,Percentage,percent,0,100,true,40,6,A+ / Distinction
+peru,Peru,Peruvian,Latin America,0 to 20,points,0,20,true,11,5,Excelente
+philippines,Philippines,Filipino,Asia,1.00 to 5.00 (inverted),points,1,5,false,3,7,Excellent
+poland,Poland,Polish,Europe,2 to 5,points,2,5,true,3,6,Bardzo dobry (very good)
+portugal,Portugal,Portuguese,Europe,0 to 20,points,0,20,true,10,6,Excelente
+romania,Romania,Romanian,Europe,1 to 10,points,1,10,true,5,5,Excelent / Foarte bine
+russia,Russia,Russian,Europe,5-point scale,points,2,5,true,3,4,отлично (excellent)
+saudi-arabia,Saudi Arabia,Saudi,Middle East,5.0 GPA,points,0,5,true,2,5,ممتاز Excellent
+singapore,Singapore,Singaporean,Asia,5.0 CAP / GPA,points,0,5,true,1,8,A+ / A (Excellent)
+south-africa,South Africa,South African,Africa,Percentage,percent,0,100,true,50,5,Distinction / First Class
+south-korea,South Korea,South Korean,Asia,4.5 GPA,points,0,4.5,true,1,10,A+
+spain,Spain,Spanish,Europe,0 to 10,points,0,10,true,5,5,Matrícula de Honor / Sobresaliente
+sri-lanka,Sri Lanka,Sri Lankan,Asia,Percentage / class,percent,0,100,true,40,5,First Class
+sweden,Sweden,Swedish,Europe,A to F / U-G-VG,points,0,5,true,1,6,A (Excellent)
+switzerland,Switzerland,Swiss,Europe,1 to 6,points,1,6,true,4,5,sehr gut / très bien
+taiwan,Taiwan,Taiwanese,Asia,100-point scale,percent,0,100,true,60,8,A+ / 優等
+thailand,Thailand,Thai,Asia,4.0 GPA,points,0,4,true,1,7,A (Excellent)
+turkey,Turkey,Turkish,Europe,4.0 GPA,points,0,4,true,2,6,AA / BA (Pekiyi)
+ukraine,Ukraine,Ukrainian,Europe,5-point / 100-point,points,2,5,true,3,4,відмінно (excellent)
+united-kingdom,United Kingdom,British,Europe,Honours classification,percent,0,100,true,40,5,First-Class Honours (1st)
+vietnam,Vietnam,Vietnamese,Asia,10-point scale,points,0,10,true,5,6,Xuất sắc (Excellent)

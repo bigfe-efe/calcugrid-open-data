@@ -1,0 +1,4343 @@
+{
+  "taxYear": 2026,
+  "generatedAt": "2026-08-26",
+  "note": "State-level only. Federal brackets, FICA and local taxes are applied separately by the calculator this data was built for.",
+  "states": [
+    {
+      "slug": "alabama",
+      "name": "Alabama",
+      "abbr": "AL",
+      "system": "progressive",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.02
+          },
+          {
+            "min": 500,
+            "rate": 0.04
+          },
+          {
+            "min": 3000,
+            "rate": 0.05
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.02
+          },
+          {
+            "min": 1000,
+            "rate": 0.04
+          },
+          {
+            "min": 6000,
+            "rate": 0.05
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.02
+          },
+          {
+            "min": 500,
+            "rate": 0.04
+          },
+          {
+            "min": 3000,
+            "rate": 0.05
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 3000
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 8500
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 4700
+        }
+      },
+      "exemption": {
+        "single": {
+          "amount": 1500
+        },
+        "married_jointly": {
+          "amount": 3000
+        },
+        "head_of_household": {
+          "amount": 3000
+        }
+      },
+      "exemptionCredit": null,
+      "federalTaxDeductible": true,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0.05,
+      "notes": [
+        "Alabama is one of three states that still lets you deduct federal income tax.",
+        "Overtime pay was exempt from Alabama withholding through 30 Jun 2025."
+      ],
+      "source": "Alabama DOR Form 40 instructions, TY2026"
+    },
+    {
+      "slug": "alaska",
+      "name": "Alaska",
+      "abbr": "AK",
+      "system": "none",
+      "startingPoint": "federalAGI",
+      "brackets": null,
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 0
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 0
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 0
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [
+        {
+          "code": "SUI",
+          "name": "Unemployment insurance (employee share)",
+          "rate": 0.005,
+          "wageBase": 54200,
+          "annualCap": null,
+          "note": ""
+        }
+      ],
+      "localities": [],
+      "topRate": 0,
+      "notes": [
+        "No state income tax. Alaska is the only state where employees pay part of unemployment insurance."
+      ],
+      "source": "Alaska DOLWD, 2026 UI rates"
+    },
+    {
+      "slug": "arizona",
+      "name": "Arizona",
+      "abbr": "AZ",
+      "system": "flat",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.025
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.025
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.025
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "federal"
+        },
+        "married_jointly": {
+          "kind": "federal"
+        },
+        "head_of_household": {
+          "kind": "federal"
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0.025,
+      "notes": [],
+      "source": "Arizona DOR, A.R.S. 43-1011"
+    },
+    {
+      "slug": "arkansas",
+      "name": "Arkansas",
+      "abbr": "AR",
+      "system": "progressive",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.02
+          },
+          {
+            "min": 4600,
+            "rate": 0.039
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.02
+          },
+          {
+            "min": 4600,
+            "rate": 0.039
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.02
+          },
+          {
+            "min": 4600,
+            "rate": 0.039
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 2470
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 4940
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 2470
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": {
+        "single": 29,
+        "married_jointly": 58,
+        "head_of_household": 29
+      },
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0.039,
+      "notes": [
+        "Top rate cut to 3.9% effective TY2025 (Act 1 of the 2024 second extraordinary session)."
+      ],
+      "source": "Arkansas DFA, 2026 withholding tables"
+    },
+    {
+      "slug": "california",
+      "name": "California",
+      "abbr": "CA",
+      "system": "progressive",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.01
+          },
+          {
+            "min": 11079,
+            "rate": 0.02
+          },
+          {
+            "min": 26264,
+            "rate": 0.04
+          },
+          {
+            "min": 41452,
+            "rate": 0.06
+          },
+          {
+            "min": 57542,
+            "rate": 0.08
+          },
+          {
+            "min": 72724,
+            "rate": 0.093
+          },
+          {
+            "min": 371479,
+            "rate": 0.103
+          },
+          {
+            "min": 445771,
+            "rate": 0.113
+          },
+          {
+            "min": 742953,
+            "rate": 0.123
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.01
+          },
+          {
+            "min": 22158,
+            "rate": 0.02
+          },
+          {
+            "min": 52528,
+            "rate": 0.04
+          },
+          {
+            "min": 82904,
+            "rate": 0.06
+          },
+          {
+            "min": 115084,
+            "rate": 0.08
+          },
+          {
+            "min": 145448,
+            "rate": 0.093
+          },
+          {
+            "min": 742958,
+            "rate": 0.103
+          },
+          {
+            "min": 891542,
+            "rate": 0.113
+          },
+          {
+            "min": 1485906,
+            "rate": 0.123
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.01
+          },
+          {
+            "min": 22173,
+            "rate": 0.02
+          },
+          {
+            "min": 52532,
+            "rate": 0.04
+          },
+          {
+            "min": 67718,
+            "rate": 0.06
+          },
+          {
+            "min": 83807,
+            "rate": 0.08
+          },
+          {
+            "min": 98993,
+            "rate": 0.093
+          },
+          {
+            "min": 505222,
+            "rate": 0.103
+          },
+          {
+            "min": 606268,
+            "rate": 0.113
+          },
+          {
+            "min": 1010446,
+            "rate": 0.123
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 5540
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 11080
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 11080
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": {
+        "single": 153,
+        "married_jointly": 306,
+        "head_of_household": 153
+      },
+      "federalTaxDeductible": false,
+      "payrollTaxes": [
+        {
+          "code": "SDI",
+          "name": "State Disability Insurance",
+          "rate": 0.013,
+          "wageBase": null,
+          "annualCap": null,
+          "note": "The SDI wage cap was removed in 2024 — this applies to every dollar earned."
+        }
+      ],
+      "localities": [],
+      "topRate": 0.133,
+      "notes": [
+        "The 1% Mental Health Services surtax pushes the top marginal rate to 13.3%.",
+        "DERIVED: head-of-household brackets indexed from the published single schedule."
+      ],
+      "source": "California FTB 2026 tax rate schedules; EDD 2026 SDI rate (1.3%)"
+    },
+    {
+      "slug": "colorado",
+      "name": "Colorado",
+      "abbr": "CO",
+      "system": "flat",
+      "startingPoint": "federalTaxableIncome",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.044
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.044
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.044
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 0
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 0
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 0
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [
+        {
+          "code": "FAMLI",
+          "name": "Paid Family & Medical Leave (employee share)",
+          "rate": 0.0044,
+          "wageBase": 184500,
+          "annualCap": null,
+          "note": ""
+        }
+      ],
+      "localities": [],
+      "topRate": 0.044,
+      "notes": [
+        "Colorado taxes federal taxable income, so your federal standard deduction carries over."
+      ],
+      "source": "Colorado DOR DR 1098, 2025"
+    },
+    {
+      "slug": "connecticut",
+      "name": "Connecticut",
+      "abbr": "CT",
+      "system": "progressive",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.02
+          },
+          {
+            "min": 10000,
+            "rate": 0.045
+          },
+          {
+            "min": 50000,
+            "rate": 0.055
+          },
+          {
+            "min": 100000,
+            "rate": 0.06
+          },
+          {
+            "min": 200000,
+            "rate": 0.065
+          },
+          {
+            "min": 250000,
+            "rate": 0.069
+          },
+          {
+            "min": 500000,
+            "rate": 0.0699
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.02
+          },
+          {
+            "min": 20000,
+            "rate": 0.045
+          },
+          {
+            "min": 100000,
+            "rate": 0.055
+          },
+          {
+            "min": 200000,
+            "rate": 0.06
+          },
+          {
+            "min": 400000,
+            "rate": 0.065
+          },
+          {
+            "min": 500000,
+            "rate": 0.069
+          },
+          {
+            "min": 1000000,
+            "rate": 0.0699
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.02
+          },
+          {
+            "min": 16000,
+            "rate": 0.045
+          },
+          {
+            "min": 80000,
+            "rate": 0.055
+          },
+          {
+            "min": 160000,
+            "rate": 0.06
+          },
+          {
+            "min": 320000,
+            "rate": 0.065
+          },
+          {
+            "min": 400000,
+            "rate": 0.069
+          },
+          {
+            "min": 800000,
+            "rate": 0.0699
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 0
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 0
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 0
+        }
+      },
+      "exemption": {
+        "single": {
+          "amount": 15000,
+          "phaseOutStart": 30000,
+          "phaseOutRate": 1
+        },
+        "married_jointly": {
+          "amount": 24000,
+          "phaseOutStart": 48000,
+          "phaseOutRate": 1
+        },
+        "head_of_household": {
+          "amount": 19000,
+          "phaseOutStart": 38000,
+          "phaseOutRate": 1
+        }
+      },
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [
+        {
+          "code": "PFML",
+          "name": "Paid Family & Medical Leave",
+          "rate": 0.005,
+          "wageBase": 184500,
+          "annualCap": null,
+          "note": ""
+        }
+      ],
+      "localities": [],
+      "topRate": 0.0699,
+      "notes": [
+        "Connecticut has no standard deduction; the personal exemption phases out completely at higher incomes.",
+        "A separate benefit-recapture provision can claw back the value of lower brackets above $200k."
+      ],
+      "source": "Connecticut DRS 2026 tax tables"
+    },
+    {
+      "slug": "delaware",
+      "name": "Delaware",
+      "abbr": "DE",
+      "system": "progressive",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0
+          },
+          {
+            "min": 2000,
+            "rate": 0.022
+          },
+          {
+            "min": 5000,
+            "rate": 0.039
+          },
+          {
+            "min": 10000,
+            "rate": 0.048
+          },
+          {
+            "min": 20000,
+            "rate": 0.052
+          },
+          {
+            "min": 25000,
+            "rate": 0.0555
+          },
+          {
+            "min": 60000,
+            "rate": 0.066
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0
+          },
+          {
+            "min": 2000,
+            "rate": 0.022
+          },
+          {
+            "min": 5000,
+            "rate": 0.039
+          },
+          {
+            "min": 10000,
+            "rate": 0.048
+          },
+          {
+            "min": 20000,
+            "rate": 0.052
+          },
+          {
+            "min": 25000,
+            "rate": 0.0555
+          },
+          {
+            "min": 60000,
+            "rate": 0.066
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0
+          },
+          {
+            "min": 2000,
+            "rate": 0.022
+          },
+          {
+            "min": 5000,
+            "rate": 0.039
+          },
+          {
+            "min": 10000,
+            "rate": 0.048
+          },
+          {
+            "min": 20000,
+            "rate": 0.052
+          },
+          {
+            "min": 25000,
+            "rate": 0.0555
+          },
+          {
+            "min": 60000,
+            "rate": 0.066
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 5700
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 11400
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 5700
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": {
+        "single": 110,
+        "married_jointly": 220,
+        "head_of_household": 110
+      },
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [
+        {
+          "slug": "wilmington",
+          "name": "Wilmington",
+          "kind": "flat",
+          "rate": 0.0125
+        }
+      ],
+      "topRate": 0.066,
+      "notes": [],
+      "source": "Delaware DOF, 30 Del. C. 1102; 2026 schedule"
+    },
+    {
+      "slug": "district-of-columbia",
+      "name": "District of Columbia",
+      "abbr": "DC",
+      "system": "progressive",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.04
+          },
+          {
+            "min": 10000,
+            "rate": 0.06
+          },
+          {
+            "min": 40000,
+            "rate": 0.065
+          },
+          {
+            "min": 60000,
+            "rate": 0.085
+          },
+          {
+            "min": 250000,
+            "rate": 0.0925
+          },
+          {
+            "min": 500000,
+            "rate": 0.0975
+          },
+          {
+            "min": 1000000,
+            "rate": 0.1075
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.04
+          },
+          {
+            "min": 10000,
+            "rate": 0.06
+          },
+          {
+            "min": 40000,
+            "rate": 0.065
+          },
+          {
+            "min": 60000,
+            "rate": 0.085
+          },
+          {
+            "min": 250000,
+            "rate": 0.0925
+          },
+          {
+            "min": 500000,
+            "rate": 0.0975
+          },
+          {
+            "min": 1000000,
+            "rate": 0.1075
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.04
+          },
+          {
+            "min": 10000,
+            "rate": 0.06
+          },
+          {
+            "min": 40000,
+            "rate": 0.065
+          },
+          {
+            "min": 60000,
+            "rate": 0.085
+          },
+          {
+            "min": 250000,
+            "rate": 0.0925
+          },
+          {
+            "min": 500000,
+            "rate": 0.0975
+          },
+          {
+            "min": 1000000,
+            "rate": 0.1075
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "federal"
+        },
+        "married_jointly": {
+          "kind": "federal"
+        },
+        "head_of_household": {
+          "kind": "federal"
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [
+        {
+          "code": "PFL",
+          "name": "Paid Family Leave",
+          "rate": 0,
+          "wageBase": null,
+          "annualCap": null,
+          "note": "Employer-funded in DC — no employee deduction."
+        }
+      ],
+      "localities": [],
+      "topRate": 0.1075,
+      "notes": [
+        "DC brackets are identical for every filing status."
+      ],
+      "source": "DC OTR, D.C. Code 47-1806.03"
+    },
+    {
+      "slug": "florida",
+      "name": "Florida",
+      "abbr": "FL",
+      "system": "none",
+      "startingPoint": "federalAGI",
+      "brackets": null,
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 0
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 0
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 0
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0,
+      "notes": [
+        "No state income tax. Florida funds itself largely through sales and tourism taxes."
+      ],
+      "source": "Florida DOR"
+    },
+    {
+      "slug": "georgia",
+      "name": "Georgia",
+      "abbr": "GA",
+      "system": "flat",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.0499
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.0499
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.0499
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 12000
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 24000
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 12000
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0.0499,
+      "notes": [
+        "HB 463, signed 11 May 2026 and retroactive to 1 January 2026, cut the flat rate from 5.19% to 4.99%; it falls a further 0.125 points a year toward 3.99% subject to revenue triggers.",
+        "The standard deduction rises to $15,000 / $30,000 in 2027 under the same bill."
+      ],
+      "source": "Georgia DOR, HB 463 (2026)"
+    },
+    {
+      "slug": "hawaii",
+      "name": "Hawaii",
+      "abbr": "HI",
+      "system": "progressive",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.014
+          },
+          {
+            "min": 9600,
+            "rate": 0.032
+          },
+          {
+            "min": 14400,
+            "rate": 0.055
+          },
+          {
+            "min": 19200,
+            "rate": 0.064
+          },
+          {
+            "min": 24000,
+            "rate": 0.068
+          },
+          {
+            "min": 36000,
+            "rate": 0.072
+          },
+          {
+            "min": 48000,
+            "rate": 0.076
+          },
+          {
+            "min": 125000,
+            "rate": 0.079
+          },
+          {
+            "min": 175000,
+            "rate": 0.0825
+          },
+          {
+            "min": 225000,
+            "rate": 0.09
+          },
+          {
+            "min": 275000,
+            "rate": 0.1
+          },
+          {
+            "min": 325000,
+            "rate": 0.11
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.014
+          },
+          {
+            "min": 19200,
+            "rate": 0.032
+          },
+          {
+            "min": 28800,
+            "rate": 0.055
+          },
+          {
+            "min": 38400,
+            "rate": 0.064
+          },
+          {
+            "min": 48000,
+            "rate": 0.068
+          },
+          {
+            "min": 72000,
+            "rate": 0.072
+          },
+          {
+            "min": 96000,
+            "rate": 0.076
+          },
+          {
+            "min": 250000,
+            "rate": 0.079
+          },
+          {
+            "min": 350000,
+            "rate": 0.0825
+          },
+          {
+            "min": 450000,
+            "rate": 0.09
+          },
+          {
+            "min": 550000,
+            "rate": 0.1
+          },
+          {
+            "min": 650000,
+            "rate": 0.11
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.014
+          },
+          {
+            "min": 9600,
+            "rate": 0.032
+          },
+          {
+            "min": 14400,
+            "rate": 0.055
+          },
+          {
+            "min": 19200,
+            "rate": 0.064
+          },
+          {
+            "min": 24000,
+            "rate": 0.068
+          },
+          {
+            "min": 36000,
+            "rate": 0.072
+          },
+          {
+            "min": 48000,
+            "rate": 0.076
+          },
+          {
+            "min": 125000,
+            "rate": 0.079
+          },
+          {
+            "min": 175000,
+            "rate": 0.0825
+          },
+          {
+            "min": 225000,
+            "rate": 0.09
+          },
+          {
+            "min": 275000,
+            "rate": 0.1
+          },
+          {
+            "min": 325000,
+            "rate": 0.11
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 4400
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 8800
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 6424
+        }
+      },
+      "exemption": {
+        "single": {
+          "amount": 1144
+        },
+        "married_jointly": {
+          "amount": 2288
+        },
+        "head_of_household": {
+          "amount": 1144
+        }
+      },
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [
+        {
+          "code": "TDI",
+          "name": "Temporary Disability Insurance",
+          "rate": 0.005,
+          "wageBase": null,
+          "annualCap": 390.05,
+          "note": "0.5% of weekly wages, capped at a $1,500.21 weekly maximum — $390.05 a year."
+        }
+      ],
+      "localities": [],
+      "topRate": 0.11,
+      "notes": [
+        "Act 46 (2024) is phasing in large bracket widenings through 2031."
+      ],
+      "source": "Hawaii DOTAX, Act 46 SLH 2024; 2026 TDI weekly maximum"
+    },
+    {
+      "slug": "idaho",
+      "name": "Idaho",
+      "abbr": "ID",
+      "system": "flat",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.053
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.053
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.053
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "federal"
+        },
+        "married_jointly": {
+          "kind": "federal"
+        },
+        "head_of_household": {
+          "kind": "federal"
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0.053,
+      "notes": [
+        "Rate cut from 5.695% to 5.3% for TY2025 (HB 40)."
+      ],
+      "source": "Idaho STC, HB 40 (2025); 2026 rate unchanged at 5.3%"
+    },
+    {
+      "slug": "illinois",
+      "name": "Illinois",
+      "abbr": "IL",
+      "system": "flat",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.0495
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.0495
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.0495
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 0
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 0
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 0
+        }
+      },
+      "exemption": {
+        "single": {
+          "amount": 2925,
+          "phaseOutStart": 250000,
+          "phaseOutRate": 1000000000
+        },
+        "married_jointly": {
+          "amount": 5850,
+          "phaseOutStart": 500000,
+          "phaseOutRate": 1000000000
+        },
+        "head_of_household": {
+          "amount": 2925,
+          "phaseOutStart": 250000,
+          "phaseOutRate": 1000000000
+        }
+      },
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0.0495,
+      "notes": [
+        "The exemption allowance is fully disallowed above $250k ($500k joint)."
+      ],
+      "source": "Illinois DOR, 35 ILCS 5/204"
+    },
+    {
+      "slug": "indiana",
+      "name": "Indiana",
+      "abbr": "IN",
+      "system": "flat",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.0295
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.0295
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.0295
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 0
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 0
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 0
+        }
+      },
+      "exemption": {
+        "single": {
+          "amount": 1000
+        },
+        "married_jointly": {
+          "amount": 2000
+        },
+        "head_of_household": {
+          "amount": 1000
+        }
+      },
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [
+        {
+          "slug": "county-average",
+          "name": "County income tax (statewide average)",
+          "kind": "flat",
+          "rate": 0.016
+        }
+      ],
+      "topRate": 0.0295,
+      "notes": [
+        "Every Indiana county levies its own income tax, from 0.5% to 3.0%.",
+        "The statewide average of ~1.60% is applied by default."
+      ],
+      "source": "Indiana DOR Departmental Notice #1, 2026"
+    },
+    {
+      "slug": "iowa",
+      "name": "Iowa",
+      "abbr": "IA",
+      "system": "flat",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.038
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.038
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.038
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "federal"
+        },
+        "married_jointly": {
+          "kind": "federal"
+        },
+        "head_of_household": {
+          "kind": "federal"
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0.038,
+      "notes": [
+        "Iowa completed its move to a 3.8% flat tax in TY2025, two years early."
+      ],
+      "source": "Iowa DOR, SF 2442 (2024); 2026 rate unchanged at 3.8%"
+    },
+    {
+      "slug": "kansas",
+      "name": "Kansas",
+      "abbr": "KS",
+      "system": "progressive",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.052
+          },
+          {
+            "min": 23000,
+            "rate": 0.0558
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.052
+          },
+          {
+            "min": 46000,
+            "rate": 0.0558
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.052
+          },
+          {
+            "min": 23000,
+            "rate": 0.0558
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 3605
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 8240
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 6180
+        }
+      },
+      "exemption": {
+        "single": {
+          "amount": 9160
+        },
+        "married_jointly": {
+          "amount": 18320
+        },
+        "head_of_household": {
+          "amount": 9160
+        }
+      },
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0.0558,
+      "notes": [],
+      "source": "Kansas DOR, SB 1 (2024 special session); 2026 schedule"
+    },
+    {
+      "slug": "kentucky",
+      "name": "Kentucky",
+      "abbr": "KY",
+      "system": "flat",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.035
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.035
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.035
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 3360
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 6720
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 3360
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [
+        {
+          "slug": "louisville",
+          "name": "Louisville / Jefferson County",
+          "kind": "flat",
+          "rate": 0.022
+        },
+        {
+          "slug": "lexington",
+          "name": "Lexington-Fayette",
+          "kind": "flat",
+          "rate": 0.0225
+        }
+      ],
+      "topRate": 0.035,
+      "notes": [
+        "Rate dropped to 3.5% on 1 January 2026; most Kentucky cities add an occupational licence tax on top."
+      ],
+      "source": "Kentucky DOR, 2026 rate"
+    },
+    {
+      "slug": "louisiana",
+      "name": "Louisiana",
+      "abbr": "LA",
+      "system": "flat",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.03
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.03
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.03
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 12875
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 25750
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 12875
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0.03,
+      "notes": [
+        "Louisiana replaced its three-bracket system with a 3% flat tax for TY2025 and repealed the federal income tax deduction (HB 10, 2024 special session)."
+      ],
+      "source": "Louisiana DOR, HB 10 (2024 3rd extraordinary session)"
+    },
+    {
+      "slug": "maine",
+      "name": "Maine",
+      "abbr": "ME",
+      "system": "progressive",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.058
+          },
+          {
+            "min": 27399,
+            "rate": 0.0675
+          },
+          {
+            "min": 64849,
+            "rate": 0.0715
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.058
+          },
+          {
+            "min": 54798,
+            "rate": 0.0675
+          },
+          {
+            "min": 129698,
+            "rate": 0.0715
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.058
+          },
+          {
+            "min": 41099,
+            "rate": 0.0675
+          },
+          {
+            "min": 97274,
+            "rate": 0.0715
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "federal"
+        },
+        "married_jointly": {
+          "kind": "federal"
+        },
+        "head_of_household": {
+          "kind": "federal"
+        }
+      },
+      "exemption": {
+        "single": {
+          "amount": 5300
+        },
+        "married_jointly": {
+          "amount": 10600
+        },
+        "head_of_household": {
+          "amount": 5300
+        }
+      },
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [
+        {
+          "code": "PFML",
+          "name": "Paid Family & Medical Leave (employee share)",
+          "rate": 0.005,
+          "wageBase": 184500,
+          "annualCap": null,
+          "note": "Premiums began 1 Jan 2025; benefits begin May 2026."
+        }
+      ],
+      "localities": [],
+      "topRate": 0.0715,
+      "notes": [],
+      "source": "Maine Revenue Services, 2025 individual income tax rates"
+    },
+    {
+      "slug": "maryland",
+      "name": "Maryland",
+      "abbr": "MD",
+      "system": "progressive",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.02
+          },
+          {
+            "min": 1000,
+            "rate": 0.03
+          },
+          {
+            "min": 2000,
+            "rate": 0.04
+          },
+          {
+            "min": 3000,
+            "rate": 0.0475
+          },
+          {
+            "min": 100000,
+            "rate": 0.05
+          },
+          {
+            "min": 125000,
+            "rate": 0.0525
+          },
+          {
+            "min": 150000,
+            "rate": 0.055
+          },
+          {
+            "min": 250000,
+            "rate": 0.0575
+          },
+          {
+            "min": 500000,
+            "rate": 0.0625
+          },
+          {
+            "min": 1000000,
+            "rate": 0.065
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.02
+          },
+          {
+            "min": 1000,
+            "rate": 0.03
+          },
+          {
+            "min": 2000,
+            "rate": 0.04
+          },
+          {
+            "min": 3000,
+            "rate": 0.0475
+          },
+          {
+            "min": 150000,
+            "rate": 0.05
+          },
+          {
+            "min": 175000,
+            "rate": 0.0525
+          },
+          {
+            "min": 225000,
+            "rate": 0.055
+          },
+          {
+            "min": 300000,
+            "rate": 0.0575
+          },
+          {
+            "min": 600000,
+            "rate": 0.0625
+          },
+          {
+            "min": 1200000,
+            "rate": 0.065
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.02
+          },
+          {
+            "min": 1000,
+            "rate": 0.03
+          },
+          {
+            "min": 2000,
+            "rate": 0.04
+          },
+          {
+            "min": 3000,
+            "rate": 0.0475
+          },
+          {
+            "min": 150000,
+            "rate": 0.05
+          },
+          {
+            "min": 175000,
+            "rate": 0.0525
+          },
+          {
+            "min": 225000,
+            "rate": 0.055
+          },
+          {
+            "min": 300000,
+            "rate": 0.0575
+          },
+          {
+            "min": 600000,
+            "rate": 0.0625
+          },
+          {
+            "min": 1200000,
+            "rate": 0.065
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "pctAgi",
+          "pct": 0.15,
+          "min": 1800,
+          "max": 3350
+        },
+        "married_jointly": {
+          "kind": "pctAgi",
+          "pct": 0.15,
+          "min": 3650,
+          "max": 6700
+        },
+        "head_of_household": {
+          "kind": "pctAgi",
+          "pct": 0.15,
+          "min": 3650,
+          "max": 6700
+        }
+      },
+      "exemption": {
+        "single": {
+          "amount": 3200,
+          "phaseOutStart": 100000,
+          "phaseOutRate": 0
+        },
+        "married_jointly": {
+          "amount": 6400,
+          "phaseOutStart": 150000,
+          "phaseOutRate": 0
+        },
+        "head_of_household": {
+          "amount": 3200,
+          "phaseOutStart": 125000,
+          "phaseOutRate": 0
+        }
+      },
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [
+        {
+          "slug": "baltimore-city",
+          "name": "Baltimore City",
+          "kind": "flat",
+          "rate": 0.032
+        },
+        {
+          "slug": "montgomery-county",
+          "name": "Montgomery County",
+          "kind": "flat",
+          "rate": 0.032
+        },
+        {
+          "slug": "prince-georges-county",
+          "name": "Prince George's County",
+          "kind": "flat",
+          "rate": 0.032
+        },
+        {
+          "slug": "anne-arundel-county",
+          "name": "Anne Arundel County",
+          "kind": "flat",
+          "rate": 0.0281
+        },
+        {
+          "slug": "howard-county",
+          "name": "Howard County",
+          "kind": "flat",
+          "rate": 0.032
+        },
+        {
+          "slug": "worcester-county",
+          "name": "Worcester County (lowest)",
+          "kind": "flat",
+          "rate": 0.0225
+        }
+      ],
+      "topRate": 0.065,
+      "notes": [
+        "Every Maryland county levies a local income tax between 2.25% and 3.20%. Baltimore City is applied by default.",
+        "Two brackets — 6.25% and 6.50% — were added for high earners, retroactive to 2025.",
+        "DERIVED: the joint thresholds for those two new brackets are scaled from the single table."
+      ],
+      "source": "Comptroller of Maryland, 2026 rate schedule and local tax rate chart"
+    },
+    {
+      "slug": "massachusetts",
+      "name": "Massachusetts",
+      "abbr": "MA",
+      "system": "flat",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.05
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.05
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.05
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 0
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 0
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 0
+        }
+      },
+      "exemption": {
+        "single": {
+          "amount": 4400
+        },
+        "married_jointly": {
+          "amount": 8800
+        },
+        "head_of_household": {
+          "amount": 6800
+        }
+      },
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [
+        {
+          "code": "PFML",
+          "name": "Paid Family & Medical Leave (employee share)",
+          "rate": 0.0046,
+          "wageBase": 184500,
+          "annualCap": null,
+          "note": ""
+        }
+      ],
+      "localities": [],
+      "topRate": 0.09,
+      "notes": [],
+      "source": "Massachusetts DOR, TIR 24-12; 2026 PFML employee rate 0.46% (medical 0.28% + family 0.18%). Millionaires-tax threshold as of 2025, pending 2026 indexation."
+    },
+    {
+      "slug": "michigan",
+      "name": "Michigan",
+      "abbr": "MI",
+      "system": "flat",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.0425
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.0425
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.0425
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 0
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 0
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 0
+        }
+      },
+      "exemption": {
+        "single": {
+          "amount": 5900
+        },
+        "married_jointly": {
+          "amount": 11800
+        },
+        "head_of_household": {
+          "amount": 5900
+        }
+      },
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [
+        {
+          "slug": "detroit",
+          "name": "Detroit",
+          "kind": "flat",
+          "rate": 0.024
+        },
+        {
+          "slug": "grand-rapids",
+          "name": "Grand Rapids",
+          "kind": "flat",
+          "rate": 0.015
+        }
+      ],
+      "topRate": 0.0425,
+      "notes": [],
+      "source": "Michigan Treasury, 2026 income tax rate"
+    },
+    {
+      "slug": "minnesota",
+      "name": "Minnesota",
+      "abbr": "MN",
+      "system": "progressive",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.0535
+          },
+          {
+            "min": 33310,
+            "rate": 0.068
+          },
+          {
+            "min": 109430,
+            "rate": 0.0785
+          },
+          {
+            "min": 203150,
+            "rate": 0.0985
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.0535
+          },
+          {
+            "min": 48702,
+            "rate": 0.068
+          },
+          {
+            "min": 193478,
+            "rate": 0.0785
+          },
+          {
+            "min": 337917,
+            "rate": 0.0985
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.0535
+          },
+          {
+            "min": 41072,
+            "rate": 0.068
+          },
+          {
+            "min": 164985,
+            "rate": 0.0785
+          },
+          {
+            "min": 270458,
+            "rate": 0.0985
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 15300
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 30600
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 23000
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0.0985,
+      "notes": [],
+      "source": "Minnesota DOR, 2026 rate schedules"
+    },
+    {
+      "slug": "mississippi",
+      "name": "Mississippi",
+      "abbr": "MS",
+      "system": "flat",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0
+          },
+          {
+            "min": 10000,
+            "rate": 0.04
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0
+          },
+          {
+            "min": 10000,
+            "rate": 0.04
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0
+          },
+          {
+            "min": 10000,
+            "rate": 0.04
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 2300
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 4600
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 3400
+        }
+      },
+      "exemption": {
+        "single": {
+          "amount": 6000
+        },
+        "married_jointly": {
+          "amount": 12000
+        },
+        "head_of_household": {
+          "amount": 9500
+        }
+      },
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0.04,
+      "notes": [
+        "The first $10,000 of taxable income is exempt; the rate fell to 4.0% on 1 January 2026 and continues stepping toward zero."
+      ],
+      "source": "Mississippi DOR, HB 1 (2025), 2026 rate"
+    },
+    {
+      "slug": "missouri",
+      "name": "Missouri",
+      "abbr": "MO",
+      "system": "progressive",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0
+          },
+          {
+            "min": 1348,
+            "rate": 0.02
+          },
+          {
+            "min": 2696,
+            "rate": 0.025
+          },
+          {
+            "min": 4044,
+            "rate": 0.03
+          },
+          {
+            "min": 5392,
+            "rate": 0.035
+          },
+          {
+            "min": 6740,
+            "rate": 0.04
+          },
+          {
+            "min": 8088,
+            "rate": 0.045
+          },
+          {
+            "min": 9436,
+            "rate": 0.047
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0
+          },
+          {
+            "min": 1348,
+            "rate": 0.02
+          },
+          {
+            "min": 2696,
+            "rate": 0.025
+          },
+          {
+            "min": 4044,
+            "rate": 0.03
+          },
+          {
+            "min": 5392,
+            "rate": 0.035
+          },
+          {
+            "min": 6740,
+            "rate": 0.04
+          },
+          {
+            "min": 8088,
+            "rate": 0.045
+          },
+          {
+            "min": 9436,
+            "rate": 0.047
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0
+          },
+          {
+            "min": 1348,
+            "rate": 0.02
+          },
+          {
+            "min": 2696,
+            "rate": 0.025
+          },
+          {
+            "min": 4044,
+            "rate": 0.03
+          },
+          {
+            "min": 5392,
+            "rate": 0.035
+          },
+          {
+            "min": 6740,
+            "rate": 0.04
+          },
+          {
+            "min": 8088,
+            "rate": 0.045
+          },
+          {
+            "min": 9436,
+            "rate": 0.047
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "federal"
+        },
+        "married_jointly": {
+          "kind": "federal"
+        },
+        "head_of_household": {
+          "kind": "federal"
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": null,
+      "federalTaxDeductible": true,
+      "payrollTaxes": [],
+      "localities": [
+        {
+          "slug": "kansas-city",
+          "name": "Kansas City",
+          "kind": "flat",
+          "rate": 0.01
+        },
+        {
+          "slug": "st-louis",
+          "name": "St. Louis",
+          "kind": "flat",
+          "rate": 0.01
+        }
+      ],
+      "topRate": 0.047,
+      "notes": [],
+      "source": "Missouri DOR, 2026 tax rate chart"
+    },
+    {
+      "slug": "montana",
+      "name": "Montana",
+      "abbr": "MT",
+      "system": "progressive",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.047
+          },
+          {
+            "min": 47500,
+            "rate": 0.0565
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.047
+          },
+          {
+            "min": 95000,
+            "rate": 0.0565
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.047
+          },
+          {
+            "min": 71250,
+            "rate": 0.0565
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "federal"
+        },
+        "married_jointly": {
+          "kind": "federal"
+        },
+        "head_of_household": {
+          "kind": "federal"
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0.0565,
+      "notes": [
+        "The top rate fell from 5.9% to 5.65% on 1 January 2026 and is legislated to reach 5.4% in 2027.",
+        "DERIVED: joint and head-of-household thresholds are the statutory 2x and 1.5x multiples of the single table."
+      ],
+      "source": "Montana DOR, 2026 rate schedule"
+    },
+    {
+      "slug": "nebraska",
+      "name": "Nebraska",
+      "abbr": "NE",
+      "system": "progressive",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.0246
+          },
+          {
+            "min": 4130,
+            "rate": 0.0351
+          },
+          {
+            "min": 24760,
+            "rate": 0.0455
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.0246
+          },
+          {
+            "min": 8260,
+            "rate": 0.0351
+          },
+          {
+            "min": 49520,
+            "rate": 0.0455
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.0246
+          },
+          {
+            "min": 7720,
+            "rate": 0.0351
+          },
+          {
+            "min": 39620,
+            "rate": 0.0455
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 8850
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 17700
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 12950
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": {
+        "single": 176,
+        "married_jointly": 352,
+        "head_of_household": 176
+      },
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0.0455,
+      "notes": [
+        "The top rate fell from 5.20% to 4.55% on 1 January 2026 and the schedule collapsed from four brackets to three; it is legislated to reach 3.99% in 2027 (LB 754).",
+        "DERIVED: joint and head-of-household thresholds are scaled from the published single table."
+      ],
+      "source": "Nebraska DOR, 2026 individual income tax rate schedule"
+    },
+    {
+      "slug": "nevada",
+      "name": "Nevada",
+      "abbr": "NV",
+      "system": "none",
+      "startingPoint": "federalAGI",
+      "brackets": null,
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 0
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 0
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 0
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0,
+      "notes": [
+        "No state income tax."
+      ],
+      "source": "Nevada DOT"
+    },
+    {
+      "slug": "new-hampshire",
+      "name": "New Hampshire",
+      "abbr": "NH",
+      "system": "none",
+      "startingPoint": "federalAGI",
+      "brackets": null,
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 0
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 0
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 0
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0,
+      "notes": [
+        "No tax on wages. The 3% interest & dividends tax was fully repealed effective 2025."
+      ],
+      "source": "New Hampshire DRA"
+    },
+    {
+      "slug": "new-jersey",
+      "name": "New Jersey",
+      "abbr": "NJ",
+      "system": "progressive",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.014
+          },
+          {
+            "min": 20000,
+            "rate": 0.0175
+          },
+          {
+            "min": 35000,
+            "rate": 0.035
+          },
+          {
+            "min": 40000,
+            "rate": 0.05525
+          },
+          {
+            "min": 75000,
+            "rate": 0.0637
+          },
+          {
+            "min": 500000,
+            "rate": 0.0897
+          },
+          {
+            "min": 1000000,
+            "rate": 0.1075
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.014
+          },
+          {
+            "min": 20000,
+            "rate": 0.0175
+          },
+          {
+            "min": 50000,
+            "rate": 0.0245
+          },
+          {
+            "min": 70000,
+            "rate": 0.035
+          },
+          {
+            "min": 80000,
+            "rate": 0.05525
+          },
+          {
+            "min": 150000,
+            "rate": 0.0637
+          },
+          {
+            "min": 500000,
+            "rate": 0.0897
+          },
+          {
+            "min": 1000000,
+            "rate": 0.1075
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.014
+          },
+          {
+            "min": 20000,
+            "rate": 0.0175
+          },
+          {
+            "min": 50000,
+            "rate": 0.0245
+          },
+          {
+            "min": 70000,
+            "rate": 0.035
+          },
+          {
+            "min": 80000,
+            "rate": 0.05525
+          },
+          {
+            "min": 150000,
+            "rate": 0.0637
+          },
+          {
+            "min": 500000,
+            "rate": 0.0897
+          },
+          {
+            "min": 1000000,
+            "rate": 0.1075
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 0
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 0
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 0
+        }
+      },
+      "exemption": {
+        "single": {
+          "amount": 1000
+        },
+        "married_jointly": {
+          "amount": 2000
+        },
+        "head_of_household": {
+          "amount": 1000
+        }
+      },
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [
+        {
+          "code": "TDI",
+          "name": "Temporary Disability Insurance",
+          "rate": 0.0019,
+          "wageBase": 171100,
+          "annualCap": null,
+          "note": ""
+        },
+        {
+          "code": "FLI",
+          "name": "Family Leave Insurance",
+          "rate": 0.0023,
+          "wageBase": 171100,
+          "annualCap": null,
+          "note": ""
+        },
+        {
+          "code": "UI/WF/SWF",
+          "name": "Unemployment, Workforce & Supplemental Workforce",
+          "rate": 0.0038250000000000003,
+          "wageBase": 44800,
+          "annualCap": null,
+          "note": ""
+        }
+      ],
+      "localities": [],
+      "topRate": 0.1075,
+      "notes": [
+        "New Jersey has no standard deduction and taxes gross income with very few subtractions."
+      ],
+      "source": "New Jersey Division of Taxation, NJ-1040 instructions 2026; NJ DOLWD 2026 TDI/FLI/UI rates"
+    },
+    {
+      "slug": "new-mexico",
+      "name": "New Mexico",
+      "abbr": "NM",
+      "system": "progressive",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.015
+          },
+          {
+            "min": 5500,
+            "rate": 0.032
+          },
+          {
+            "min": 16500,
+            "rate": 0.043
+          },
+          {
+            "min": 33500,
+            "rate": 0.047
+          },
+          {
+            "min": 66500,
+            "rate": 0.049
+          },
+          {
+            "min": 210000,
+            "rate": 0.059
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.015
+          },
+          {
+            "min": 8000,
+            "rate": 0.032
+          },
+          {
+            "min": 25000,
+            "rate": 0.043
+          },
+          {
+            "min": 50000,
+            "rate": 0.047
+          },
+          {
+            "min": 100000,
+            "rate": 0.049
+          },
+          {
+            "min": 315000,
+            "rate": 0.059
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.015
+          },
+          {
+            "min": 8000,
+            "rate": 0.032
+          },
+          {
+            "min": 25000,
+            "rate": 0.043
+          },
+          {
+            "min": 50000,
+            "rate": 0.047
+          },
+          {
+            "min": 100000,
+            "rate": 0.049
+          },
+          {
+            "min": 315000,
+            "rate": 0.059
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "federal"
+        },
+        "married_jointly": {
+          "kind": "federal"
+        },
+        "head_of_household": {
+          "kind": "federal"
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0.059,
+      "notes": [
+        "HB 252 (2024) restructured the brackets from TY2025, widening the low-rate tiers."
+      ],
+      "source": "New Mexico TRD, HB 252 (2024); 2026 schedule"
+    },
+    {
+      "slug": "new-york",
+      "name": "New York",
+      "abbr": "NY",
+      "system": "progressive",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.039
+          },
+          {
+            "min": 8500,
+            "rate": 0.044
+          },
+          {
+            "min": 11700,
+            "rate": 0.0515
+          },
+          {
+            "min": 13900,
+            "rate": 0.054
+          },
+          {
+            "min": 80650,
+            "rate": 0.059
+          },
+          {
+            "min": 215400,
+            "rate": 0.0685
+          },
+          {
+            "min": 1077550,
+            "rate": 0.0965
+          },
+          {
+            "min": 5000000,
+            "rate": 0.103
+          },
+          {
+            "min": 25000000,
+            "rate": 0.109
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.039
+          },
+          {
+            "min": 17150,
+            "rate": 0.044
+          },
+          {
+            "min": 23600,
+            "rate": 0.0515
+          },
+          {
+            "min": 27900,
+            "rate": 0.054
+          },
+          {
+            "min": 161550,
+            "rate": 0.059
+          },
+          {
+            "min": 323200,
+            "rate": 0.0685
+          },
+          {
+            "min": 2155350,
+            "rate": 0.0965
+          },
+          {
+            "min": 5000000,
+            "rate": 0.103
+          },
+          {
+            "min": 25000000,
+            "rate": 0.109
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.039
+          },
+          {
+            "min": 12800,
+            "rate": 0.044
+          },
+          {
+            "min": 17650,
+            "rate": 0.0515
+          },
+          {
+            "min": 20900,
+            "rate": 0.054
+          },
+          {
+            "min": 107650,
+            "rate": 0.059
+          },
+          {
+            "min": 269300,
+            "rate": 0.0685
+          },
+          {
+            "min": 1616450,
+            "rate": 0.0965
+          },
+          {
+            "min": 5000000,
+            "rate": 0.103
+          },
+          {
+            "min": 25000000,
+            "rate": 0.109
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 8000
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 16050
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 11200
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [
+        {
+          "code": "PFL",
+          "name": "Paid Family Leave",
+          "rate": 0.00432,
+          "wageBase": null,
+          "annualCap": 411.91,
+          "note": ""
+        }
+      ],
+      "localities": [
+        {
+          "slug": "new-york-city",
+          "name": "New York City",
+          "kind": "brackets",
+          "brackets": {
+            "single": [
+              {
+                "min": 0,
+                "rate": 0.03078
+              },
+              {
+                "min": 12000,
+                "rate": 0.03762
+              },
+              {
+                "min": 25000,
+                "rate": 0.03819
+              },
+              {
+                "min": 50000,
+                "rate": 0.03876
+              }
+            ],
+            "married_jointly": [
+              {
+                "min": 0,
+                "rate": 0.03078
+              },
+              {
+                "min": 21600,
+                "rate": 0.03762
+              },
+              {
+                "min": 45000,
+                "rate": 0.03819
+              },
+              {
+                "min": 90000,
+                "rate": 0.03876
+              }
+            ],
+            "head_of_household": [
+              {
+                "min": 0,
+                "rate": 0.03078
+              },
+              {
+                "min": 14400,
+                "rate": 0.03762
+              },
+              {
+                "min": 30000,
+                "rate": 0.03819
+              },
+              {
+                "min": 60000,
+                "rate": 0.03876
+              }
+            ]
+          }
+        },
+        {
+          "slug": "yonkers",
+          "name": "Yonkers",
+          "kind": "surchargePctOfState",
+          "rate": 0.1675
+        }
+      ],
+      "topRate": 0.109,
+      "notes": [
+        "New York City residents owe a separate city income tax on top of state tax — the single biggest swing factor in a New York take-home figure.",
+        "The five lowest brackets were cut for TY2026; the top three are unchanged."
+      ],
+      "source": "New York DTF, IT-201 instructions 2026; NYS PFL 2026 rate and cap"
+    },
+    {
+      "slug": "north-carolina",
+      "name": "North Carolina",
+      "abbr": "NC",
+      "system": "flat",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.0399
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.0399
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.0399
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 12750
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 25500
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 19125
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0.0399,
+      "notes": [
+        "The phased reduction to a flat 3.99% completed on 1 January 2026; further cuts depend on revenue triggers."
+      ],
+      "source": "North Carolina DOR, 2026 rate"
+    },
+    {
+      "slug": "north-dakota",
+      "name": "North Dakota",
+      "abbr": "ND",
+      "system": "progressive",
+      "startingPoint": "federalTaxableIncome",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0
+          },
+          {
+            "min": 48475,
+            "rate": 0.0195
+          },
+          {
+            "min": 244825,
+            "rate": 0.025
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0
+          },
+          {
+            "min": 80975,
+            "rate": 0.0195
+          },
+          {
+            "min": 298075,
+            "rate": 0.025
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0
+          },
+          {
+            "min": 64850,
+            "rate": 0.0195
+          },
+          {
+            "min": 271450,
+            "rate": 0.025
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 0
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 0
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 0
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0.025,
+      "notes": [
+        "North Dakota has the lowest top income tax rate of any state that levies one."
+      ],
+      "source": "North Dakota OSTC, 2026 rate schedule"
+    },
+    {
+      "slug": "ohio",
+      "name": "Ohio",
+      "abbr": "OH",
+      "system": "progressive",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0
+          },
+          {
+            "min": 26050,
+            "rate": 0.0275
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0
+          },
+          {
+            "min": 26050,
+            "rate": 0.0275
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0
+          },
+          {
+            "min": 26050,
+            "rate": 0.0275
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 0
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 0
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 0
+        }
+      },
+      "exemption": {
+        "single": {
+          "amount": 2400
+        },
+        "married_jointly": {
+          "amount": 4800
+        },
+        "head_of_household": {
+          "amount": 2400
+        }
+      },
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [
+        {
+          "slug": "columbus",
+          "name": "Columbus",
+          "kind": "flat",
+          "rate": 0.025
+        },
+        {
+          "slug": "cleveland",
+          "name": "Cleveland",
+          "kind": "flat",
+          "rate": 0.025
+        },
+        {
+          "slug": "cincinnati",
+          "name": "Cincinnati",
+          "kind": "flat",
+          "rate": 0.018
+        }
+      ],
+      "topRate": 0.0275,
+      "notes": [
+        "Ohio completed its move to a single 2.75% rate on 1 January 2026; the first $26,050 of income remains untaxed and municipal and school-district levies are separate."
+      ],
+      "source": "Ohio DOT, 2026 rate schedule"
+    },
+    {
+      "slug": "oklahoma",
+      "name": "Oklahoma",
+      "abbr": "OK",
+      "system": "progressive",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0
+          },
+          {
+            "min": 3750,
+            "rate": 0.025
+          },
+          {
+            "min": 4900,
+            "rate": 0.035
+          },
+          {
+            "min": 7200,
+            "rate": 0.045
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0
+          },
+          {
+            "min": 7500,
+            "rate": 0.025
+          },
+          {
+            "min": 9800,
+            "rate": 0.035
+          },
+          {
+            "min": 14400,
+            "rate": 0.045
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0
+          },
+          {
+            "min": 3750,
+            "rate": 0.025
+          },
+          {
+            "min": 4900,
+            "rate": 0.035
+          },
+          {
+            "min": 7200,
+            "rate": 0.045
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 6350
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 12700
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 9350
+        }
+      },
+      "exemption": {
+        "single": {
+          "amount": 1000
+        },
+        "married_jointly": {
+          "amount": 2000
+        },
+        "head_of_household": {
+          "amount": 1000
+        }
+      },
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0.045,
+      "notes": [
+        "HB 2764 collapsed six brackets into three and cut the top rate from 4.75% to 4.5%, effective 1 January 2026."
+      ],
+      "source": "Oklahoma TC, HB 2764 (2026 tax tables)"
+    },
+    {
+      "slug": "oregon",
+      "name": "Oregon",
+      "abbr": "OR",
+      "system": "progressive",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.0475
+          },
+          {
+            "min": 4550,
+            "rate": 0.0675
+          },
+          {
+            "min": 11400,
+            "rate": 0.0875
+          },
+          {
+            "min": 125000,
+            "rate": 0.099
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.0475
+          },
+          {
+            "min": 9100,
+            "rate": 0.0675
+          },
+          {
+            "min": 22800,
+            "rate": 0.0875
+          },
+          {
+            "min": 250000,
+            "rate": 0.099
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.0475
+          },
+          {
+            "min": 9100,
+            "rate": 0.0675
+          },
+          {
+            "min": 22800,
+            "rate": 0.0875
+          },
+          {
+            "min": 250000,
+            "rate": 0.099
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 2910
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 5820
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 4675
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": {
+        "single": 256,
+        "married_jointly": 512,
+        "head_of_household": 256
+      },
+      "federalTaxDeductible": true,
+      "payrollTaxes": [
+        {
+          "code": "PFML",
+          "name": "Paid Leave Oregon (employee share)",
+          "rate": 0.006,
+          "wageBase": 184500,
+          "annualCap": null,
+          "note": ""
+        },
+        {
+          "code": "TRANSIT",
+          "name": "Statewide transit tax",
+          "rate": 0.001,
+          "wageBase": null,
+          "annualCap": null,
+          "note": "Applies to every dollar of wages."
+        }
+      ],
+      "localities": [],
+      "topRate": 0.099,
+      "notes": [
+        "Oregon has no sales tax but the highest bottom-bracket rate in the country."
+      ],
+      "source": "Oregon DOR, 2026 personal income tax rates"
+    },
+    {
+      "slug": "pennsylvania",
+      "name": "Pennsylvania",
+      "abbr": "PA",
+      "system": "flat",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.0307
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.0307
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.0307
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 0
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 0
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 0
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [
+        {
+          "code": "SUI",
+          "name": "Unemployment compensation (employee share)",
+          "rate": 0.0007,
+          "wageBase": null,
+          "annualCap": null,
+          "note": ""
+        }
+      ],
+      "localities": [
+        {
+          "slug": "philadelphia",
+          "name": "Philadelphia",
+          "kind": "flat",
+          "rate": 0.0375
+        },
+        {
+          "slug": "pittsburgh",
+          "name": "Pittsburgh",
+          "kind": "flat",
+          "rate": 0.03
+        },
+        {
+          "slug": "eit-average",
+          "name": "Local EIT (statewide average)",
+          "kind": "flat",
+          "rate": 0.01
+        }
+      ],
+      "topRate": 0.0307,
+      "notes": [
+        "Pennsylvania allows no standard deduction and no personal exemption, but nearly every municipality adds a local earned income tax."
+      ],
+      "source": "Pennsylvania DOR, 2026 PA-40 instructions"
+    },
+    {
+      "slug": "rhode-island",
+      "name": "Rhode Island",
+      "abbr": "RI",
+      "system": "progressive",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.0375
+          },
+          {
+            "min": 82050,
+            "rate": 0.0475
+          },
+          {
+            "min": 186450,
+            "rate": 0.0599
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.0375
+          },
+          {
+            "min": 82050,
+            "rate": 0.0475
+          },
+          {
+            "min": 186450,
+            "rate": 0.0599
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.0375
+          },
+          {
+            "min": 82050,
+            "rate": 0.0475
+          },
+          {
+            "min": 186450,
+            "rate": 0.0599
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 11200
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 22400
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 16800
+        }
+      },
+      "exemption": {
+        "single": {
+          "amount": 5250
+        },
+        "married_jointly": {
+          "amount": 10500
+        },
+        "head_of_household": {
+          "amount": 5250
+        }
+      },
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [
+        {
+          "code": "TDI",
+          "name": "Temporary Disability Insurance",
+          "rate": 0.011,
+          "wageBase": 100000,
+          "annualCap": null,
+          "note": ""
+        }
+      ],
+      "localities": [],
+      "topRate": 0.0599,
+      "notes": [],
+      "source": "Rhode Island DOR, 2026 tax rate schedule; RI DLT 2026 TDI rate and wage base"
+    },
+    {
+      "slug": "south-carolina",
+      "name": "South Carolina",
+      "abbr": "SC",
+      "system": "progressive",
+      "startingPoint": "federalTaxableIncome",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0
+          },
+          {
+            "min": 3640,
+            "rate": 0.03
+          },
+          {
+            "min": 18230,
+            "rate": 0.06
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0
+          },
+          {
+            "min": 3640,
+            "rate": 0.03
+          },
+          {
+            "min": 18230,
+            "rate": 0.06
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0
+          },
+          {
+            "min": 3640,
+            "rate": 0.03
+          },
+          {
+            "min": 18230,
+            "rate": 0.06
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 0
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 0
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 0
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0.06,
+      "notes": [
+        "South Carolina starts from federal taxable income; the top rate reached 6.0% for TY2026."
+      ],
+      "source": "South Carolina DOR, 2026 tax tables"
+    },
+    {
+      "slug": "south-dakota",
+      "name": "South Dakota",
+      "abbr": "SD",
+      "system": "none",
+      "startingPoint": "federalAGI",
+      "brackets": null,
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 0
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 0
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 0
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0,
+      "notes": [
+        "No state income tax."
+      ],
+      "source": "South Dakota DOR"
+    },
+    {
+      "slug": "tennessee",
+      "name": "Tennessee",
+      "abbr": "TN",
+      "system": "none",
+      "startingPoint": "federalAGI",
+      "brackets": null,
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 0
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 0
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 0
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0,
+      "notes": [
+        "No state income tax. The Hall income tax on investment income ended in 2021."
+      ],
+      "source": "Tennessee DOR"
+    },
+    {
+      "slug": "texas",
+      "name": "Texas",
+      "abbr": "TX",
+      "system": "none",
+      "startingPoint": "federalAGI",
+      "brackets": null,
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 0
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 0
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 0
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0,
+      "notes": [
+        "No state income tax — the Texas constitution requires a referendum to create one."
+      ],
+      "source": "Texas Comptroller"
+    },
+    {
+      "slug": "utah",
+      "name": "Utah",
+      "abbr": "UT",
+      "system": "flat",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.045
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.045
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.045
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 0
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 0
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 0
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": {
+        "single": 0,
+        "married_jointly": 0,
+        "head_of_household": 0
+      },
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0.045,
+      "notes": [
+        "Utah replaces deductions with a taxpayer credit worth 6% of the federal standard deduction, which phases out as income rises.",
+        "The rate fell from 4.55% to 4.50% for TY2026."
+      ],
+      "source": "Utah STC, 2026 rate"
+    },
+    {
+      "slug": "vermont",
+      "name": "Vermont",
+      "abbr": "VT",
+      "system": "progressive",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.0335
+          },
+          {
+            "min": 49400,
+            "rate": 0.066
+          },
+          {
+            "min": 119700,
+            "rate": 0.076
+          },
+          {
+            "min": 249700,
+            "rate": 0.0875
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.0335
+          },
+          {
+            "min": 82454,
+            "rate": 0.066
+          },
+          {
+            "min": 199353,
+            "rate": 0.076
+          },
+          {
+            "min": 303825,
+            "rate": 0.0875
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.0335
+          },
+          {
+            "min": 66107,
+            "rate": 0.066
+          },
+          {
+            "min": 170786,
+            "rate": 0.076
+          },
+          {
+            "min": 276702,
+            "rate": 0.0875
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 7650
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 15300
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 7650
+        }
+      },
+      "exemption": {
+        "single": {
+          "amount": 5300
+        },
+        "married_jointly": {
+          "amount": 10600
+        },
+        "head_of_household": {
+          "amount": 5300
+        }
+      },
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [
+        {
+          "code": "CCC",
+          "name": "Child Care Contribution (employee share)",
+          "rate": 0.0011,
+          "wageBase": null,
+          "annualCap": null,
+          "note": ""
+        }
+      ],
+      "localities": [],
+      "topRate": 0.0875,
+      "notes": [],
+      "source": "Vermont DOT, 2026 rate schedules"
+    },
+    {
+      "slug": "virginia",
+      "name": "Virginia",
+      "abbr": "VA",
+      "system": "progressive",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.02
+          },
+          {
+            "min": 3000,
+            "rate": 0.03
+          },
+          {
+            "min": 5000,
+            "rate": 0.05
+          },
+          {
+            "min": 17000,
+            "rate": 0.0575
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.02
+          },
+          {
+            "min": 3000,
+            "rate": 0.03
+          },
+          {
+            "min": 5000,
+            "rate": 0.05
+          },
+          {
+            "min": 17000,
+            "rate": 0.0575
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.02
+          },
+          {
+            "min": 3000,
+            "rate": 0.03
+          },
+          {
+            "min": 5000,
+            "rate": 0.05
+          },
+          {
+            "min": 17000,
+            "rate": 0.0575
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 8750
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 17500
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 8750
+        }
+      },
+      "exemption": {
+        "single": {
+          "amount": 930
+        },
+        "married_jointly": {
+          "amount": 1860
+        },
+        "head_of_household": {
+          "amount": 930
+        }
+      },
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0.0575,
+      "notes": [
+        "Virginia's top bracket starts at just $17,000, so almost every full-time worker pays the 5.75% marginal rate."
+      ],
+      "source": "Virginia DOT, 2026 tax rates"
+    },
+    {
+      "slug": "washington",
+      "name": "Washington",
+      "abbr": "WA",
+      "system": "none",
+      "startingPoint": "federalAGI",
+      "brackets": null,
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 0
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 0
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 0
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [
+        {
+          "code": "PFML",
+          "name": "Paid Family & Medical Leave (employee share)",
+          "rate": 0.008072,
+          "wageBase": 184500,
+          "annualCap": null,
+          "note": ""
+        },
+        {
+          "code": "WACARES",
+          "name": "WA Cares long-term care premium",
+          "rate": 0.0058,
+          "wageBase": null,
+          "annualCap": null,
+          "note": "Applies to all wages; opt-outs closed in 2022."
+        }
+      ],
+      "localities": [],
+      "topRate": 0,
+      "notes": [
+        "No income tax on wages. A 7% capital gains excise tax applies to large investment gains only."
+      ],
+      "source": "Washington ESD, 2026 premium rates"
+    },
+    {
+      "slug": "west-virginia",
+      "name": "West Virginia",
+      "abbr": "WV",
+      "system": "progressive",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.0222
+          },
+          {
+            "min": 10000,
+            "rate": 0.0296
+          },
+          {
+            "min": 25000,
+            "rate": 0.0333
+          },
+          {
+            "min": 40000,
+            "rate": 0.0444
+          },
+          {
+            "min": 60000,
+            "rate": 0.0482
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.0222
+          },
+          {
+            "min": 10000,
+            "rate": 0.0296
+          },
+          {
+            "min": 25000,
+            "rate": 0.0333
+          },
+          {
+            "min": 40000,
+            "rate": 0.0444
+          },
+          {
+            "min": 60000,
+            "rate": 0.0482
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.0222
+          },
+          {
+            "min": 10000,
+            "rate": 0.0296
+          },
+          {
+            "min": 25000,
+            "rate": 0.0333
+          },
+          {
+            "min": 40000,
+            "rate": 0.0444
+          },
+          {
+            "min": 60000,
+            "rate": 0.0482
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 0
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 0
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 0
+        }
+      },
+      "exemption": {
+        "single": {
+          "amount": 2000
+        },
+        "married_jointly": {
+          "amount": 4000
+        },
+        "head_of_household": {
+          "amount": 2000
+        }
+      },
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0.0482,
+      "notes": [
+        "A revenue-triggered 4% across-the-board cut took effect for TY2025."
+      ],
+      "source": "West Virginia Tax Division, 2026 rate schedule"
+    },
+    {
+      "slug": "wisconsin",
+      "name": "Wisconsin",
+      "abbr": "WI",
+      "system": "progressive",
+      "startingPoint": "federalAGI",
+      "brackets": {
+        "single": [
+          {
+            "min": 0,
+            "rate": 0.035
+          },
+          {
+            "min": 15110,
+            "rate": 0.044
+          },
+          {
+            "min": 51950,
+            "rate": 0.053
+          },
+          {
+            "min": 332720,
+            "rate": 0.0765
+          }
+        ],
+        "married_jointly": [
+          {
+            "min": 0,
+            "rate": 0.035
+          },
+          {
+            "min": 20154,
+            "rate": 0.044
+          },
+          {
+            "min": 69249,
+            "rate": 0.053
+          },
+          {
+            "min": 443634,
+            "rate": 0.0765
+          }
+        ],
+        "head_of_household": [
+          {
+            "min": 0,
+            "rate": 0.035
+          },
+          {
+            "min": 15110,
+            "rate": 0.044
+          },
+          {
+            "min": 51950,
+            "rate": 0.053
+          },
+          {
+            "min": 332720,
+            "rate": 0.0765
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": {
+          "kind": "sliding",
+          "max": 13960,
+          "phaseStart": 19870,
+          "phaseRate": 0.12
+        },
+        "married_jointly": {
+          "kind": "sliding",
+          "max": 25840,
+          "phaseStart": 28700,
+          "phaseRate": 0.1936
+        },
+        "head_of_household": {
+          "kind": "sliding",
+          "max": 18020,
+          "phaseStart": 19870,
+          "phaseRate": 0.2211
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0.0765,
+      "notes": [
+        "Wisconsin's standard deduction shrinks as income rises and disappears entirely for higher earners.",
+        "The second bracket was widened sharply for TY2026, moving a large band of income from 5.3% to 4.4%.",
+        "DERIVED: the joint schedule is scaled from the published single table."
+      ],
+      "source": "Wisconsin DOR, 2026 standard deduction and rate tables"
+    },
+    {
+      "slug": "wyoming",
+      "name": "Wyoming",
+      "abbr": "WY",
+      "system": "none",
+      "startingPoint": "federalAGI",
+      "brackets": null,
+      "standardDeduction": {
+        "single": {
+          "kind": "amount",
+          "value": 0
+        },
+        "married_jointly": {
+          "kind": "amount",
+          "value": 0
+        },
+        "head_of_household": {
+          "kind": "amount",
+          "value": 0
+        }
+      },
+      "exemption": null,
+      "exemptionCredit": null,
+      "federalTaxDeductible": false,
+      "payrollTaxes": [],
+      "localities": [],
+      "topRate": 0,
+      "notes": [
+        "No state income tax."
+      ],
+      "source": "Wyoming DOR"
+    }
+  ]
+}

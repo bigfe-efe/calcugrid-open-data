@@ -1,0 +1,20 @@
+state_slug,state,code,name,rate,wage_base_usd,annual_cap_usd,note
+alaska,Alaska,SUI,Unemployment insurance (employee share),0.005,54200,,
+california,California,SDI,State Disability Insurance,0.013,,,The SDI wage cap was removed in 2024 — this applies to every dollar earned.
+colorado,Colorado,FAMLI,Paid Family & Medical Leave (employee share),0.0044,184500,,
+connecticut,Connecticut,PFML,Paid Family & Medical Leave,0.005,184500,,
+district-of-columbia,District of Columbia,PFL,Paid Family Leave,0,,,Employer-funded in DC — no employee deduction.
+hawaii,Hawaii,TDI,Temporary Disability Insurance,0.005,,390.05,"0.5% of weekly wages, capped at a $1,500.21 weekly maximum — $390.05 a year."
+maine,Maine,PFML,Paid Family & Medical Leave (employee share),0.005,184500,,Premiums began 1 Jan 2025; benefits begin May 2026.
+massachusetts,Massachusetts,PFML,Paid Family & Medical Leave (employee share),0.0046,184500,,
+new-jersey,New Jersey,TDI,Temporary Disability Insurance,0.0019,171100,,
+new-jersey,New Jersey,FLI,Family Leave Insurance,0.0023,171100,,
+new-jersey,New Jersey,UI/WF/SWF,"Unemployment, Workforce & Supplemental Workforce",0.0038250000000000003,44800,,
+new-york,New York,PFL,Paid Family Leave,0.00432,,411.91,
+oregon,Oregon,PFML,Paid Leave Oregon (employee share),0.006,184500,,
+oregon,Oregon,TRANSIT,Statewide transit tax,0.001,,,Applies to every dollar of wages.
+pennsylvania,Pennsylvania,SUI,Unemployment compensation (employee share),0.0007,,,
+rhode-island,Rhode Island,TDI,Temporary Disability Insurance,0.011,100000,,
+vermont,Vermont,CCC,Child Care Contribution (employee share),0.0011,,,
+washington,Washington,PFML,Paid Family & Medical Leave (employee share),0.008072,184500,,
+washington,Washington,WACARES,WA Cares long-term care premium,0.0058,,,Applies to all wages; opt-outs closed in 2022.

@@ -1,0 +1,52 @@
+slug,state,abbr,residential_cents_per_kwh
+alabama,Alabama,AL,16.4
+alaska,Alaska,AK,28.21
+arizona,Arizona,AZ,15.18
+arkansas,Arkansas,AR,14.12
+california,California,CA,34.74
+colorado,Colorado,CO,17.13
+connecticut,Connecticut,CT,24.32
+delaware,Delaware,DE,19.29
+district-of-columbia,District of Columbia,DC,24.39
+florida,Florida,FL,15.1
+georgia,Georgia,GA,16.36
+hawaii,Hawaii,HI,52.72
+idaho,Idaho,ID,14.37
+illinois,Illinois,IL,19.89
+indiana,Indiana,IN,17.51
+iowa,Iowa,IA,15.93
+kansas,Kansas,KS,15.71
+kentucky,Kentucky,KY,14.26
+louisiana,Louisiana,LA,13.49
+maine,Maine,ME,29.59
+maryland,Maryland,MD,21.84
+massachusetts,Massachusetts,MA,29.61
+michigan,Michigan,MI,22.99
+minnesota,Minnesota,MN,17.52
+mississippi,Mississippi,MS,14.88
+missouri,Missouri,MO,16.22
+montana,Montana,MT,15.14
+nebraska,Nebraska,NE,13.25
+nevada,Nevada,NV,13.11
+new-hampshire,New Hampshire,NH,27.01
+new-jersey,New Jersey,NJ,24.95
+new-mexico,New Mexico,NM,15.06
+new-york,New York,NY,29.49
+north-carolina,North Carolina,NC,14.74
+north-dakota,North Dakota,ND,14.12
+ohio,Ohio,OH,19.19
+oklahoma,Oklahoma,OK,14.33
+oregon,Oregon,OR,16.32
+pennsylvania,Pennsylvania,PA,21.73
+rhode-island,Rhode Island,RI,29.23
+south-carolina,South Carolina,SC,15.55
+south-dakota,South Dakota,SD,15.36
+tennessee,Tennessee,TN,14.07
+texas,Texas,TX,15.94
+utah,Utah,UT,13.37
+vermont,Vermont,VT,24.44
+virginia,Virginia,VA,17.22
+washington,Washington,WA,14.91
+west-virginia,West Virginia,WV,15.45
+wisconsin,Wisconsin,WI,19.56
+wyoming,Wyoming,WY,15.24

@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-08-27",
+  "license": "CC BY 4.0",
+  "attribution": "CalcuGrid — https://calcugrid.com",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dog-breed-standards.csv",
+    "dog-breed-standards.json",
+    "ev-efficiency.csv",
+    "gpu-power-specs.csv",
+    "grading-scale-bands.csv",
+    "grading-scales.csv",
+    "grading-scales.json",
+    "us-electricity-rates.csv",
+    "us-state-income-tax-2026.csv",
+    "us-state-income-tax-2026.json",
+    "us-state-payroll-taxes-2026.csv",
+    "us-state-tax-brackets-2026.csv",
+    "verify.py"
+  ],
+  "counts": {
+    "dogs": 274,
+    "tax": {
+      "states": 51,
+      "brackets": 461,
+      "payroll": 19
+    },
+    "grading": {
+      "countries": 56,
+      "bands": 333
+    },
+    "gpus": 34,
+    "evs": {
+      "vehicles": 50,
+      "rates": 51,
+      "source": {
+        "vehicles": "EPA fueleconomy.gov, model years 2025-2027",
+        "electricity": "EIA Electric Power Monthly Table 5.6.A, residential, June 2026",
+        "gasoline": "EIA weekly retail gasoline price, 24 August 2026"
+      }
+    }
+  }
+}

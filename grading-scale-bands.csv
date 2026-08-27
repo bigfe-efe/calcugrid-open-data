@@ -1,0 +1,334 @@
+country_slug,country,higher_is_better,grade_from,grade_to,local_classification,us_letter_convention,us_gpa_convention
+argentina,Argentina,true,0,3.99,Insuficiente (fail),F,0
+argentina,Argentina,true,4,5.99,Aprobado (pass),C,2
+argentina,Argentina,true,6,7.99,Bueno,B,3
+argentina,Argentina,true,8,8.99,Muy bueno,A-,3.7
+argentina,Argentina,true,9,10,Sobresaliente / Distinguido,A,4
+australia,Australia,true,0,49.99,Fail (F/N),F,0
+australia,Australia,true,50,64.99,Pass (P),C,2
+australia,Australia,true,65,74.99,Credit (C),B,3
+australia,Australia,true,75,84.99,Distinction (D),A-,3.7
+australia,Australia,true,85,100,High Distinction (HD),A,4
+austria,Austria,false,1,1.49,Sehr gut,A,4
+austria,Austria,false,1.5,2.49,Gut,B+,3.3
+austria,Austria,false,2.5,3.49,Befriedigend,B-,2.7
+austria,Austria,false,3.5,4,Genügend (pass),C,2
+austria,Austria,false,4.01,5,Nicht genügend (fail),F,0
+bangladesh,Bangladesh,true,0,1.99,F (Fail),F,0
+bangladesh,Bangladesh,true,2,2.49,C (Pass),C,2
+bangladesh,Bangladesh,true,2.5,2.99,B / B- (Satisfactory),B,3
+bangladesh,Bangladesh,true,3,3.24,B+ (Good),B+,3.3
+bangladesh,Bangladesh,true,3.25,3.49,A- (Very Good),B+,3.3
+bangladesh,Bangladesh,true,3.5,3.74,A (Excellent),A-,3.7
+bangladesh,Bangladesh,true,3.75,4,A+ (Outstanding),A,4
+belgium,Belgium,true,0,9.99,Échec / Niet geslaagd (fail),F,0
+belgium,Belgium,true,10,11.99,Réussite / Geslaagd (pass),C,2
+belgium,Belgium,true,12,13.99,Satisfaction / Voldoening,B,3
+belgium,Belgium,true,14,15.99,Distinction / Onderscheiding,A-,3.7
+belgium,Belgium,true,16,17.99,Grande distinction / Grote onderscheiding,A,4
+belgium,Belgium,true,18,20,La plus grande distinction / Grootste onderscheiding,A,4
+brazil,Brazil,true,0,5.99,Insuficiente (fail),F,0
+brazil,Brazil,true,6,6.99,Regular (pass),C,2
+brazil,Brazil,true,7,7.99,Bom,B,3
+brazil,Brazil,true,8,8.99,Ótimo / Muito bom,A-,3.7
+brazil,Brazil,true,9,10,Excelente,A,4
+canada,Canada,true,0,49.99,F,F,0
+canada,Canada,true,50,59.99,D,D,1
+canada,Canada,true,60,62.99,C-,C-,1.7
+canada,Canada,true,63,66.99,C,C,2
+canada,Canada,true,67,69.99,C+,C+,2.3
+canada,Canada,true,70,72.99,B-,B-,2.7
+canada,Canada,true,73,76.99,B,B,3
+canada,Canada,true,77,79.99,B+,B+,3.3
+canada,Canada,true,80,84.99,A-,A-,3.7
+canada,Canada,true,85,89.99,A,A,4
+canada,Canada,true,90,100,A+,A,4
+chile,Chile,true,1,3.99,Insuficiente (fail),F,0
+chile,Chile,true,4,4.99,Suficiente (pass),C,2
+chile,Chile,true,5,5.99,Bueno (good),B,3
+chile,Chile,true,6,6.49,Muy bueno (very good),A-,3.7
+chile,Chile,true,6.5,7,Sobresaliente (outstanding),A,4
+china,China,true,0,59.99,不及格 Fail,F,0
+china,China,true,60,69.99,及格 Pass,C,2
+china,China,true,70,74.99,中等 Fair,B-,2.7
+china,China,true,75,79.99,中等 Fair (upper),B,3
+china,China,true,80,84.99,良好 Good,B+,3.3
+china,China,true,85,89.99,良好 Good (upper),A-,3.7
+china,China,true,90,100,优秀 Excellent,A,4
+colombia,Colombia,true,0,2.99,Insuficiente (fail),F,0
+colombia,Colombia,true,3,3.49,Aceptable (pass),C,2
+colombia,Colombia,true,3.5,3.99,Bueno,B,3
+colombia,Colombia,true,4,4.49,Sobresaliente,A-,3.7
+colombia,Colombia,true,4.5,5,Excelente,A,4
+czechia,Czechia,false,1,1.49,Výborně (excellent),A,4
+czechia,Czechia,false,1.5,2.49,Velmi dobře (very good),B+,3.3
+czechia,Czechia,false,2.5,3,Dobře (good / pass),C,2
+czechia,Czechia,false,3.01,4,Nevyhověl (fail),F,0
+denmark,Denmark,true,-3,1.99,00 / -3 (Fail),F,0
+denmark,Denmark,true,2,3.99,02 (Adequate / pass),C,2
+denmark,Denmark,true,4,6.99,4 (Fair),C+,2.3
+denmark,Denmark,true,7,9.99,7 (Good),B,3
+denmark,Denmark,true,10,11.99,10 (Very Good),A-,3.7
+denmark,Denmark,true,12,12,12 (Excellent),A,4
+egypt,Egypt,true,0,49.99,ضعيف Fail,F,0
+egypt,Egypt,true,50,64.99,مقبول Pass,C,2
+egypt,Egypt,true,65,74.99,جيد Good,B,3
+egypt,Egypt,true,75,84.99,جيد جداً Very Good,A-,3.7
+egypt,Egypt,true,85,100,امتياز Excellent,A,4
+finland,Finland,true,0,0.99,0 (Fail / Hylätty),F,0
+finland,Finland,true,1,1.99,1 (Sufficient / Välttävä),C,2
+finland,Finland,true,2,2.99,2 (Satisfactory / Tyydyttävä),C+,2.3
+finland,Finland,true,3,3.99,3 (Good / Hyvä),B,3
+finland,Finland,true,4,4.99,4 (Very Good / Kiitettävä),A-,3.7
+finland,Finland,true,5,5,5 (Excellent / Erinomainen),A,4
+france,France,true,0,9.99,Insuffisant (fail),F,0
+france,France,true,10,11.99,Passable (pass),C,2
+france,France,true,12,13.99,Assez bien (fairly good),B,3
+france,France,true,14,15.99,Bien (good),A-,3.7
+france,France,true,16,20,Très bien (very good),A,4
+germany,Germany,false,1,1.5,sehr gut (very good),A,4
+germany,Germany,false,1.51,2,"gut (good, upper)",A-,3.7
+germany,Germany,false,2.01,2.5,gut (good),B+,3.3
+germany,Germany,false,2.51,3,befriedigend (satisfactory),B,3
+germany,Germany,false,3.01,3.5,"ausreichend (sufficient, upper)",C+,2.3
+germany,Germany,false,3.51,4,ausreichend (sufficient),C,2
+germany,Germany,false,4.01,5,nicht ausreichend (fail),F,0
+ghana,Ghana,true,0,0.99,Fail,F,0
+ghana,Ghana,true,1,1.99,Pass,D,1
+ghana,Ghana,true,2,2.49,Third Class,C+,2.3
+ghana,Ghana,true,2.5,2.99,Second Class Lower,B,3
+ghana,Ghana,true,3,3.59,Second Class Upper,A-,3.7
+ghana,Ghana,true,3.6,4,First Class,A,4
+greece,Greece,true,0,4.99,Fail,F,0
+greece,Greece,true,5,6.49,Καλώς (Good / Pass),B-,2.7
+greece,Greece,true,6.5,8.49,Λίαν Καλώς (Very Good),A-,3.7
+greece,Greece,true,8.5,10,Άριστα (Excellent),A,4
+hong-kong,Hong Kong,true,0,0.99,F (Fail),F,0
+hong-kong,Hong Kong,true,1,1.99,D (Pass),D,1
+hong-kong,Hong Kong,true,2,2.29,C,C,2
+hong-kong,Hong Kong,true,2.3,2.69,C+ (Satisfactory),C+,2.3
+hong-kong,Hong Kong,true,2.7,2.99,B-,B-,2.7
+hong-kong,Hong Kong,true,3,3.29,B,B,3
+hong-kong,Hong Kong,true,3.3,3.69,B+ (Good),B+,3.3
+hong-kong,Hong Kong,true,3.7,4.3,A / A- (Excellent),A,4
+india-cgpa,India (10-point CGPA),true,0,3.99,Fail,F,0
+india-cgpa,India (10-point CGPA),true,4,4.49,Pass,D,1
+india-cgpa,India (10-point CGPA),true,4.5,5.49,Average,C,2
+india-cgpa,India (10-point CGPA),true,5.5,6.49,Good / Second Class,B,3
+india-cgpa,India (10-point CGPA),true,6.5,7.49,Very Good,B+,3.3
+india-cgpa,India (10-point CGPA),true,7.5,8.49,Excellent / First Class,A-,3.7
+india-cgpa,India (10-point CGPA),true,8.5,10,Outstanding / Distinction,A,4
+india,India,true,0,39.99,Fail,F,0
+india,India,true,40,49.99,Third Division / Pass,C,2
+india,India,true,50,59.99,Second Division,B,3
+india,India,true,60,74.99,First Division / First Class,A-,3.7
+india,India,true,75,100,Distinction,A,4
+indonesia,Indonesia,true,0,1.99,D / E (Fail),F,0
+indonesia,Indonesia,true,2,2.49,C (Cukup),C,2
+indonesia,Indonesia,true,2.5,2.75,B- / C+,B-,2.7
+indonesia,Indonesia,true,2.76,2.99,B (Memuaskan),B,3
+indonesia,Indonesia,true,3,3.5,A- / B+ (Sangat Memuaskan),A-,3.7
+indonesia,Indonesia,true,3.51,4,A (Cum laude / Dengan Pujian),A,4
+iran,Iran,true,0,9.99,مردود Fail,F,0
+iran,Iran,true,10,11.99,قابل قبول Pass,C,2
+iran,Iran,true,12,13.99,متوسط Average,B,3
+iran,Iran,true,14,14.99,خوب Good,B+,3.3
+iran,Iran,true,15,16.99,خیلی خوب Very Good,A-,3.7
+iran,Iran,true,17,20,ممتاز Excellent,A,4
+ireland,Ireland,true,0,39.99,Fail,F,0
+ireland,Ireland,true,40,49.99,Pass,C,2
+ireland,Ireland,true,50,59.99,"Second-Class Honours, Grade II (2.2)",B,3
+ireland,Ireland,true,60,69.99,"Second-Class Honours, Grade I (2.1)",A-,3.7
+ireland,Ireland,true,70,100,First-Class Honours,A,4
+israel,Israel,true,0,59.99,Fail,F,0
+israel,Israel,true,60,64.99,Pass,C,2
+israel,Israel,true,65,74.99,Fair,B,3
+israel,Israel,true,75,84.99,Good,A-,3.7
+israel,Israel,true,85,94.99,Very Good,A,4
+israel,Israel,true,95,100,Excellent,A,4
+italy,Italy,true,0,17.99,Fail,F,0
+italy,Italy,true,18,20.99,Pass,C,2
+italy,Italy,true,21,23.99,Sufficient,C+,2.3
+italy,Italy,true,24,25.99,Satisfactory,B,3
+italy,Italy,true,26,27.99,Good,B+,3.3
+italy,Italy,true,28,29.99,Very good,A-,3.7
+italy,Italy,true,30,30,30 / 30 e lode (excellent),A,4
+japan,Japan,true,0,59.99,D / F / 不可 (Fail),F,0
+japan,Japan,true,60,69.99,C / 可 (Pass),C,2
+japan,Japan,true,70,79.99,B / 良 (Good),B,3
+japan,Japan,true,80,89.99,A / 優 (Excellent),A-,3.7
+japan,Japan,true,90,100,S / 秀 (Outstanding),A,4
+kenya,Kenya,true,0,39.99,Fail,F,0
+kenya,Kenya,true,40,49.99,Pass,C,2
+kenya,Kenya,true,50,59.99,Second Class Lower,B,3
+kenya,Kenya,true,60,69.99,Second Class Upper,A-,3.7
+kenya,Kenya,true,70,100,First Class Honours,A,4
+malaysia,Malaysia,true,0,1.99,D / F (Fail),F,0
+malaysia,Malaysia,true,2,2.32,C (Pass),C,2
+malaysia,Malaysia,true,2.33,2.66,C+,C+,2.3
+malaysia,Malaysia,true,2.67,2.99,B- (Second Lower),B-,2.7
+malaysia,Malaysia,true,3,3.32,B,B,3
+malaysia,Malaysia,true,3.33,3.66,B+ (Second Upper),B+,3.3
+malaysia,Malaysia,true,3.67,4,A / A- (First Class),A,4
+mexico,Mexico,true,0,5.99,No aprobado (fail),F,0
+mexico,Mexico,true,6,6.99,Suficiente (pass),C,2
+mexico,Mexico,true,7,7.99,Suficiente,B,3
+mexico,Mexico,true,8,8.49,Bien,B+,3.3
+mexico,Mexico,true,8.5,9.49,Muy bien,A-,3.7
+mexico,Mexico,true,9.5,10,Excelente,A,4
+nepal,Nepal,true,0,34.99,Fail,F,0
+nepal,Nepal,true,35,44.99,Third Division / Pass,C,2
+nepal,Nepal,true,45,64.99,Second Division,B,3
+nepal,Nepal,true,65,79.99,First Division,A-,3.7
+nepal,Nepal,true,80,100,Distinction,A,4
+netherlands,Netherlands,true,1,5.49,Onvoldoende (fail),F,0
+netherlands,Netherlands,true,5.5,6.49,Voldoende (satisfactory / pass),C+,2.3
+netherlands,Netherlands,true,6.5,6.99,"Voldoende (satisfactory, upper)",B,3
+netherlands,Netherlands,true,7,7.99,Ruim voldoende (more than satisfactory),A-,3.7
+netherlands,Netherlands,true,8,8.99,Zeer goed (very good),A,4
+netherlands,Netherlands,true,9,10,Uitmuntend (outstanding),A,4
+new-zealand,New Zealand,true,0,49.99,D / E (fail),F,0
+new-zealand,New Zealand,true,50,54.99,C-,C-,1.7
+new-zealand,New Zealand,true,55,59.99,C,C,2
+new-zealand,New Zealand,true,60,64.99,C+,C+,2.3
+new-zealand,New Zealand,true,65,69.99,B-,B-,2.7
+new-zealand,New Zealand,true,70,74.99,B,B,3
+new-zealand,New Zealand,true,75,79.99,B+,B+,3.3
+new-zealand,New Zealand,true,80,84.99,A-,A-,3.7
+new-zealand,New Zealand,true,85,89.99,A,A,4
+new-zealand,New Zealand,true,90,100,A+,A,4
+nigeria,Nigeria,true,0,1.49,Fail,F,0
+nigeria,Nigeria,true,1.5,2.39,Third Class,C,2
+nigeria,Nigeria,true,2.4,3.49,Second Class Lower (2:2),B,3
+nigeria,Nigeria,true,3.5,4.49,Second Class Upper (2:1),A-,3.7
+nigeria,Nigeria,true,4.5,5,First Class Honours,A,4
+norway,Norway,true,0,0.99,F (Fail),F,0
+norway,Norway,true,1,1.99,E (Sufficient),C-,1.7
+norway,Norway,true,2,2.99,D (Satisfactory),C+,2.3
+norway,Norway,true,3,3.99,C (Good),B,3
+norway,Norway,true,4,4.99,B (Very Good),A-,3.7
+norway,Norway,true,5,5,A (Excellent),A,4
+pakistan,Pakistan,true,0,39.99,Fail,F,0
+pakistan,Pakistan,true,40,49.99,D / Third Division,C-,1.7
+pakistan,Pakistan,true,50,59.99,C / Second Division,B-,2.7
+pakistan,Pakistan,true,60,69.99,B / First Division,B+,3.3
+pakistan,Pakistan,true,70,79.99,A / First Division,A-,3.7
+pakistan,Pakistan,true,80,100,A+ / Distinction,A,4
+peru,Peru,true,0,10.99,Desaprobado (fail),F,0
+peru,Peru,true,11,13.99,Aprobado (pass),C,2
+peru,Peru,true,14,15.99,Bueno,B,3
+peru,Peru,true,16,17.99,Muy bueno,A-,3.7
+peru,Peru,true,18,20,Excelente,A,4
+philippines,Philippines,false,1,1.25,Excellent,A,4
+philippines,Philippines,false,1.26,1.5,Very Good,A-,3.7
+philippines,Philippines,false,1.51,1.75,Good,B+,3.3
+philippines,Philippines,false,1.76,2,Very Satisfactory,B,3
+philippines,Philippines,false,2.01,2.5,Satisfactory,C+,2.3
+philippines,Philippines,false,2.51,3,Passing,C,2
+philippines,Philippines,false,3.01,5,Failed,F,0
+poland,Poland,true,2,2.99,Niedostateczny (fail),F,0
+poland,Poland,true,3,3.24,Dostateczny (satisfactory / pass),C,2
+poland,Poland,true,3.25,3.74,Dostateczny plus (satisfactory plus),C+,2.3
+poland,Poland,true,3.75,4.24,Dobry (good),B,3
+poland,Poland,true,4.25,4.74,Dobry plus (good plus),A-,3.7
+poland,Poland,true,4.75,5,Bardzo dobry (very good),A,4
+portugal,Portugal,true,0,9.99,Insuficiente (fail),F,0
+portugal,Portugal,true,10,11.99,Suficiente (pass),C,2
+portugal,Portugal,true,12,13.99,Suficiente (upper),B,3
+portugal,Portugal,true,14,15.99,Bom,A-,3.7
+portugal,Portugal,true,16,17.99,Muito bom,A,4
+portugal,Portugal,true,18,20,Excelente,A,4
+romania,Romania,true,1,4.99,Insuficient (fail),F,0
+romania,Romania,true,5,6.99,Suficient (pass),C,2
+romania,Romania,true,7,7.99,Satisfăcător (satisfactory),B,3
+romania,Romania,true,8,8.99,Bine (good),A-,3.7
+romania,Romania,true,9,10,Excelent / Foarte bine,A,4
+russia,Russia,true,2,2.99,неудовлетворительно (fail),F,0
+russia,Russia,true,3,3.99,удовлетворительно (satisfactory / pass),C,2
+russia,Russia,true,4,4.74,хорошо (good),B+,3.3
+russia,Russia,true,4.75,5,отлично (excellent),A,4
+saudi-arabia,Saudi Arabia,true,0,1.99,راسب Fail,F,0
+saudi-arabia,Saudi Arabia,true,2,2.74,مقبول Pass,C,2
+saudi-arabia,Saudi Arabia,true,2.75,3.74,جيد Good,B,3
+saudi-arabia,Saudi Arabia,true,3.75,4.49,جيد جداً Very Good,A-,3.7
+saudi-arabia,Saudi Arabia,true,4.5,5,ممتاز Excellent,A,4
+singapore,Singapore,true,0,0.99,F (Fail),F,0
+singapore,Singapore,true,1,1.99,D (Pass),D,1
+singapore,Singapore,true,2,2.49,C+ / C (Average),C,2
+singapore,Singapore,true,2.5,2.99,B-,B-,2.7
+singapore,Singapore,true,3,3.49,B,B,3
+singapore,Singapore,true,3.5,3.99,B+ (Good),B+,3.3
+singapore,Singapore,true,4,4.49,A- (Very Good),A-,3.7
+singapore,Singapore,true,4.5,5,A+ / A (Excellent),A,4
+south-africa,South Africa,true,0,49.99,Fail,F,0
+south-africa,South Africa,true,50,59.99,Third Class / Pass,C,2
+south-africa,South Africa,true,60,69.99,Second Class,B,3
+south-africa,South Africa,true,70,74.99,Upper Second,A-,3.7
+south-africa,South Africa,true,75,100,Distinction / First Class,A,4
+south-korea,South Korea,true,0,0.99,F,F,0
+south-korea,South Korea,true,1,1.89,D,D,1
+south-korea,South Korea,true,1.9,2.19,C / C0,C,2
+south-korea,South Korea,true,2.2,2.59,C+,C+,2.3
+south-korea,South Korea,true,2.6,2.89,B-,B-,2.7
+south-korea,South Korea,true,2.9,3.19,B / B0,B,3
+south-korea,South Korea,true,3.2,3.59,B+,B+,3.3
+south-korea,South Korea,true,3.6,3.89,A-,A-,3.7
+south-korea,South Korea,true,3.9,4.19,A / A0,A,4
+south-korea,South Korea,true,4.2,4.5,A+,A,4
+spain,Spain,true,0,4.99,Suspenso (fail),F,0
+spain,Spain,true,5,5.99,Aprobado (pass),C,2
+spain,Spain,true,6,6.99,Bien,B,3
+spain,Spain,true,7,8.99,Notable,A-,3.7
+spain,Spain,true,9,10,Matrícula de Honor / Sobresaliente,A,4
+sri-lanka,Sri Lanka,true,0,39.99,Fail,F,0
+sri-lanka,Sri Lanka,true,40,49.99,General Pass,C,2
+sri-lanka,Sri Lanka,true,50,59.99,Second Class Lower,B,3
+sri-lanka,Sri Lanka,true,60,69.99,Second Class Upper,A-,3.7
+sri-lanka,Sri Lanka,true,70,100,First Class,A,4
+sweden,Sweden,true,0,0.99,F / U (Fail),F,0
+sweden,Sweden,true,1,1.99,E (Sufficient) / G,C,2
+sweden,Sweden,true,2,2.99,D (Satisfactory),B-,2.7
+sweden,Sweden,true,3,3.99,C (Good) / VG,B,3
+sweden,Sweden,true,4,4.99,B (Very Good),A-,3.7
+sweden,Sweden,true,5,5,A (Excellent),A,4
+switzerland,Switzerland,true,1,3.99,ungenügend / insuffisant (fail),F,0
+switzerland,Switzerland,true,4,4.49,genügend / suffisant (pass),C,2
+switzerland,Switzerland,true,4.5,4.99,befriedigend / satisfaisant,B,3
+switzerland,Switzerland,true,5,5.49,gut / bien,A-,3.7
+switzerland,Switzerland,true,5.5,6,sehr gut / très bien,A,4
+taiwan,Taiwan,true,0,59.99,F / Fail,F,0
+taiwan,Taiwan,true,60,69.99,C / Pass,C,2
+taiwan,Taiwan,true,70,72.99,B-,B-,2.7
+taiwan,Taiwan,true,73,76.99,B,B,3
+taiwan,Taiwan,true,77,79.99,B+,B+,3.3
+taiwan,Taiwan,true,80,84.99,A-,A-,3.7
+taiwan,Taiwan,true,85,89.99,A,A,4
+taiwan,Taiwan,true,90,100,A+ / 優等,A,4
+thailand,Thailand,true,0,0.99,F (Fail),F,0
+thailand,Thailand,true,1,1.99,D (Poor / Pass),D,1
+thailand,Thailand,true,2,2.49,C (Fair),C,2
+thailand,Thailand,true,2.5,2.99,C+ (Fairly Good),C+,2.3
+thailand,Thailand,true,3,3.24,B (Good),B,3
+thailand,Thailand,true,3.25,3.49,B+ (Very Good),B+,3.3
+thailand,Thailand,true,3.5,4,A (Excellent),A,4
+turkey,Turkey,true,0,1.49,FD / FF (Kaldı),F,0
+turkey,Turkey,true,1.5,1.99,DC / DD (Koşullu geçer),D,1
+turkey,Turkey,true,2,2.49,CC (Geçer),C,2
+turkey,Turkey,true,2.5,2.99,CB (Orta),B,3
+turkey,Turkey,true,3,3.49,BB (İyi),B+,3.3
+turkey,Turkey,true,3.5,4,AA / BA (Pekiyi),A,4
+ukraine,Ukraine,true,2,2.99,незадовільно (fail),F,0
+ukraine,Ukraine,true,3,3.99,задовільно (satisfactory / pass),C,2
+ukraine,Ukraine,true,4,4.74,добре (good),B+,3.3
+ukraine,Ukraine,true,4.75,5,відмінно (excellent),A,4
+united-kingdom,United Kingdom,true,0,39.99,Fail,F,0
+united-kingdom,United Kingdom,true,40,49.99,Third-Class Honours,C,2
+united-kingdom,United Kingdom,true,50,59.99,Lower Second-Class Honours (2:2),B,3
+united-kingdom,United Kingdom,true,60,69.99,Upper Second-Class Honours (2:1),A-,3.7
+united-kingdom,United Kingdom,true,70,100,First-Class Honours (1st),A,4
+vietnam,Vietnam,true,0,4.99,Yếu / Kém (Fail),F,0
+vietnam,Vietnam,true,5,5.99,Trung bình (Average / Pass),C,2
+vietnam,Vietnam,true,6,6.99,Trung bình khá (Above Average),C+,2.3
+vietnam,Vietnam,true,7,7.99,Khá (Good),B,3
+vietnam,Vietnam,true,8,8.99,Giỏi (Very Good),A-,3.7
+vietnam,Vietnam,true,9,10,Xuất sắc (Excellent),A,4

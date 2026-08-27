@@ -1,0 +1,51 @@
+slug,name,make,model_year,kwh_per_100_miles,epa_range_miles,usable_battery_kwh
+acura-zdx,Acura ZDX,Acura,2026,37.7,323,121.8
+audi-q4-e-tron,Audi Q4 e-tron,Audi,2026,29.4,288,84.7
+audi-q6-e-tron,Audi Q6 e-tron,Audi,2027,32.5,325,105.6
+bmw-i4,BMW i4,BMW,2026,30.8,251,77.3
+bmw-i5,BMW i5,BMW,2027,28.9,328,94.8
+bmw-ix,BMW iX,BMW,2027,28.6,434,124.1
+cadillac-lyriq,Cadillac Lyriq,Cadillac,2027,36.8,326,120
+cadillac-optiq,Cadillac Optiq,Cadillac,2027,34,303,103
+chevrolet-blazer-ev,Chevrolet Blazer EV,Chevrolet,2027,35.7,283,101
+chevrolet-equinox-ev,Chevrolet Equinox EV,Chevrolet,2027,32.6,307,100.1
+chevrolet-silverado-ev,Chevrolet Silverado EV,Chevrolet,2026,47.8,424,202.7
+fiat-500e,Fiat 500e,Fiat,2026,29.2,149,43.5
+ford-f-150-lightning,Ford F-150 Lightning,Ford,2025,49.4,240,118.6
+ford-mustang-mach-e,Ford Mustang Mach-E,Ford,2026,37.4,280,104.7
+gmc-hummer-ev-pickup,GMC Hummer EV Pickup,GMC,2025,63.9,318,203.2
+gmc-sierra-ev,GMC Sierra EV,GMC,2026,49.5,410,202.9
+genesis-electrified-gv70,Genesis Electrified GV70,Genesis,2027,37.3,250,93.2
+genesis-gv60,Genesis GV60,Genesis,2027,30.6,306,93.6
+honda-prologue,Honda Prologue,Honda,2026,34.1,294,100.3
+hyundai-ioniq-5,Hyundai Ioniq 5,Hyundai,2027,30,318,95.4
+hyundai-ioniq-6,Hyundai Ioniq 6,Hyundai,2025,28,316,88.5
+hyundai-ioniq-9,Hyundai Ioniq 9,Hyundai,2027,38,320,121.6
+jeep-wagoneer-s,Jeep Wagoneer S,Jeep,2026,36.2,294,106.4
+kia-ev6,Kia EV6,Kia,2026,41,231,94.7
+kia-ev9,Kia EV9,Kia,2026,43,260,111.8
+lexus-rz,Lexus RZ,Lexus,2026,35.3,229,80.8
+lucid-air,Lucid Air,Lucid,2026,23.1,420,97
+lucid-gravity,Lucid Gravity,Lucid,2027,31.1,450,139.9
+mercedes-benz-eqe,Mercedes-Benz EQE,Mercedes-Benz,2025,36,308,110.9
+mercedes-benz-eqs,Mercedes-Benz EQS,Mercedes-Benz,2026,34,390,132.6
+mini-cooper-se,Mini Cooper SE,MINI,2027,34.6,216,74.7
+nissan-ariya,Nissan Ariya,Nissan,2026,34.4,289,99.4
+nissan-leaf,Nissan Leaf,Nissan,2025,30.4,149,45.3
+polestar-2,Polestar 2,Polestar,2025,33.5,278,93.1
+polestar-3,Polestar 3,Polestar,2026,37.5,312,117
+porsche-macan-electric,Porsche Macan Electric,Porsche,2026,34.6,309,106.9
+porsche-taycan,Porsche Taycan,Porsche,2026,39,293,114.3
+rivian-r1s,Rivian R1S,Rivian,2027,44.4,374,166.1
+rivian-r1t,Rivian R1T,Rivian,2027,44.4,374,166.1
+subaru-solterra,Subaru Solterra,Subaru,2027,28,288,80.6
+tesla-cybertruck,Tesla Cybertruck,Tesla,2026,42.9,325,139.4
+tesla-model-3,Tesla Model 3,Tesla,2025,26.4,346,91.3
+tesla-model-s,Tesla Model S,Tesla,2026,27.1,410,111.1
+tesla-model-x,Tesla Model X,Tesla,2026,32.2,352,113.3
+tesla-model-y,Tesla Model Y,Tesla,2026,27.5,327,89.9
+toyota-bz,Toyota bZ,Toyota,2026,28,288,80.6
+volkswagen-id-buzz,Volkswagen ID. Buzz,Volkswagen,2025,40.8,234,95.5
+volkswagen-id-4,Volkswagen ID.4,Volkswagen,2026,29.8,291,86.7
+volvo-ex30,Volvo EX30,Volvo,2026,31.1,253,78.7
+volvo-ex90,Volvo EX90,Volvo,2027,36.8,276,101.6

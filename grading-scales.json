@@ -1,0 +1,3196 @@
+{
+  "generatedAt": "2026-08-27",
+  "warning": "There is NO official conversion from a national grade to a US 4.0 GPA. The us_letter_convention and us_gpa_convention columns record the mapping US admissions offices commonly apply; credential evaluators publish tables that disagree, most sharply at the top of each scale. The local classification is the reliable field — it is what the transcript states.",
+  "invertedScales": [
+    "Austria",
+    "Czechia",
+    "Germany",
+    "Philippines"
+  ],
+  "usGpaPoints": {
+    "A": 4,
+    "A-": 3.7,
+    "B+": 3.3,
+    "B": 3,
+    "B-": 2.7,
+    "C+": 2.3,
+    "C": 2,
+    "C-": 1.7,
+    "D+": 1.3,
+    "D": 1,
+    "F": 0
+  },
+  "countries": [
+    {
+      "slug": "argentina",
+      "name": "Argentina",
+      "adjective": "Argentine",
+      "region": "Latin America",
+      "scaleName": "0 to 10",
+      "unit": "points",
+      "min": 0,
+      "max": 10,
+      "higherIsBetter": true,
+      "passMark": 4,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 3.99,
+          "local": "Insuficiente (fail)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 4,
+          "hi": 5.99,
+          "local": "Aprobado (pass)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 6,
+          "hi": 7.99,
+          "local": "Bueno",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 8,
+          "hi": 8.99,
+          "local": "Muy bueno",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 9,
+          "hi": 10,
+          "local": "Sobresaliente / Distinguido",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Argentine universities mark out of 10, but the pass mark varies: 4 at most public universities, 6 at some private ones. The transcript legend is the authority."
+    },
+    {
+      "slug": "australia",
+      "name": "Australia",
+      "adjective": "Australian",
+      "region": "Oceania",
+      "scaleName": "HD / D / C / P",
+      "unit": "percent",
+      "min": 0,
+      "max": 100,
+      "higherIsBetter": true,
+      "passMark": 50,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 49.99,
+          "local": "Fail (F/N)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 50,
+          "hi": 64.99,
+          "local": "Pass (P)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 65,
+          "hi": 74.99,
+          "local": "Credit (C)",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 75,
+          "hi": 84.99,
+          "local": "Distinction (D)",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 85,
+          "hi": 100,
+          "local": "High Distinction (HD)",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "The letters are a trap for a US reader: an Australian D is a Distinction, the second-highest grade, not the near-fail a D means in the United States. Bands vary a few points between universities."
+    },
+    {
+      "slug": "austria",
+      "name": "Austria",
+      "adjective": "Austrian",
+      "region": "Europe",
+      "scaleName": "1 to 5 (inverted)",
+      "unit": "points",
+      "min": 1,
+      "max": 5,
+      "higherIsBetter": false,
+      "passMark": 4,
+      "bands": [
+        {
+          "lo": 1,
+          "hi": 1.49,
+          "local": "Sehr gut",
+          "letter": "A",
+          "gpa": 4
+        },
+        {
+          "lo": 1.5,
+          "hi": 2.49,
+          "local": "Gut",
+          "letter": "B+",
+          "gpa": 3.3
+        },
+        {
+          "lo": 2.5,
+          "hi": 3.49,
+          "local": "Befriedigend",
+          "letter": "B-",
+          "gpa": 2.7
+        },
+        {
+          "lo": 3.5,
+          "hi": 4,
+          "local": "Genügend (pass)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 4.01,
+          "hi": 5,
+          "local": "Nicht genügend (fail)",
+          "letter": "F",
+          "gpa": 0
+        }
+      ],
+      "notes": "Austria uses whole numbers 1 to 5 with 1 as the best grade and 5 as a failure — the same direction as Germany but with five bands rather than a decimal scale."
+    },
+    {
+      "slug": "bangladesh",
+      "name": "Bangladesh",
+      "adjective": "Bangladeshi",
+      "region": "Asia",
+      "scaleName": "4.0 CGPA",
+      "unit": "points",
+      "min": 0,
+      "max": 4,
+      "higherIsBetter": true,
+      "passMark": 2,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 1.99,
+          "local": "F (Fail)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 2,
+          "hi": 2.49,
+          "local": "C (Pass)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 2.5,
+          "hi": 2.99,
+          "local": "B / B- (Satisfactory)",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 3,
+          "hi": 3.24,
+          "local": "B+ (Good)",
+          "letter": "B+",
+          "gpa": 3.3
+        },
+        {
+          "lo": 3.25,
+          "hi": 3.49,
+          "local": "A- (Very Good)",
+          "letter": "B+",
+          "gpa": 3.3
+        },
+        {
+          "lo": 3.5,
+          "hi": 3.74,
+          "local": "A (Excellent)",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 3.75,
+          "hi": 4,
+          "local": "A+ (Outstanding)",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Bangladeshi universities already grade on a 4.0 scale, so the number transfers almost directly. It is not identical: the bands beneath it are stricter, so a Bangladeshi 3.5 represents stronger work than a US 3.5 usually does."
+    },
+    {
+      "slug": "belgium",
+      "name": "Belgium",
+      "adjective": "Belgian",
+      "region": "Europe",
+      "scaleName": "0 to 20",
+      "unit": "points",
+      "min": 0,
+      "max": 20,
+      "higherIsBetter": true,
+      "passMark": 10,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 9.99,
+          "local": "Échec / Niet geslaagd (fail)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 10,
+          "hi": 11.99,
+          "local": "Réussite / Geslaagd (pass)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 12,
+          "hi": 13.99,
+          "local": "Satisfaction / Voldoening",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 14,
+          "hi": 15.99,
+          "local": "Distinction / Onderscheiding",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 16,
+          "hi": 17.99,
+          "local": "Grande distinction / Grote onderscheiding",
+          "letter": "A",
+          "gpa": 4
+        },
+        {
+          "lo": 18,
+          "hi": 20,
+          "local": "La plus grande distinction / Grootste onderscheiding",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Belgium marks out of 20 like France, with named distinctions rather than mentions. The distinctions are the part a US admissions office can read directly."
+    },
+    {
+      "slug": "brazil",
+      "name": "Brazil",
+      "adjective": "Brazilian",
+      "region": "Latin America",
+      "scaleName": "0 to 10",
+      "unit": "points",
+      "min": 0,
+      "max": 10,
+      "higherIsBetter": true,
+      "passMark": 6,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 5.99,
+          "local": "Insuficiente (fail)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 6,
+          "hi": 6.99,
+          "local": "Regular (pass)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 7,
+          "hi": 7.99,
+          "local": "Bom",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 8,
+          "hi": 8.99,
+          "local": "Ótimo / Muito bom",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 9,
+          "hi": 10,
+          "local": "Excelente",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Brazilian universities set their own pass mark, usually 6 or 7 out of 10 — the transcript legend states which. Some issue a Conceito (A/B/C/D) instead of a number."
+    },
+    {
+      "slug": "canada",
+      "name": "Canada",
+      "adjective": "Canadian",
+      "region": "North America",
+      "scaleName": "Percentage",
+      "unit": "percent",
+      "min": 0,
+      "max": 100,
+      "higherIsBetter": true,
+      "passMark": 50,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 49.99,
+          "local": "F",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 50,
+          "hi": 59.99,
+          "local": "D",
+          "letter": "D",
+          "gpa": 1
+        },
+        {
+          "lo": 60,
+          "hi": 62.99,
+          "local": "C-",
+          "letter": "C-",
+          "gpa": 1.7
+        },
+        {
+          "lo": 63,
+          "hi": 66.99,
+          "local": "C",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 67,
+          "hi": 69.99,
+          "local": "C+",
+          "letter": "C+",
+          "gpa": 2.3
+        },
+        {
+          "lo": 70,
+          "hi": 72.99,
+          "local": "B-",
+          "letter": "B-",
+          "gpa": 2.7
+        },
+        {
+          "lo": 73,
+          "hi": 76.99,
+          "local": "B",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 77,
+          "hi": 79.99,
+          "local": "B+",
+          "letter": "B+",
+          "gpa": 3.3
+        },
+        {
+          "lo": 80,
+          "hi": 84.99,
+          "local": "A-",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 85,
+          "hi": 89.99,
+          "local": "A",
+          "letter": "A",
+          "gpa": 4
+        },
+        {
+          "lo": 90,
+          "hi": 100,
+          "local": "A+",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Canada has no national scale. Provinces and individual universities differ by several points at every boundary, and some use a 9-point or 12-point letter scale instead of percentages. Check the legend printed on the back of the transcript before trusting any conversion."
+    },
+    {
+      "slug": "chile",
+      "name": "Chile",
+      "adjective": "Chilean",
+      "region": "Latin America",
+      "scaleName": "1 to 7",
+      "unit": "points",
+      "min": 1,
+      "max": 7,
+      "higherIsBetter": true,
+      "passMark": 4,
+      "bands": [
+        {
+          "lo": 1,
+          "hi": 3.99,
+          "local": "Insuficiente (fail)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 4,
+          "hi": 4.99,
+          "local": "Suficiente (pass)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 5,
+          "hi": 5.99,
+          "local": "Bueno (good)",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 6,
+          "hi": 6.49,
+          "local": "Muy bueno (very good)",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 6.5,
+          "hi": 7,
+          "local": "Sobresaliente (outstanding)",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "The Chilean scale runs 1 to 7 with 4 as the pass mark, so the usable range is narrow and a 5.5 is a genuinely good result."
+    },
+    {
+      "slug": "china",
+      "name": "China",
+      "adjective": "Chinese",
+      "region": "Asia",
+      "scaleName": "100-point scale",
+      "unit": "percent",
+      "min": 0,
+      "max": 100,
+      "higherIsBetter": true,
+      "passMark": 60,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 59.99,
+          "local": "不及格 Fail",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 60,
+          "hi": 69.99,
+          "local": "及格 Pass",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 70,
+          "hi": 74.99,
+          "local": "中等 Fair",
+          "letter": "B-",
+          "gpa": 2.7
+        },
+        {
+          "lo": 75,
+          "hi": 79.99,
+          "local": "中等 Fair (upper)",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 80,
+          "hi": 84.99,
+          "local": "良好 Good",
+          "letter": "B+",
+          "gpa": 3.3
+        },
+        {
+          "lo": 85,
+          "hi": 89.99,
+          "local": "良好 Good (upper)",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 90,
+          "hi": 100,
+          "local": "优秀 Excellent",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "The pass mark is 60, not 50, and the practical ceiling is lower than a US reader expects — a 90 average is genuinely exceptional. Chinese universities issue their own 4.0 conversion on the transcript far more often than European ones do; where that appears, use it."
+    },
+    {
+      "slug": "colombia",
+      "name": "Colombia",
+      "adjective": "Colombian",
+      "region": "Latin America",
+      "scaleName": "0 to 5",
+      "unit": "points",
+      "min": 0,
+      "max": 5,
+      "higherIsBetter": true,
+      "passMark": 3,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 2.99,
+          "local": "Insuficiente (fail)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 3,
+          "hi": 3.49,
+          "local": "Aceptable (pass)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 3.5,
+          "hi": 3.99,
+          "local": "Bueno",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 4,
+          "hi": 4.49,
+          "local": "Sobresaliente",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 4.5,
+          "hi": 5,
+          "local": "Excelente",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Colombia marks out of 5.0 and passes at 3.0. A Colombian 4.0 is a strong result near the top of the scale, not the perfect score the same number means in the US."
+    },
+    {
+      "slug": "czechia",
+      "name": "Czechia",
+      "adjective": "Czech",
+      "region": "Europe",
+      "scaleName": "1 to 4 (inverted)",
+      "unit": "points",
+      "min": 1,
+      "max": 4,
+      "higherIsBetter": false,
+      "passMark": 3,
+      "bands": [
+        {
+          "lo": 1,
+          "hi": 1.49,
+          "local": "Výborně (excellent)",
+          "letter": "A",
+          "gpa": 4
+        },
+        {
+          "lo": 1.5,
+          "hi": 2.49,
+          "local": "Velmi dobře (very good)",
+          "letter": "B+",
+          "gpa": 3.3
+        },
+        {
+          "lo": 2.5,
+          "hi": 3,
+          "local": "Dobře (good / pass)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 3.01,
+          "hi": 4,
+          "local": "Nevyhověl (fail)",
+          "letter": "F",
+          "gpa": 0
+        }
+      ],
+      "notes": "Czech grades run 1 to 4 with 1 as the best, the same direction as Germany. Only three passing grades exist, so the scale carries less information than a US GPA does."
+    },
+    {
+      "slug": "denmark",
+      "name": "Denmark",
+      "adjective": "Danish",
+      "region": "Europe",
+      "scaleName": "7-step scale",
+      "unit": "points",
+      "min": -3,
+      "max": 12,
+      "higherIsBetter": true,
+      "passMark": 2,
+      "bands": [
+        {
+          "lo": -3,
+          "hi": 1.99,
+          "local": "00 / -3 (Fail)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 2,
+          "hi": 3.99,
+          "local": "02 (Adequate / pass)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 4,
+          "hi": 6.99,
+          "local": "4 (Fair)",
+          "letter": "C+",
+          "gpa": 2.3
+        },
+        {
+          "lo": 7,
+          "hi": 9.99,
+          "local": "7 (Good)",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 10,
+          "hi": 11.99,
+          "local": "10 (Very Good)",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 12,
+          "hi": 12,
+          "local": "12 (Excellent)",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "The Danish scale has seven steps with gaps in the numbering — 12, 10, 7, 4, 02, 00, -3 — and no grade between them. A negative grade is a real mark, not a data error."
+    },
+    {
+      "slug": "egypt",
+      "name": "Egypt",
+      "adjective": "Egyptian",
+      "region": "Africa",
+      "scaleName": "Percentage",
+      "unit": "percent",
+      "min": 0,
+      "max": 100,
+      "higherIsBetter": true,
+      "passMark": 50,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 49.99,
+          "local": "ضعيف Fail",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 50,
+          "hi": 64.99,
+          "local": "مقبول Pass",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 65,
+          "hi": 74.99,
+          "local": "جيد Good",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 75,
+          "hi": 84.99,
+          "local": "جيد جداً Very Good",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 85,
+          "hi": 100,
+          "local": "امتياز Excellent",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Egyptian marking is severe: an Excellent starts at 85 and is rare, and a Good at 65 represents solid work rather than the mediocrity the number suggests to a US reader."
+    },
+    {
+      "slug": "finland",
+      "name": "Finland",
+      "adjective": "Finnish",
+      "region": "Europe",
+      "scaleName": "0 to 5",
+      "unit": "points",
+      "min": 0,
+      "max": 5,
+      "higherIsBetter": true,
+      "passMark": 1,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 0.99,
+          "local": "0 (Fail / Hylätty)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 1,
+          "hi": 1.99,
+          "local": "1 (Sufficient / Välttävä)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 2,
+          "hi": 2.99,
+          "local": "2 (Satisfactory / Tyydyttävä)",
+          "letter": "C+",
+          "gpa": 2.3
+        },
+        {
+          "lo": 3,
+          "hi": 3.99,
+          "local": "3 (Good / Hyvä)",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 4,
+          "hi": 4.99,
+          "local": "4 (Very Good / Kiitettävä)",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 5,
+          "hi": 5,
+          "local": "5 (Excellent / Erinomainen)",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Finnish universities grade 1 to 5 with 0 as a fail. Some courses are pass/fail only, which carries no GPA information."
+    },
+    {
+      "slug": "france",
+      "name": "France",
+      "adjective": "French",
+      "region": "Europe",
+      "scaleName": "0 to 20",
+      "unit": "points",
+      "min": 0,
+      "max": 20,
+      "higherIsBetter": true,
+      "passMark": 10,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 9.99,
+          "local": "Insuffisant (fail)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 10,
+          "hi": 11.99,
+          "local": "Passable (pass)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 12,
+          "hi": 13.99,
+          "local": "Assez bien (fairly good)",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 14,
+          "hi": 15.99,
+          "local": "Bien (good)",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 16,
+          "hi": 20,
+          "local": "Très bien (very good)",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "French marking is famously severe at the top: 20/20 is essentially never awarded and a 16 is an outstanding result. Scaling a French grade proportionally — treating 14/20 as 70% — understates it badly, which is why the mention (très bien, bien) carries the meaning."
+    },
+    {
+      "slug": "germany",
+      "name": "Germany",
+      "adjective": "German",
+      "region": "Europe",
+      "scaleName": "1.0 to 5.0 (inverted)",
+      "unit": "points",
+      "min": 1,
+      "max": 5,
+      "higherIsBetter": false,
+      "passMark": 4,
+      "bands": [
+        {
+          "lo": 1,
+          "hi": 1.5,
+          "local": "sehr gut (very good)",
+          "letter": "A",
+          "gpa": 4
+        },
+        {
+          "lo": 1.51,
+          "hi": 2,
+          "local": "gut (good, upper)",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 2.01,
+          "hi": 2.5,
+          "local": "gut (good)",
+          "letter": "B+",
+          "gpa": 3.3
+        },
+        {
+          "lo": 2.51,
+          "hi": 3,
+          "local": "befriedigend (satisfactory)",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 3.01,
+          "hi": 3.5,
+          "local": "ausreichend (sufficient, upper)",
+          "letter": "C+",
+          "gpa": 2.3
+        },
+        {
+          "lo": 3.51,
+          "hi": 4,
+          "local": "ausreichend (sufficient)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 4.01,
+          "hi": 5,
+          "local": "nicht ausreichend (fail)",
+          "letter": "F",
+          "gpa": 0
+        }
+      ],
+      "notes": "The German scale runs backwards: 1.0 is the best grade and 4.0 is the lowest pass. A German 1.3 is an excellent degree, not a failing one. German universities also apply the modified Bavarian formula when converting inbound grades, which is a different calculation again."
+    },
+    {
+      "slug": "ghana",
+      "name": "Ghana",
+      "adjective": "Ghanaian",
+      "region": "Africa",
+      "scaleName": "4.0 CGPA",
+      "unit": "points",
+      "min": 0,
+      "max": 4,
+      "higherIsBetter": true,
+      "passMark": 1,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 0.99,
+          "local": "Fail",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 1,
+          "hi": 1.99,
+          "local": "Pass",
+          "letter": "D",
+          "gpa": 1
+        },
+        {
+          "lo": 2,
+          "hi": 2.49,
+          "local": "Third Class",
+          "letter": "C+",
+          "gpa": 2.3
+        },
+        {
+          "lo": 2.5,
+          "hi": 2.99,
+          "local": "Second Class Lower",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 3,
+          "hi": 3.59,
+          "local": "Second Class Upper",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 3.6,
+          "hi": 4,
+          "local": "First Class",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Ghanaian universities grade on a 4.0 CGPA, so the number transfers with little change, and add a British-style honours class."
+    },
+    {
+      "slug": "greece",
+      "name": "Greece",
+      "adjective": "Greek",
+      "region": "Europe",
+      "scaleName": "0 to 10",
+      "unit": "points",
+      "min": 0,
+      "max": 10,
+      "higherIsBetter": true,
+      "passMark": 5,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 4.99,
+          "local": "Fail",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 5,
+          "hi": 6.49,
+          "local": "Καλώς (Good / Pass)",
+          "letter": "B-",
+          "gpa": 2.7
+        },
+        {
+          "lo": 6.5,
+          "hi": 8.49,
+          "local": "Λίαν Καλώς (Very Good)",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 8.5,
+          "hi": 10,
+          "local": "Άριστα (Excellent)",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Greek degree classes are broad — Λίαν Καλώς covers a two-point span — so the underlying number matters more here than the class name does."
+    },
+    {
+      "slug": "hong-kong",
+      "name": "Hong Kong",
+      "adjective": "Hong Kong",
+      "region": "Asia",
+      "scaleName": "4.0 GPA",
+      "unit": "points",
+      "min": 0,
+      "max": 4.3,
+      "higherIsBetter": true,
+      "passMark": 1,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 0.99,
+          "local": "F (Fail)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 1,
+          "hi": 1.99,
+          "local": "D (Pass)",
+          "letter": "D",
+          "gpa": 1
+        },
+        {
+          "lo": 2,
+          "hi": 2.29,
+          "local": "C",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 2.3,
+          "hi": 2.69,
+          "local": "C+ (Satisfactory)",
+          "letter": "C+",
+          "gpa": 2.3
+        },
+        {
+          "lo": 2.7,
+          "hi": 2.99,
+          "local": "B-",
+          "letter": "B-",
+          "gpa": 2.7
+        },
+        {
+          "lo": 3,
+          "hi": 3.29,
+          "local": "B",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 3.3,
+          "hi": 3.69,
+          "local": "B+ (Good)",
+          "letter": "B+",
+          "gpa": 3.3
+        },
+        {
+          "lo": 3.7,
+          "hi": 4.3,
+          "local": "A / A- (Excellent)",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Hong Kong universities follow the US 4.0 model closely, some with a 4.3 maximum for an A+. The number transfers with little adjustment."
+    },
+    {
+      "slug": "india-cgpa",
+      "name": "India (10-point CGPA)",
+      "adjective": "Indian CGPA",
+      "region": "Asia",
+      "scaleName": "10-point CGPA",
+      "unit": "points",
+      "min": 0,
+      "max": 10,
+      "higherIsBetter": true,
+      "passMark": 4,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 3.99,
+          "local": "Fail",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 4,
+          "hi": 4.49,
+          "local": "Pass",
+          "letter": "D",
+          "gpa": 1
+        },
+        {
+          "lo": 4.5,
+          "hi": 5.49,
+          "local": "Average",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 5.5,
+          "hi": 6.49,
+          "local": "Good / Second Class",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 6.5,
+          "hi": 7.49,
+          "local": "Very Good",
+          "letter": "B+",
+          "gpa": 3.3
+        },
+        {
+          "lo": 7.5,
+          "hi": 8.49,
+          "local": "Excellent / First Class",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 8.5,
+          "hi": 10,
+          "local": "Outstanding / Distinction",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Many Indian universities now issue a 10-point CGPA alongside or instead of a percentage. The often-quoted shortcut of multiplying CGPA by 9.5 converts to a percentage, not to a GPA — running it through as though the result were a US percentage compounds two conversions and gets the answer badly wrong."
+    },
+    {
+      "slug": "india",
+      "name": "India",
+      "adjective": "Indian",
+      "region": "Asia",
+      "scaleName": "Percentage (division system)",
+      "unit": "percent",
+      "min": 0,
+      "max": 100,
+      "higherIsBetter": true,
+      "passMark": 35,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 39.99,
+          "local": "Fail",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 40,
+          "hi": 49.99,
+          "local": "Third Division / Pass",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 50,
+          "hi": 59.99,
+          "local": "Second Division",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 60,
+          "hi": 74.99,
+          "local": "First Division / First Class",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 75,
+          "hi": 100,
+          "local": "Distinction",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Indian marking is severe by US standards: a First Division starts at 60 and a 75 is a distinction most students never see. Converting an Indian percentage as though it were a US one — 65 becomes a D — is the single commonest error in reading these transcripts, and it is why the division matters more than the number."
+    },
+    {
+      "slug": "indonesia",
+      "name": "Indonesia",
+      "adjective": "Indonesian",
+      "region": "Asia",
+      "scaleName": "4.0 IPK",
+      "unit": "points",
+      "min": 0,
+      "max": 4,
+      "higherIsBetter": true,
+      "passMark": 2,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 1.99,
+          "local": "D / E (Fail)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 2,
+          "hi": 2.49,
+          "local": "C (Cukup)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 2.5,
+          "hi": 2.75,
+          "local": "B- / C+",
+          "letter": "B-",
+          "gpa": 2.7
+        },
+        {
+          "lo": 2.76,
+          "hi": 2.99,
+          "local": "B (Memuaskan)",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 3,
+          "hi": 3.5,
+          "local": "A- / B+ (Sangat Memuaskan)",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 3.51,
+          "hi": 4,
+          "local": "A (Cum laude / Dengan Pujian)",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "The Indeks Prestasi Kumulatif runs on a 4.0 scale like the US GPA. The honours labels attached to it (cum laude from 3.51) are set nationally rather than by each university."
+    },
+    {
+      "slug": "iran",
+      "name": "Iran",
+      "adjective": "Iranian",
+      "region": "Middle East",
+      "scaleName": "0 to 20",
+      "unit": "points",
+      "min": 0,
+      "max": 20,
+      "higherIsBetter": true,
+      "passMark": 10,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 9.99,
+          "local": "مردود Fail",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 10,
+          "hi": 11.99,
+          "local": "قابل قبول Pass",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 12,
+          "hi": 13.99,
+          "local": "متوسط Average",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 14,
+          "hi": 14.99,
+          "local": "خوب Good",
+          "letter": "B+",
+          "gpa": 3.3
+        },
+        {
+          "lo": 15,
+          "hi": 16.99,
+          "local": "خیلی خوب Very Good",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 17,
+          "hi": 20,
+          "local": "ممتاز Excellent",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Iran marks out of 20 like France, and with the same severity at the top. The undergraduate pass mark is 10, though many programmes require a 12 average to graduate."
+    },
+    {
+      "slug": "ireland",
+      "name": "Ireland",
+      "adjective": "Irish",
+      "region": "Europe",
+      "scaleName": "Honours classification",
+      "unit": "percent",
+      "min": 0,
+      "max": 100,
+      "higherIsBetter": true,
+      "passMark": 40,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 39.99,
+          "local": "Fail",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 40,
+          "hi": 49.99,
+          "local": "Pass",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 50,
+          "hi": 59.99,
+          "local": "Second-Class Honours, Grade II (2.2)",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 60,
+          "hi": 69.99,
+          "local": "Second-Class Honours, Grade I (2.1)",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 70,
+          "hi": 100,
+          "local": "First-Class Honours",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Irish universities use the same honours structure as the UK. Some award a Third-Class Honours between the 2.2 and the Pass; where they do, it sits in the 45-49 range."
+    },
+    {
+      "slug": "israel",
+      "name": "Israel",
+      "adjective": "Israeli",
+      "region": "Middle East",
+      "scaleName": "0 to 100",
+      "unit": "percent",
+      "min": 0,
+      "max": 100,
+      "higherIsBetter": true,
+      "passMark": 60,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 59.99,
+          "local": "Fail",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 60,
+          "hi": 64.99,
+          "local": "Pass",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 65,
+          "hi": 74.99,
+          "local": "Fair",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 75,
+          "hi": 84.99,
+          "local": "Good",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 85,
+          "hi": 94.99,
+          "local": "Very Good",
+          "letter": "A",
+          "gpa": 4
+        },
+        {
+          "lo": 95,
+          "hi": 100,
+          "local": "Excellent",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Israeli universities mark out of 100 and pass at 60. The distribution sits higher than the British one, so a US-style reading is closer to right here than it is for most of this list."
+    },
+    {
+      "slug": "italy",
+      "name": "Italy",
+      "adjective": "Italian",
+      "region": "Europe",
+      "scaleName": "18 to 30 (with lode)",
+      "unit": "points",
+      "min": 0,
+      "max": 30,
+      "higherIsBetter": true,
+      "passMark": 18,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 17.99,
+          "local": "Fail",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 18,
+          "hi": 20.99,
+          "local": "Pass",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 21,
+          "hi": 23.99,
+          "local": "Sufficient",
+          "letter": "C+",
+          "gpa": 2.3
+        },
+        {
+          "lo": 24,
+          "hi": 25.99,
+          "local": "Satisfactory",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 26,
+          "hi": 27.99,
+          "local": "Good",
+          "letter": "B+",
+          "gpa": 3.3
+        },
+        {
+          "lo": 28,
+          "hi": 29.99,
+          "local": "Very good",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 30,
+          "hi": 30,
+          "local": "30 / 30 e lode (excellent)",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Italian exam marks run 18 to 30, with 30 e lode above 30 as a distinction. The final degree mark is reported out of 110 instead, with 110 e lode at the top — the two are separate scales and are regularly confused."
+    },
+    {
+      "slug": "japan",
+      "name": "Japan",
+      "adjective": "Japanese",
+      "region": "Asia",
+      "scaleName": "S / A / B / C / F",
+      "unit": "percent",
+      "min": 0,
+      "max": 100,
+      "higherIsBetter": true,
+      "passMark": 60,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 59.99,
+          "local": "D / F / 不可 (Fail)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 60,
+          "hi": 69.99,
+          "local": "C / 可 (Pass)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 70,
+          "hi": 79.99,
+          "local": "B / 良 (Good)",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 80,
+          "hi": 89.99,
+          "local": "A / 優 (Excellent)",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 90,
+          "hi": 100,
+          "local": "S / 秀 (Outstanding)",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Older Japanese transcripts run 優/良/可/不可 with no S grade, in which case 優 is the top mark and maps to an A. The pass mark is 60."
+    },
+    {
+      "slug": "kenya",
+      "name": "Kenya",
+      "adjective": "Kenyan",
+      "region": "Africa",
+      "scaleName": "Percentage / class",
+      "unit": "percent",
+      "min": 0,
+      "max": 100,
+      "higherIsBetter": true,
+      "passMark": 40,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 39.99,
+          "local": "Fail",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 40,
+          "hi": 49.99,
+          "local": "Pass",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 50,
+          "hi": 59.99,
+          "local": "Second Class Lower",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 60,
+          "hi": 69.99,
+          "local": "Second Class Upper",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 70,
+          "hi": 100,
+          "local": "First Class Honours",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Kenyan degree classes follow the British model, with the same compression at the top of the percentage range."
+    },
+    {
+      "slug": "malaysia",
+      "name": "Malaysia",
+      "adjective": "Malaysian",
+      "region": "Asia",
+      "scaleName": "4.0 CGPA",
+      "unit": "points",
+      "min": 0,
+      "max": 4,
+      "higherIsBetter": true,
+      "passMark": 2,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 1.99,
+          "local": "D / F (Fail)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 2,
+          "hi": 2.32,
+          "local": "C (Pass)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 2.33,
+          "hi": 2.66,
+          "local": "C+",
+          "letter": "C+",
+          "gpa": 2.3
+        },
+        {
+          "lo": 2.67,
+          "hi": 2.99,
+          "local": "B- (Second Lower)",
+          "letter": "B-",
+          "gpa": 2.7
+        },
+        {
+          "lo": 3,
+          "hi": 3.32,
+          "local": "B",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 3.33,
+          "hi": 3.66,
+          "local": "B+ (Second Upper)",
+          "letter": "B+",
+          "gpa": 3.3
+        },
+        {
+          "lo": 3.67,
+          "hi": 4,
+          "local": "A / A- (First Class)",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Malaysian universities use a 4.0 CGPA alongside a First/Second Class honours classification inherited from the British system."
+    },
+    {
+      "slug": "mexico",
+      "name": "Mexico",
+      "adjective": "Mexican",
+      "region": "Latin America",
+      "scaleName": "0 to 10",
+      "unit": "points",
+      "min": 0,
+      "max": 10,
+      "higherIsBetter": true,
+      "passMark": 6,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 5.99,
+          "local": "No aprobado (fail)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 6,
+          "hi": 6.99,
+          "local": "Suficiente (pass)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 7,
+          "hi": 7.99,
+          "local": "Suficiente",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 8,
+          "hi": 8.49,
+          "local": "Bien",
+          "letter": "B+",
+          "gpa": 3.3
+        },
+        {
+          "lo": 8.5,
+          "hi": 9.49,
+          "local": "Muy bien",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 9.5,
+          "hi": 10,
+          "local": "Excelente",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Mexican universities mark out of 10 and pass at 6, though some private institutions and graduate programmes set the pass at 7 or 8."
+    },
+    {
+      "slug": "nepal",
+      "name": "Nepal",
+      "adjective": "Nepali",
+      "region": "Asia",
+      "scaleName": "Percentage (division system)",
+      "unit": "percent",
+      "min": 0,
+      "max": 100,
+      "higherIsBetter": true,
+      "passMark": 35,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 34.99,
+          "local": "Fail",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 35,
+          "hi": 44.99,
+          "local": "Third Division / Pass",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 45,
+          "hi": 64.99,
+          "local": "Second Division",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 65,
+          "hi": 79.99,
+          "local": "First Division",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 80,
+          "hi": 100,
+          "local": "Distinction",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Tribhuvan University's division boundaries are the ones most Nepali transcripts follow. Newer institutions increasingly issue a 4.0 GPA instead."
+    },
+    {
+      "slug": "netherlands",
+      "name": "Netherlands",
+      "adjective": "Dutch",
+      "region": "Europe",
+      "scaleName": "1 to 10",
+      "unit": "points",
+      "min": 1,
+      "max": 10,
+      "higherIsBetter": true,
+      "passMark": 5.5,
+      "bands": [
+        {
+          "lo": 1,
+          "hi": 5.49,
+          "local": "Onvoldoende (fail)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 5.5,
+          "hi": 6.49,
+          "local": "Voldoende (satisfactory / pass)",
+          "letter": "C+",
+          "gpa": 2.3
+        },
+        {
+          "lo": 6.5,
+          "hi": 6.99,
+          "local": "Voldoende (satisfactory, upper)",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 7,
+          "hi": 7.99,
+          "local": "Ruim voldoende (more than satisfactory)",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 8,
+          "hi": 8.99,
+          "local": "Zeer goed (very good)",
+          "letter": "A",
+          "gpa": 4
+        },
+        {
+          "lo": 9,
+          "hi": 10,
+          "local": "Uitmuntend (outstanding)",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "The top of the Dutch scale is effectively unused: a 9 is rare and a 10 almost unheard of, so the practical range runs 6 to 8. Treating an 8/10 as 80% and therefore a B badly understates it — an 8 is an excellent Dutch grade."
+    },
+    {
+      "slug": "new-zealand",
+      "name": "New Zealand",
+      "adjective": "New Zealand",
+      "region": "Oceania",
+      "scaleName": "A+ to E",
+      "unit": "percent",
+      "min": 0,
+      "max": 100,
+      "higherIsBetter": true,
+      "passMark": 50,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 49.99,
+          "local": "D / E (fail)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 50,
+          "hi": 54.99,
+          "local": "C-",
+          "letter": "C-",
+          "gpa": 1.7
+        },
+        {
+          "lo": 55,
+          "hi": 59.99,
+          "local": "C",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 60,
+          "hi": 64.99,
+          "local": "C+",
+          "letter": "C+",
+          "gpa": 2.3
+        },
+        {
+          "lo": 65,
+          "hi": 69.99,
+          "local": "B-",
+          "letter": "B-",
+          "gpa": 2.7
+        },
+        {
+          "lo": 70,
+          "hi": 74.99,
+          "local": "B",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 75,
+          "hi": 79.99,
+          "local": "B+",
+          "letter": "B+",
+          "gpa": 3.3
+        },
+        {
+          "lo": 80,
+          "hi": 84.99,
+          "local": "A-",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 85,
+          "hi": 89.99,
+          "local": "A",
+          "letter": "A",
+          "gpa": 4
+        },
+        {
+          "lo": 90,
+          "hi": 100,
+          "local": "A+",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "The letters look American but the bands are stricter: a New Zealand A starts at 85 where a US A commonly starts at 93 on a 100-point course but is awarded far more often."
+    },
+    {
+      "slug": "nigeria",
+      "name": "Nigeria",
+      "adjective": "Nigerian",
+      "region": "Africa",
+      "scaleName": "5.0 CGPA",
+      "unit": "points",
+      "min": 0,
+      "max": 5,
+      "higherIsBetter": true,
+      "passMark": 1.5,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 1.49,
+          "local": "Fail",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 1.5,
+          "hi": 2.39,
+          "local": "Third Class",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 2.4,
+          "hi": 3.49,
+          "local": "Second Class Lower (2:2)",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 3.5,
+          "hi": 4.49,
+          "local": "Second Class Upper (2:1)",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 4.5,
+          "hi": 5,
+          "local": "First Class Honours",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Nigerian universities use a 5.0 CGPA with British-style honours classes on top. The class is the part US admissions offices read; rescaling the CGPA to 4.0 arithmetically loses the classification, which is the more meaningful signal."
+    },
+    {
+      "slug": "norway",
+      "name": "Norway",
+      "adjective": "Norwegian",
+      "region": "Europe",
+      "scaleName": "A to F",
+      "unit": "points",
+      "min": 0,
+      "max": 5,
+      "higherIsBetter": true,
+      "passMark": 1,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 0.99,
+          "local": "F (Fail)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 1,
+          "hi": 1.99,
+          "local": "E (Sufficient)",
+          "letter": "C-",
+          "gpa": 1.7
+        },
+        {
+          "lo": 2,
+          "hi": 2.99,
+          "local": "D (Satisfactory)",
+          "letter": "C+",
+          "gpa": 2.3
+        },
+        {
+          "lo": 3,
+          "hi": 3.99,
+          "local": "C (Good)",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 4,
+          "hi": 4.99,
+          "local": "B (Very Good)",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 5,
+          "hi": 5,
+          "local": "A (Excellent)",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Norway's A-F scale is defined nationally with C as the expected average — deliberately, unlike the US where B has drifted into that role. A Norwegian C is a solid result, not a weak one."
+    },
+    {
+      "slug": "pakistan",
+      "name": "Pakistan",
+      "adjective": "Pakistani",
+      "region": "Asia",
+      "scaleName": "Percentage",
+      "unit": "percent",
+      "min": 0,
+      "max": 100,
+      "higherIsBetter": true,
+      "passMark": 40,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 39.99,
+          "local": "Fail",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 40,
+          "hi": 49.99,
+          "local": "D / Third Division",
+          "letter": "C-",
+          "gpa": 1.7
+        },
+        {
+          "lo": 50,
+          "hi": 59.99,
+          "local": "C / Second Division",
+          "letter": "B-",
+          "gpa": 2.7
+        },
+        {
+          "lo": 60,
+          "hi": 69.99,
+          "local": "B / First Division",
+          "letter": "B+",
+          "gpa": 3.3
+        },
+        {
+          "lo": 70,
+          "hi": 79.99,
+          "local": "A / First Division",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 80,
+          "hi": 100,
+          "local": "A+ / Distinction",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Pakistani universities mark on the same compressed scale as India's. Many now issue a 4.0 CGPA as well, which maps to a US GPA far more directly than the percentage does."
+    },
+    {
+      "slug": "peru",
+      "name": "Peru",
+      "adjective": "Peruvian",
+      "region": "Latin America",
+      "scaleName": "0 to 20",
+      "unit": "points",
+      "min": 0,
+      "max": 20,
+      "higherIsBetter": true,
+      "passMark": 11,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 10.99,
+          "local": "Desaprobado (fail)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 11,
+          "hi": 13.99,
+          "local": "Aprobado (pass)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 14,
+          "hi": 15.99,
+          "local": "Bueno",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 16,
+          "hi": 17.99,
+          "local": "Muy bueno",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 18,
+          "hi": 20,
+          "local": "Excelente",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Peru marks out of 20 with a pass at 11 — one point higher than the French and Portuguese scales it otherwise resembles."
+    },
+    {
+      "slug": "philippines",
+      "name": "Philippines",
+      "adjective": "Filipino",
+      "region": "Asia",
+      "scaleName": "1.00 to 5.00 (inverted)",
+      "unit": "points",
+      "min": 1,
+      "max": 5,
+      "higherIsBetter": false,
+      "passMark": 3,
+      "bands": [
+        {
+          "lo": 1,
+          "hi": 1.25,
+          "local": "Excellent",
+          "letter": "A",
+          "gpa": 4
+        },
+        {
+          "lo": 1.26,
+          "hi": 1.5,
+          "local": "Very Good",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 1.51,
+          "hi": 1.75,
+          "local": "Good",
+          "letter": "B+",
+          "gpa": 3.3
+        },
+        {
+          "lo": 1.76,
+          "hi": 2,
+          "local": "Very Satisfactory",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 2.01,
+          "hi": 2.5,
+          "local": "Satisfactory",
+          "letter": "C+",
+          "gpa": 2.3
+        },
+        {
+          "lo": 2.51,
+          "hi": 3,
+          "local": "Passing",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 3.01,
+          "hi": 5,
+          "local": "Failed",
+          "letter": "F",
+          "gpa": 0
+        }
+      ],
+      "notes": "The Philippine scale is inverted: 1.00 is the highest mark and 5.00 is a failure. A Filipino student with a 1.25 average has near-perfect marks, and reading it as a 1.25 US GPA — which would be a D average — is the single most damaging misreading on this list."
+    },
+    {
+      "slug": "poland",
+      "name": "Poland",
+      "adjective": "Polish",
+      "region": "Europe",
+      "scaleName": "2 to 5",
+      "unit": "points",
+      "min": 2,
+      "max": 5,
+      "higherIsBetter": true,
+      "passMark": 3,
+      "bands": [
+        {
+          "lo": 2,
+          "hi": 2.99,
+          "local": "Niedostateczny (fail)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 3,
+          "hi": 3.24,
+          "local": "Dostateczny (satisfactory / pass)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 3.25,
+          "hi": 3.74,
+          "local": "Dostateczny plus (satisfactory plus)",
+          "letter": "C+",
+          "gpa": 2.3
+        },
+        {
+          "lo": 3.75,
+          "hi": 4.24,
+          "local": "Dobry (good)",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 4.25,
+          "hi": 4.74,
+          "local": "Dobry plus (good plus)",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 4.75,
+          "hi": 5,
+          "local": "Bardzo dobry (very good)",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "The Polish scale starts at 2, not 0, and 2 is the failing grade — the usable range is only 3 to 5, which makes proportional scaling meaningless."
+    },
+    {
+      "slug": "portugal",
+      "name": "Portugal",
+      "adjective": "Portuguese",
+      "region": "Europe",
+      "scaleName": "0 to 20",
+      "unit": "points",
+      "min": 0,
+      "max": 20,
+      "higherIsBetter": true,
+      "passMark": 10,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 9.99,
+          "local": "Insuficiente (fail)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 10,
+          "hi": 11.99,
+          "local": "Suficiente (pass)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 12,
+          "hi": 13.99,
+          "local": "Suficiente (upper)",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 14,
+          "hi": 15.99,
+          "local": "Bom",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 16,
+          "hi": 17.99,
+          "local": "Muito bom",
+          "letter": "A",
+          "gpa": 4
+        },
+        {
+          "lo": 18,
+          "hi": 20,
+          "local": "Excelente",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Portugal marks out of 20 and passes at 10, like France, but awards the top of the range rather more readily."
+    },
+    {
+      "slug": "romania",
+      "name": "Romania",
+      "adjective": "Romanian",
+      "region": "Europe",
+      "scaleName": "1 to 10",
+      "unit": "points",
+      "min": 1,
+      "max": 10,
+      "higherIsBetter": true,
+      "passMark": 5,
+      "bands": [
+        {
+          "lo": 1,
+          "hi": 4.99,
+          "local": "Insuficient (fail)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 5,
+          "hi": 6.99,
+          "local": "Suficient (pass)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 7,
+          "hi": 7.99,
+          "local": "Satisfăcător (satisfactory)",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 8,
+          "hi": 8.99,
+          "local": "Bine (good)",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 9,
+          "hi": 10,
+          "local": "Excelent / Foarte bine",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Romania marks out of 10 and passes at 5. Unlike the Dutch scale, the top of the Romanian range is used, so a 10 does appear."
+    },
+    {
+      "slug": "russia",
+      "name": "Russia",
+      "adjective": "Russian",
+      "region": "Europe",
+      "scaleName": "5-point scale",
+      "unit": "points",
+      "min": 2,
+      "max": 5,
+      "higherIsBetter": true,
+      "passMark": 3,
+      "bands": [
+        {
+          "lo": 2,
+          "hi": 2.99,
+          "local": "неудовлетворительно (fail)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 3,
+          "hi": 3.99,
+          "local": "удовлетворительно (satisfactory / pass)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 4,
+          "hi": 4.74,
+          "local": "хорошо (good)",
+          "letter": "B+",
+          "gpa": 3.3
+        },
+        {
+          "lo": 4.75,
+          "hi": 5,
+          "local": "отлично (excellent)",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "The Russian scale has only three passing grades, so a US 4.0 equivalent is unusually coarse here. A diploma with honours (красный диплом) is the signal that carries the most weight in a US application."
+    },
+    {
+      "slug": "saudi-arabia",
+      "name": "Saudi Arabia",
+      "adjective": "Saudi",
+      "region": "Middle East",
+      "scaleName": "5.0 GPA",
+      "unit": "points",
+      "min": 0,
+      "max": 5,
+      "higherIsBetter": true,
+      "passMark": 2,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 1.99,
+          "local": "راسب Fail",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 2,
+          "hi": 2.74,
+          "local": "مقبول Pass",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 2.75,
+          "hi": 3.74,
+          "local": "جيد Good",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 3.75,
+          "hi": 4.49,
+          "local": "جيد جداً Very Good",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 4.5,
+          "hi": 5,
+          "local": "ممتاز Excellent",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Saudi universities use either a 5.0 or a 4.0 scale and the transcript states which. Submitting a 5.0-scale figure as though it were out of 4.0 makes a strong record look impossible, so check first."
+    },
+    {
+      "slug": "singapore",
+      "name": "Singapore",
+      "adjective": "Singaporean",
+      "region": "Asia",
+      "scaleName": "5.0 CAP / GPA",
+      "unit": "points",
+      "min": 0,
+      "max": 5,
+      "higherIsBetter": true,
+      "passMark": 1,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 0.99,
+          "local": "F (Fail)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 1,
+          "hi": 1.99,
+          "local": "D (Pass)",
+          "letter": "D",
+          "gpa": 1
+        },
+        {
+          "lo": 2,
+          "hi": 2.49,
+          "local": "C+ / C (Average)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 2.5,
+          "hi": 2.99,
+          "local": "B-",
+          "letter": "B-",
+          "gpa": 2.7
+        },
+        {
+          "lo": 3,
+          "hi": 3.49,
+          "local": "B",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 3.5,
+          "hi": 3.99,
+          "local": "B+ (Good)",
+          "letter": "B+",
+          "gpa": 3.3
+        },
+        {
+          "lo": 4,
+          "hi": 4.49,
+          "local": "A- (Very Good)",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 4.5,
+          "hi": 5,
+          "local": "A+ / A (Excellent)",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "NUS and NTU use a 5.0 Cumulative Average Point; SMU uses a 4.0 GPA that transfers directly. Check which scale the transcript states before converting — the two are commonly confused."
+    },
+    {
+      "slug": "south-africa",
+      "name": "South Africa",
+      "adjective": "South African",
+      "region": "Africa",
+      "scaleName": "Percentage",
+      "unit": "percent",
+      "min": 0,
+      "max": 100,
+      "higherIsBetter": true,
+      "passMark": 50,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 49.99,
+          "local": "Fail",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 50,
+          "hi": 59.99,
+          "local": "Third Class / Pass",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 60,
+          "hi": 69.99,
+          "local": "Second Class",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 70,
+          "hi": 74.99,
+          "local": "Upper Second",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 75,
+          "hi": 100,
+          "local": "Distinction / First Class",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "South African universities mark on the British model, so the same compression at the top applies: a 75 is a distinction, not a bare pass."
+    },
+    {
+      "slug": "south-korea",
+      "name": "South Korea",
+      "adjective": "South Korean",
+      "region": "Asia",
+      "scaleName": "4.5 GPA",
+      "unit": "points",
+      "min": 0,
+      "max": 4.5,
+      "higherIsBetter": true,
+      "passMark": 1,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 0.99,
+          "local": "F",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 1,
+          "hi": 1.89,
+          "local": "D",
+          "letter": "D",
+          "gpa": 1
+        },
+        {
+          "lo": 1.9,
+          "hi": 2.19,
+          "local": "C / C0",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 2.2,
+          "hi": 2.59,
+          "local": "C+",
+          "letter": "C+",
+          "gpa": 2.3
+        },
+        {
+          "lo": 2.6,
+          "hi": 2.89,
+          "local": "B-",
+          "letter": "B-",
+          "gpa": 2.7
+        },
+        {
+          "lo": 2.9,
+          "hi": 3.19,
+          "local": "B / B0",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 3.2,
+          "hi": 3.59,
+          "local": "B+",
+          "letter": "B+",
+          "gpa": 3.3
+        },
+        {
+          "lo": 3.6,
+          "hi": 3.89,
+          "local": "A-",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 3.9,
+          "hi": 4.19,
+          "local": "A / A0",
+          "letter": "A",
+          "gpa": 4
+        },
+        {
+          "lo": 4.2,
+          "hi": 4.5,
+          "local": "A+",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Korean universities mostly use a 4.5 maximum, though a few use 4.3 and a few 4.0 — the transcript states which. Dividing a 4.5-scale GPA by 4.5 and multiplying by 4.0 is the usual shortcut, and it systematically understates strong students because the Korean curve is not linear."
+    },
+    {
+      "slug": "spain",
+      "name": "Spain",
+      "adjective": "Spanish",
+      "region": "Europe",
+      "scaleName": "0 to 10",
+      "unit": "points",
+      "min": 0,
+      "max": 10,
+      "higherIsBetter": true,
+      "passMark": 5,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 4.99,
+          "local": "Suspenso (fail)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 5,
+          "hi": 5.99,
+          "local": "Aprobado (pass)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 6,
+          "hi": 6.99,
+          "local": "Bien",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 7,
+          "hi": 8.99,
+          "local": "Notable",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 9,
+          "hi": 10,
+          "local": "Matrícula de Honor / Sobresaliente",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Spanish marking is compressed at the top in the same way as the French and Dutch: a Notable is a strong result and Matrícula de Honor is capped at a small percentage of each class by regulation."
+    },
+    {
+      "slug": "sri-lanka",
+      "name": "Sri Lanka",
+      "adjective": "Sri Lankan",
+      "region": "Asia",
+      "scaleName": "Percentage / class",
+      "unit": "percent",
+      "min": 0,
+      "max": 100,
+      "higherIsBetter": true,
+      "passMark": 40,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 39.99,
+          "local": "Fail",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 40,
+          "hi": 49.99,
+          "local": "General Pass",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 50,
+          "hi": 59.99,
+          "local": "Second Class Lower",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 60,
+          "hi": 69.99,
+          "local": "Second Class Upper",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 70,
+          "hi": 100,
+          "local": "First Class",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Sri Lankan degree classes follow the British pattern, and the same top-end compression applies."
+    },
+    {
+      "slug": "sweden",
+      "name": "Sweden",
+      "adjective": "Swedish",
+      "region": "Europe",
+      "scaleName": "A to F / U-G-VG",
+      "unit": "points",
+      "min": 0,
+      "max": 5,
+      "higherIsBetter": true,
+      "passMark": 1,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 0.99,
+          "local": "F / U (Fail)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 1,
+          "hi": 1.99,
+          "local": "E (Sufficient) / G",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 2,
+          "hi": 2.99,
+          "local": "D (Satisfactory)",
+          "letter": "B-",
+          "gpa": 2.7
+        },
+        {
+          "lo": 3,
+          "hi": 3.99,
+          "local": "C (Good) / VG",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 4,
+          "hi": 4.99,
+          "local": "B (Very Good)",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 5,
+          "hi": 5,
+          "local": "A (Excellent)",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Many Swedish courses are graded only Underkänd / Godkänd / Väl godkänd — fail, pass, pass with distinction — with no finer gradation. A transcript of pass grades carries no GPA information at all, and US schools generally accept that."
+    },
+    {
+      "slug": "switzerland",
+      "name": "Switzerland",
+      "adjective": "Swiss",
+      "region": "Europe",
+      "scaleName": "1 to 6",
+      "unit": "points",
+      "min": 1,
+      "max": 6,
+      "higherIsBetter": true,
+      "passMark": 4,
+      "bands": [
+        {
+          "lo": 1,
+          "hi": 3.99,
+          "local": "ungenügend / insuffisant (fail)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 4,
+          "hi": 4.49,
+          "local": "genügend / suffisant (pass)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 4.5,
+          "hi": 4.99,
+          "local": "befriedigend / satisfaisant",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 5,
+          "hi": 5.49,
+          "local": "gut / bien",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 5.5,
+          "hi": 6,
+          "local": "sehr gut / très bien",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Switzerland runs the opposite way to Germany despite the shared language: 6 is the best grade and 4 is the pass mark. A Swiss 4.0 is a bare pass, not the perfect score the same number means in the US."
+    },
+    {
+      "slug": "taiwan",
+      "name": "Taiwan",
+      "adjective": "Taiwanese",
+      "region": "Asia",
+      "scaleName": "100-point scale",
+      "unit": "percent",
+      "min": 0,
+      "max": 100,
+      "higherIsBetter": true,
+      "passMark": 60,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 59.99,
+          "local": "F / Fail",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 60,
+          "hi": 69.99,
+          "local": "C / Pass",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 70,
+          "hi": 72.99,
+          "local": "B-",
+          "letter": "B-",
+          "gpa": 2.7
+        },
+        {
+          "lo": 73,
+          "hi": 76.99,
+          "local": "B",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 77,
+          "hi": 79.99,
+          "local": "B+",
+          "letter": "B+",
+          "gpa": 3.3
+        },
+        {
+          "lo": 80,
+          "hi": 84.99,
+          "local": "A-",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 85,
+          "hi": 89.99,
+          "local": "A",
+          "letter": "A",
+          "gpa": 4
+        },
+        {
+          "lo": 90,
+          "hi": 100,
+          "local": "A+ / 優等",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Undergraduate courses pass at 60; graduate courses usually pass at 70. Many Taiwanese transcripts print a 4.0 GPA alongside the percentage."
+    },
+    {
+      "slug": "thailand",
+      "name": "Thailand",
+      "adjective": "Thai",
+      "region": "Asia",
+      "scaleName": "4.0 GPA",
+      "unit": "points",
+      "min": 0,
+      "max": 4,
+      "higherIsBetter": true,
+      "passMark": 1,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 0.99,
+          "local": "F (Fail)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 1,
+          "hi": 1.99,
+          "local": "D (Poor / Pass)",
+          "letter": "D",
+          "gpa": 1
+        },
+        {
+          "lo": 2,
+          "hi": 2.49,
+          "local": "C (Fair)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 2.5,
+          "hi": 2.99,
+          "local": "C+ (Fairly Good)",
+          "letter": "C+",
+          "gpa": 2.3
+        },
+        {
+          "lo": 3,
+          "hi": 3.24,
+          "local": "B (Good)",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 3.25,
+          "hi": 3.49,
+          "local": "B+ (Very Good)",
+          "letter": "B+",
+          "gpa": 3.3
+        },
+        {
+          "lo": 3.5,
+          "hi": 4,
+          "local": "A (Excellent)",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Thai universities grade on a 4.0 scale that mirrors the US one, so the figure carries over almost unchanged."
+    },
+    {
+      "slug": "turkey",
+      "name": "Turkey",
+      "adjective": "Turkish",
+      "region": "Europe",
+      "scaleName": "4.0 GPA",
+      "unit": "points",
+      "min": 0,
+      "max": 4,
+      "higherIsBetter": true,
+      "passMark": 2,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 1.49,
+          "local": "FD / FF (Kaldı)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 1.5,
+          "hi": 1.99,
+          "local": "DC / DD (Koşullu geçer)",
+          "letter": "D",
+          "gpa": 1
+        },
+        {
+          "lo": 2,
+          "hi": 2.49,
+          "local": "CC (Geçer)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 2.5,
+          "hi": 2.99,
+          "local": "CB (Orta)",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 3,
+          "hi": 3.49,
+          "local": "BB (İyi)",
+          "letter": "B+",
+          "gpa": 3.3
+        },
+        {
+          "lo": 3.5,
+          "hi": 4,
+          "local": "AA / BA (Pekiyi)",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Turkish universities grade on a 4.0 scale with letter pairs (AA, BA, BB…) rather than single letters, so the number transfers directly. The graduation threshold is a 2.00 cumulative average."
+    },
+    {
+      "slug": "ukraine",
+      "name": "Ukraine",
+      "adjective": "Ukrainian",
+      "region": "Europe",
+      "scaleName": "5-point / 100-point",
+      "unit": "points",
+      "min": 2,
+      "max": 5,
+      "higherIsBetter": true,
+      "passMark": 3,
+      "bands": [
+        {
+          "lo": 2,
+          "hi": 2.99,
+          "local": "незадовільно (fail)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 3,
+          "hi": 3.99,
+          "local": "задовільно (satisfactory / pass)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 4,
+          "hi": 4.74,
+          "local": "добре (good)",
+          "letter": "B+",
+          "gpa": 3.3
+        },
+        {
+          "lo": 4.75,
+          "hi": 5,
+          "local": "відмінно (excellent)",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Ukrainian universities issue both the traditional 5-point grade and a 100-point ECTS score. Where the transcript carries the ECTS letter, that converts more precisely than the 5-point figure."
+    },
+    {
+      "slug": "united-kingdom",
+      "name": "United Kingdom",
+      "adjective": "British",
+      "region": "Europe",
+      "scaleName": "Honours classification",
+      "unit": "percent",
+      "min": 0,
+      "max": 100,
+      "higherIsBetter": true,
+      "passMark": 40,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 39.99,
+          "local": "Fail",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 40,
+          "hi": 49.99,
+          "local": "Third-Class Honours",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 50,
+          "hi": 59.99,
+          "local": "Lower Second-Class Honours (2:2)",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 60,
+          "hi": 69.99,
+          "local": "Upper Second-Class Honours (2:1)",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 70,
+          "hi": 100,
+          "local": "First-Class Honours (1st)",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "British marking is compressed at the top: a mark above 80 is rare in the humanities and a First is awarded from 70. Applying a US curve to a British transcript is the commonest way a strong UK degree is undersold, which is why most US graduate schools read the classification rather than the percentage."
+    },
+    {
+      "slug": "vietnam",
+      "name": "Vietnam",
+      "adjective": "Vietnamese",
+      "region": "Asia",
+      "scaleName": "10-point scale",
+      "unit": "points",
+      "min": 0,
+      "max": 10,
+      "higherIsBetter": true,
+      "passMark": 5,
+      "bands": [
+        {
+          "lo": 0,
+          "hi": 4.99,
+          "local": "Yếu / Kém (Fail)",
+          "letter": "F",
+          "gpa": 0
+        },
+        {
+          "lo": 5,
+          "hi": 5.99,
+          "local": "Trung bình (Average / Pass)",
+          "letter": "C",
+          "gpa": 2
+        },
+        {
+          "lo": 6,
+          "hi": 6.99,
+          "local": "Trung bình khá (Above Average)",
+          "letter": "C+",
+          "gpa": 2.3
+        },
+        {
+          "lo": 7,
+          "hi": 7.99,
+          "local": "Khá (Good)",
+          "letter": "B",
+          "gpa": 3
+        },
+        {
+          "lo": 8,
+          "hi": 8.99,
+          "local": "Giỏi (Very Good)",
+          "letter": "A-",
+          "gpa": 3.7
+        },
+        {
+          "lo": 9,
+          "hi": 10,
+          "local": "Xuất sắc (Excellent)",
+          "letter": "A",
+          "gpa": 4
+        }
+      ],
+      "notes": "Vietnamese universities now issue a 4.0 GPA alongside the 10-point average. Where both appear on the transcript, the 4.0 figure is the one to submit."
+    }
+  ]
+}

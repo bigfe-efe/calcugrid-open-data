@@ -1,0 +1,52 @@
+slug,name,abbr,system,has_income_tax,has_local_tax,top_marginal_rate,net_pay_at_100k_usd,effective_total_rate_at_100k
+alabama,Alabama,AL,progressive,true,false,0.05,75103.5,0.24896
+alaska,Alaska,AK,none,false,false,0,78909,0.21091
+arizona,Arizona,AZ,flat,true,false,0.025,77082.5,0.22917
+arkansas,Arkansas,AR,progressive,true,false,0.039,75492.73,0.24507
+california,California,CA,progressive,true,false,0.133,72809.58,0.2719
+colorado,Colorado,CO,flat,true,false,0.044,75048.4,0.24952
+connecticut,Connecticut,CT,progressive,true,false,0.0699,73930,0.2607
+delaware,Delaware,DE,progressive,true,true,0.066,74082.7,0.25917
+district-of-columbia,District of Columbia,DC,progressive,true,false,0.1075,73648.5,0.26351
+florida,Florida,FL,none,false,false,0,79180,0.2082
+georgia,Georgia,GA,flat,true,false,0.0499,74788.8,0.25211
+hawaii,Hawaii,HI,progressive,true,false,0.11,72720.09,0.2728
+idaho,Idaho,ID,flat,true,false,0.053,74733.3,0.25267
+illinois,Illinois,IL,flat,true,false,0.0495,74374.79,0.25625
+indiana,Indiana,IN,flat,true,true,0.0295,76259.5,0.23741
+iowa,Iowa,IA,flat,true,false,0.038,75991.8,0.24008
+kansas,Kansas,KS,progressive,true,false,0.0558,74399.69,0.256
+kentucky,Kentucky,KY,flat,true,true,0.035,75797.6,0.24202
+louisiana,Louisiana,LA,flat,true,false,0.03,76566.25,0.23434
+maine,Maine,ME,progressive,true,false,0.0715,73579.79,0.2642
+maryland,Maryland,MD,progressive,true,true,0.065,74793.63,0.25206
+massachusetts,Massachusetts,MA,flat,true,false,0.09,73940,0.2606
+michigan,Michigan,MI,flat,true,true,0.0425,75180.75,0.24819
+minnesota,Minnesota,MN,progressive,true,false,0.0985,73903.4,0.26097
+mississippi,Mississippi,MS,flat,true,false,0.04,75912,0.24088
+missouri,Missouri,MO,progressive,true,true,0.047,75652.33,0.24348
+montana,Montana,MT,progressive,true,false,0.0565,74890.9,0.25109
+nebraska,Nebraska,NE,progressive,true,false,0.0455,75509.54,0.2449
+nevada,Nevada,NV,none,false,false,0,79180,0.2082
+new-hampshire,New Hampshire,NH,none,false,false,0,79180,0.2082
+new-jersey,New Jersey,NJ,progressive,true,false,0.1075,74408.59,0.25591
+new-mexico,New Mexico,NM,progressive,true,false,0.059,75610.9,0.24389
+new-york,New York,NY,progressive,true,true,0.109,73908.34,0.26092
+north-carolina,North Carolina,NC,flat,true,false,0.0399,75698.73,0.24301
+north-dakota,North Dakota,ND,progressive,true,false,0.025,78489.21,0.21511
+ohio,Ohio,OH,progressive,true,true,0.0275,77212.38,0.22788
+oklahoma,Oklahoma,OK,progressive,true,false,0.045,75225.5,0.24774
+oregon,Oregon,OR,progressive,true,false,0.099,71281.5,0.28719
+pennsylvania,Pennsylvania,PA,flat,true,true,0.0307,76040,0.2396
+rhode-island,Rhode Island,RI,progressive,true,false,0.0599,74931.88,0.25068
+south-carolina,South Carolina,SC,progressive,true,false,0.06,74802.1,0.25198
+south-dakota,South Dakota,SD,none,false,false,0,79180,0.2082
+tennessee,Tennessee,TN,none,false,false,0,79180,0.2082
+texas,Texas,TX,none,false,false,0,79180,0.2082
+utah,Utah,UT,flat,true,false,0.045,74680,0.2532
+vermont,Vermont,VT,progressive,true,false,0.0875,74930.2,0.2507
+virginia,Virginia,VA,progressive,true,false,0.0575,74244.1,0.25756
+washington,Washington,WA,none,false,false,0,77792.8,0.22207
+west-virginia,West Virginia,WV,progressive,true,false,0.0482,75294.9,0.24705
+wisconsin,Wisconsin,WI,progressive,true,false,0.0765,74713.79,0.25286
+wyoming,Wyoming,WY,none,false,false,0,79180,0.2082
