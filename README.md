@@ -1,6 +1,6 @@
 # CalcuGrid Open Data
 
-Six datasets that were surprisingly hard to find in machine-readable form, so they got assembled, unit-checked and audited. Published under **CC BY 4.0** — use them for anything, just say where they came from.
+Seven datasets that were surprisingly hard to find in machine-readable form, so they got assembled, unit-checked and audited. Published under **CC BY 4.0** — use them for anything, just say where they came from.
 
 Every file is plain CSV and JSON. No API, no key, no signup. Clone it or link the raw file.
 
@@ -23,6 +23,7 @@ git clone https://github.com/bigfe-efe/calcugrid-open-data.git
 | GPU power specifications | 34 cards | `gpu-power-specs.csv` |
 | EV efficiency | 50 vehicles | `ev-efficiency.csv` |
 | US residential electricity rates | 51 states | `us-electricity-rates.csv` |
+| 1099 vs W-2 tax, by state | 51 states | `us-1099-vs-w2-by-state.csv` · `.json` |
 
 `manifest.json` lists every file with row counts and the generation date.
 
@@ -61,6 +62,30 @@ A German 1.3 or a Filipino 1.25 is excellent work. Reading either as a US GPA tu
 
 **Band intervals are contiguous, not the printed bounds.** `grade_from`/`grade_to` are written the way a human reads them (60 to 69.99, then 70 to 100). When matching a grade, treat each band as running up to where the next one starts — otherwise a grade of 69.995 falls in no band at all.
 
+### 1099 vs W-2 by state — computed, not observed
+
+**This one is derived data.** Every other file here records something published;
+this one applies the published TY2026 rules to a worked example. The distinction
+matters: change an assumption and the numbers change.
+
+The assumptions, all stated in the JSON: $100,000 of net business profit, sole
+proprietor filing Schedule C, single, no employees, no qualified property, no
+other income, no retirement contribution.
+
+**`tax_difference_usd` is negative in California**, and that is not an error.
+State disability and paid-family-leave payroll taxes are charged to employees and
+not to sole proprietors. California's SDI is 1.3% with no wage ceiling, which is
+enough to reverse the federal difference — a contractor there pays about $412
+less tax than an employee on the same $100,000.
+
+**`break_even_contract_usd` prices tax only.** It is the contract value leaving
+the same money after tax as a $100,000 salary. It buys no health insurance, no
+paid leave, no employer retirement match, and covers no unpaid weeks between
+contracts. Treat it as a floor, not a target.
+
+The Section 199A figure behind it assumes no W-2 wages paid, so above the
+threshold the deduction ramps to zero. A business that pays wages keeps more.
+
 ### US state income tax — state level only
 
 Brackets, standard deductions and state payroll taxes for **tax year 2026**. Federal brackets, FICA and city/county taxes are **not** included — those are applied separately.
@@ -95,6 +120,7 @@ Rates change. Check the `generatedAt` field before relying on this for anything 
 | GPU specs | Manufacturer specification pages (NVIDIA, AMD) |
 | EV efficiency | US EPA fuel economy data |
 | Electricity rates | US EIA residential average |
+| 1099 vs W-2 comparison | Computed from the above, plus IRC 1401-1402, Rev. Proc. 2025-32 and the One Big Beautiful Bill Act |
 
 Per-row source strings are in the CSVs where they differ by row (`gpu-power-specs.csv`) and in the JSON `source` field per state (`us-state-income-tax-2026.json`).
 

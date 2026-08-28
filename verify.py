@@ -191,6 +191,47 @@ def check_ev() -> int:
     return len(data)
 
 
+def check_self_employed() -> int:
+    data = rows("us-1099-vs-w2-by-state.csv")
+    negatives = []
+    for r in data:
+        tag = f"[1099/{r['slug']}]"
+        net_1099 = num(r["net_1099_at_100k_usd"])
+        net_w2 = num(r["net_w2_at_100k_usd"])
+        diff = num(r["tax_difference_usd"])
+        be = num(r["break_even_contract_usd"])
+        premium = num(r["break_even_premium"])
+
+        if net_1099 is None or not 55_000 <= net_1099 <= 85_000:
+            fail(f"{tag} implausible 1099 take-home {net_1099}")
+        if net_w2 is None or not 55_000 <= net_w2 <= 85_000:
+            fail(f"{tag} implausible W-2 take-home {net_w2}")
+
+        # The difference column must agree with the two take-home columns:
+        # more tax means less kept, and the two gaps are the same number.
+        if abs((net_w2 - net_1099) - diff) > 0.02:
+            fail(f"{tag} tax_difference does not match the take-home columns")
+
+        # The break-even premium must agree with the break-even value.
+        if abs((be / 100_000 - 1) - premium) > 1e-4:
+            fail(f"{tag} break_even_premium does not match break_even_contract")
+
+        # A negative difference must come with a break-even BELOW the salary,
+        # and vice versa — they are two views of the same fact.
+        if (diff < 0) != (be < 100_000):
+            fail(f"{tag} the sign of the difference contradicts the break-even")
+
+        if diff < 0:
+            negatives.append(r["state"])
+
+    # California is the documented case where contracting costs less. If that
+    # set ever changes, the README's explanation needs revisiting.
+    if negatives != ["California"]:
+        fail(f"states where contracting costs less tax changed: {negatives}")
+
+    return len(data)
+
+
 def main() -> int:
     manifest = json.loads((HERE / "manifest.json").read_text(encoding="utf-8"))
     for name in manifest["files"]:
@@ -203,6 +244,7 @@ def main() -> int:
         "states": check_tax(),
         "GPUs": check_gpu(),
         "EVs": check_ev(),
+        "states of 1099 comparison": check_self_employed(),
     }
 
     print(f"  checked: " + ", ".join(f"{v} {k}" for k, v in counts.items()))

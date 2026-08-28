@@ -28,6 +28,7 @@ redistribute the datasets, please credit them.
 | GPU specs | Manufacturer specification pages (NVIDIA, AMD) |
 | EV efficiency | US EPA, fueleconomy.gov |
 | Electricity rates | US EIA Electric Power Monthly, residential average |
+| 1099 vs W-2 comparison | Derived — computed from the sources above plus IRC 1401-1402 and Rev. Proc. 2025-32 |
 
 Where a source publishes its own terms, those terms govern the underlying facts
 independently of this compilation.

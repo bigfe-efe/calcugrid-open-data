@@ -10,6 +10,8 @@
     "grading-scale-bands.csv",
     "grading-scales.csv",
     "grading-scales.json",
+    "us-1099-vs-w2-by-state.csv",
+    "us-1099-vs-w2-by-state.json",
     "us-electricity-rates.csv",
     "us-state-income-tax-2026.csv",
     "us-state-income-tax-2026.json",
@@ -36,6 +38,7 @@
         "electricity": "EIA Electric Power Monthly Table 5.6.A, residential, June 2026",
         "gasoline": "EIA weekly retail gasoline price, 24 August 2026"
       }
-    }
+    },
+    "selfEmployed": 51
   }
 }
