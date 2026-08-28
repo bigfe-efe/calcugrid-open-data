@@ -1,6 +1,6 @@
 # CalcuGrid Open Data
 
-Seven datasets that were surprisingly hard to find in machine-readable form, so they got assembled, unit-checked and audited. Published under **CC BY 4.0** — use them for anything, just say where they came from.
+Eight datasets that were surprisingly hard to find in machine-readable form, so they got assembled, unit-checked and audited. Published under **CC BY 4.0** — use them for anything, just say where they came from.
 
 Every file is plain CSV and JSON. No API, no key, no signup. Clone it or link the raw file.
 
@@ -24,6 +24,11 @@ git clone https://github.com/bigfe-efe/calcugrid-open-data.git
 | EV efficiency | 50 vehicles | `ev-efficiency.csv` |
 | US residential electricity rates | 51 states | `us-electricity-rates.csv` |
 | 1099 vs W-2 tax, by state | 51 states | `us-1099-vs-w2-by-state.csv` · `.json` |
+| LLM model architectures | 15 models | `llm-model-architectures.csv` |
+| — memory by quantisation | 90 rows | `llm-vram-by-quantisation.csv` |
+| — accelerators | 30 devices | `llm-accelerators.csv` |
+| — model × accelerator fit | 450 rows | `llm-model-accelerator-fit.csv` |
+| — everything, with caveats | — | `llm-vram.json` |
 
 `manifest.json` lists every file with row counts and the generation date.
 
@@ -61,6 +66,47 @@ This is the most important caveat in the repository.
 A German 1.3 or a Filipino 1.25 is excellent work. Reading either as a US GPA turns a top student into a failing one. Check the flag.
 
 **Band intervals are contiguous, not the printed bounds.** `grade_from`/`grade_to` are written the way a human reads them (60 to 69.99, then 70 to 100). When matching a grade, treat each band as running up to where the next one starts — otherwise a grade of 69.995 falls in no band at all.
+
+### LLM architectures and VRAM — the head_dim trap
+
+**`parameters` is computed, not copied.** Derived from the architecture rather
+than taken from the model's name, so a transcription error in any config field
+shows up immediately as a model that is the wrong size. Compare `parameters_b`
+against `stated_size_b` — all fifteen agree within 0.3%, which is the check
+that the architecture fields are right.
+
+**`head_dim` is read from the config, never derived.** It is tempting to
+compute it as `hidden_size / attention_heads`. That is wrong for Gemma 2, which
+sets 256 where the division gives 224 — deriving it understates the KV cache by
+14% on those models.
+
+**Size the cache by `key_value_heads`, not `attention_heads`.** Grouped-query
+attention shares one key-value pair across several query heads. The `gqa_ratio`
+column is how much that saves: up to 8× in this dataset. Using the query head
+count is the commonest error in VRAM estimates and produces the wildly
+pessimistic numbers people quote.
+
+```
+kv_cache_bytes = 2 × layers × key_value_heads × head_dim × context × bytes
+weights_bytes  = parameters × bits_per_weight / 8
+```
+
+**Sliding-window attention is not modelled.** Gemma 2 alternates local and
+global attention layers, so its real cache at long context is smaller than
+shown. Those figures are an upper bound. Modelling it means knowing exactly
+which layers use the window, and getting that fraction wrong would be worse
+than not claiming it.
+
+**GGUF K-quants are not their nominal bit width.** Q4_K_M averages about 4.5
+bits per weight once block scales and higher-precision attention tensors are
+counted, so files run roughly 12% larger than "4-bit" implies. The
+`bits_per_weight` column carries the effective figure.
+
+**`assumed_usable_gb` is an assumption, not a measurement.** Discrete cards are
+assumed to keep 8% back for driver and display; Apple Silicon follows the
+documented macOS cap on what one process may take. Your mileage will differ
+with the runtime, batch size and what else is on the device — which is why the
+fit table reports `tight` above 95% of usable memory rather than `yes`.
 
 ### 1099 vs W-2 by state — computed, not observed
 
@@ -121,6 +167,8 @@ Rates change. Check the `generatedAt` field before relying on this for anything 
 | EV efficiency | US EPA fuel economy data |
 | Electricity rates | US EIA residential average |
 | 1099 vs W-2 comparison | Computed from the above, plus IRC 1401-1402, Rev. Proc. 2025-32 and the One Big Beautiful Bill Act |
+| LLM architectures | Each model's own `config.json` on Hugging Face. Meta gates its repositories, so those were read from public mirrors hosting the file unmodified — the computed parameter counts landing on the published sizes is the check that the mirrors are faithful |
+| Accelerator memory | Manufacturer specifications |
 
 Per-row source strings are in the CSVs where they differ by row (`gpu-power-specs.csv`) and in the JSON `source` field per state (`us-state-income-tax-2026.json`).
 

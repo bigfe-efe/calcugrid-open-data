@@ -1,0 +1,31 @@
+slug,name,vendor,kind,memory_gb,assumed_usable_fraction,assumed_usable_gb,release_year
+m2-ultra-192gb,"Mac Studio (M2 Ultra, 192 GB)",Apple,unified,192,0.75,144,2023
+m4-max-128gb,"Mac (M4 Max, 128 GB)",Apple,unified,128,0.75,96,2024
+m3-max-128gb,"Mac (M3 Max, 128 GB)",Apple,unified,128,0.75,96,2023
+4x-rtx-3090,4× RTX 3090 (96 GB),NVIDIA,multi,96,0.92,88.3,2020
+a100-80gb,NVIDIA A100 80GB,NVIDIA,datacenter,80,0.95,76,2021
+h100-80gb,NVIDIA H100 80GB,NVIDIA,datacenter,80,0.95,76,2022
+m4-max-64gb,"Mac (M4 Max, 64 GB)",Apple,unified,64,0.75,48,2024
+2x-rtx-3090,2× RTX 3090 (48 GB),NVIDIA,multi,48,0.92,44.2,2020
+2x-rtx-4090,2× RTX 4090 (48 GB),NVIDIA,multi,48,0.92,44.2,2022
+m4-pro-48gb,"Mac (M4 Pro, 48 GB)",Apple,unified,48,0.75,36,2024
+l40s-48gb,NVIDIA L40S 48GB,NVIDIA,datacenter,48,0.95,45.6,2023
+a100-40gb,NVIDIA A100 40GB,NVIDIA,datacenter,40,0.95,38,2020
+rtx-5090,GeForce RTX 5090,NVIDIA,discrete,32,0.92,29.4,2025
+m1-max-32gb,"Mac (M1 Max, 32 GB)",Apple,unified,32,0.67,21.4,2021
+rtx-4090,GeForce RTX 4090,NVIDIA,discrete,24,0.92,22.1,2022
+rtx-3090,GeForce RTX 3090,NVIDIA,discrete,24,0.92,22.1,2020
+rx-7900-xtx,Radeon RX 7900 XTX,AMD,discrete,24,0.92,22.1,2022
+m4-24gb,"Mac (M4, 24 GB)",Apple,unified,24,0.67,16.1,2024
+rx-7900-xt,Radeon RX 7900 XT,AMD,discrete,20,0.92,18.4,2022
+rtx-5080,GeForce RTX 5080,NVIDIA,discrete,16,0.92,14.7,2025
+rtx-4080-super,GeForce RTX 4080 SUPER,NVIDIA,discrete,16,0.92,14.7,2024
+rtx-5070-ti,GeForce RTX 5070 Ti,NVIDIA,discrete,16,0.92,14.7,2025
+rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,NVIDIA,discrete,16,0.92,14.7,2024
+rtx-4060-ti-16gb,GeForce RTX 4060 Ti 16GB,NVIDIA,discrete,16,0.92,14.7,2023
+rx-9070-xt,Radeon RX 9070 XT,AMD,discrete,16,0.92,14.7,2025
+m2-16gb,"Mac (M2, 16 GB)",Apple,unified,16,0.67,10.7,2022
+rtx-5070,GeForce RTX 5070,NVIDIA,discrete,12,0.92,11,2025
+rtx-4070,GeForce RTX 4070,NVIDIA,discrete,12,0.92,11,2023
+rtx-3060-12gb,GeForce RTX 3060 12GB,NVIDIA,discrete,12,0.92,11,2021
+rtx-3080,GeForce RTX 3080,NVIDIA,discrete,10,0.92,9.2,2020

@@ -10,6 +10,11 @@
     "grading-scale-bands.csv",
     "grading-scales.csv",
     "grading-scales.json",
+    "llm-accelerators.csv",
+    "llm-model-accelerator-fit.csv",
+    "llm-model-architectures.csv",
+    "llm-vram-by-quantisation.csv",
+    "llm-vram.json",
     "us-1099-vs-w2-by-state.csv",
     "us-1099-vs-w2-by-state.json",
     "us-electricity-rates.csv",
@@ -39,6 +44,11 @@
         "gasoline": "EIA weekly retail gasoline price, 24 August 2026"
       }
     },
-    "selfEmployed": 51
+    "selfEmployed": 51,
+    "localLlm": {
+      "models": 15,
+      "accelerators": 30,
+      "fits": 450
+    }
   }
 }

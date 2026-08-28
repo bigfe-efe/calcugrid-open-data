@@ -232,6 +232,110 @@ def check_self_employed() -> int:
     return len(data)
 
 
+REFERENCE_CONTEXT = 8192
+
+
+def check_llm() -> int:
+    meta = json.loads((HERE / "llm-vram.json").read_text(encoding="utf-8"))
+    if meta["referenceContext"] != REFERENCE_CONTEXT:
+        fail(f"reference context moved to {meta['referenceContext']}; update this check")
+
+    arch = {r["slug"]: r for r in rows("llm-model-architectures.csv")}
+
+    for slug, r in arch.items():
+        tag = f"[llm/{slug}]"
+        params = num(r["parameters"])
+        stated = num(r["stated_size_b"])
+        layers, heads, kv, dim = (
+            num(r["layers"]), num(r["attention_heads"]),
+            num(r["key_value_heads"]), num(r["head_dim"]),
+        )
+
+        # The parameter count must land on the published size. This is what
+        # catches a mistyped config field: get vocab, hidden, intermediate or
+        # layers wrong and the model comes out the wrong size at once.
+        if params is None or stated is None:
+            fail(f"{tag} missing parameter count")
+            continue
+        drift = abs(params / 1e9 - stated) / stated
+        if drift > 0.06:
+            fail(f"{tag} computed {params / 1e9:.2f}B against a stated {stated}B "
+                 f"— {drift * 100:.1f}% off")
+
+        # Grouped-query attention must be declared, not assumed.
+        if kv > heads:
+            fail(f"{tag} more key-value heads than query heads")
+        if heads % kv != 0:
+            fail(f"{tag} query heads are not a multiple of key-value heads")
+        if abs(num(r["gqa_ratio"]) - heads / kv) > 0.01:
+            fail(f"{tag} gqa_ratio does not match the head counts")
+
+        # The per-token cache must follow the published formula exactly.
+        expected = 2 * layers * kv * dim * 2
+        if abs(num(r["kv_bytes_per_token"]) - expected) > 1:
+            fail(f"{tag} kv_bytes_per_token does not match 2*L*kv*d*2")
+
+        if not 16 <= layers <= 200:
+            fail(f"{tag} implausible layer count {layers}")
+        if not 32 <= dim <= 512:
+            fail(f"{tag} implausible head dimension {dim}")
+
+    accels = {r["slug"]: r for r in rows("llm-accelerators.csv")}
+    for slug, r in accels.items():
+        tag = f"[accel/{slug}]"
+        mem, usable = num(r["memory_gb"]), num(r["assumed_usable_gb"])
+        frac = num(r["assumed_usable_fraction"])
+        if usable >= mem:
+            fail(f"{tag} usable memory is not less than total")
+        if abs(mem * frac - usable) > 0.11:
+            fail(f"{tag} usable_gb does not match memory x fraction")
+
+    # Memory must fall as quantisation coarsens, for every model.
+    by_model = {}
+    for r in rows("llm-vram-by-quantisation.csv"):
+        by_model.setdefault(r["model_slug"], []).append(r)
+    for slug, group in by_model.items():
+        group.sort(key=lambda r: -num(r["bits_per_weight"]))
+        previous = None
+        for r in group:
+            total = num(r["total_gb"])
+            if previous is not None and total >= previous:
+                fail(f"[llm/{slug}] {r['quantisation']} is not smaller than the format above it")
+                break
+            previous = total
+
+    fits = rows("llm-model-accelerator-fit.csv")
+    for r in fits:
+        tag = f"[fit/{r['model_slug']}/{r['accelerator_slug']}]"
+        if r["verdict"] not in ("yes", "tight", "no"):
+            fail(f"{tag} unknown verdict {r['verdict']!r}")
+        headroom = num(r["headroom_gb"])
+        # The verdict and the headroom are two views of one fact; a negative
+        # headroom with a positive verdict would mean the table contradicts
+        # itself.
+        if (headroom < 0) != (r["verdict"] == "no"):
+            fail(f"{tag} verdict and headroom disagree")
+        # The verdict is measured at the reference context; max_context is the
+        # longest context that fits. So a "no" with a non-zero max_context is
+        # not a contradiction — it says the model runs on a shorter context
+        # than the reference. An earlier version of this check read that as an
+        # error and flagged six perfectly good rows.
+        #
+        # The real invariant is the relationship between the two: a model that
+        # does not fit at the reference context must have a maximum below it,
+        # and one that does fit must reach it.
+        max_ctx = num(r["max_context"])
+        if r["verdict"] == "no" and max_ctx >= REFERENCE_CONTEXT:
+            fail(f"{tag} reports no fit yet reaches the reference context")
+        if r["verdict"] != "no" and max_ctx < REFERENCE_CONTEXT:
+            fail(f"{tag} reports a fit but cannot reach the reference context")
+
+    if len(fits) != len(arch) * len(accels):
+        fail(f"fit table has {len(fits)} rows, expected {len(arch)} x {len(accels)}")
+
+    return len(arch)
+
+
 def main() -> int:
     manifest = json.loads((HERE / "manifest.json").read_text(encoding="utf-8"))
     for name in manifest["files"]:
@@ -245,6 +349,7 @@ def main() -> int:
         "GPUs": check_gpu(),
         "EVs": check_ev(),
         "states of 1099 comparison": check_self_employed(),
+        "LLM architectures": check_llm(),
     }
 
     print(f"  checked: " + ", ".join(f"{v} {k}" for k, v in counts.items()))
