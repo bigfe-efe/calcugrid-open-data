@@ -336,6 +336,95 @@ def check_llm() -> int:
     return len(arch)
 
 
+def check_psu() -> int:
+    """
+    The claim this dataset makes is that sizing a supply on TDP is wrong, so
+    the invariants are mostly about the two columns that carry it: the peak
+    must never fall below the TDP, and the arithmetic downstream of it must
+    reproduce from the published columns alone.
+    """
+    meta = json.loads((HERE / "pc-psu-sizing.json").read_text(encoding="utf-8"))
+    sizes = meta["formula"]["psuSizes"]
+    target = meta["formula"]["targetLoadFraction"]
+    platform = meta["formula"]["platformWatts"]
+
+    cpus = {r["slug"]: r for r in rows("pc-cpu-power-specs.csv")}
+    gpus = {r["slug"]: r for r in rows("pc-gpu-power-specs.csv")}
+
+    for slug, r in cpus.items():
+        tag = f"[psu/cpu/{slug}]"
+        tdp, peak = num(r["tdp_watts"]), num(r["peak_watts"])
+        if tdp is None or peak is None:
+            fail(f"{tag} missing power figures")
+            continue
+        # A part that boosts below its thermal rating would make the whole
+        # premise of the dataset backwards.
+        if peak < tdp:
+            fail(f"{tag} peak {peak} W below TDP {tdp} W")
+        if abs((peak - tdp) - num(r["peak_over_tdp_watts"])) > 0.5:
+            fail(f"{tag} peak_over_tdp_watts does not equal peak minus TDP")
+        if abs(peak / tdp - num(r["peak_to_tdp_ratio"])) > 0.005:
+            fail(f"{tag} peak_to_tdp_ratio does not match the two columns")
+        # AMD publishes Package Power Tracking as exactly 1.35x TDP. Intel's
+        # Maximum Turbo Power is its own number and gets no such rule.
+        if r["vendor"] == "AMD" and abs(peak / tdp - 1.35) > 0.02:
+            fail(f"{tag} AMD part at {peak / tdp:.3f}x TDP, not the 1.35x PPT rule")
+
+    for slug, r in gpus.items():
+        if num(r["total_graphics_power_watts"]) <= 0:
+            fail(f"[psu/gpu/{slug}] non-positive TGP")
+
+    seen = set()
+    for r in rows("pc-psu-sizing-by-build.csv"):
+        tag = f"[psu/{r['cpu_slug']}+{r['gpu_slug']}]"
+        seen.add((r["cpu_slug"], r["gpu_slug"]))
+        cpu, gpu = cpus.get(r["cpu_slug"]), gpus.get(r["gpu_slug"])
+        if cpu is None or gpu is None:
+            fail(f"{tag} references a part not in the spec tables")
+            continue
+
+        # Reproducible from the published columns, which is the whole point of
+        # publishing them.
+        expect = num(cpu["peak_watts"]) + num(gpu["total_graphics_power_watts"]) + platform
+        if abs(num(r["continuous_watts"]) - expect) > 0.5:
+            fail(f"{tag} continuous {r['continuous_watts']} W against {expect} W from the parts")
+
+        computed, rec = num(r["computed_psu_watts"]), num(r["recommended_psu_watts"])
+        vendor = num(r["vendor_recommended_psu_watts"])
+        if computed not in sizes:
+            fail(f"{tag} computed {computed} W is not a size anyone sells")
+        if rec not in sizes:
+            fail(f"{tag} recommended {rec} W is not a size anyone sells")
+        # The recommendation is the larger of our arithmetic and the card
+        # maker's floor; anything else means one of them was dropped.
+        if rec != max(computed, vendor):
+            fail(f"{tag} recommended {rec} W is not max(computed {computed}, vendor {vendor})")
+        if num(r["continuous_watts"]) / computed > target + 0.001:
+            fail(f"{tag} loads the computed supply past the {target} target")
+
+        # TDP sizing understates or ties. If it ever came out larger, the
+        # dataset would be arguing against itself.
+        missed = num(r["sizes_missed_by_tdp"])
+        if missed < 0:
+            fail(f"{tag} sizing on TDP came out larger than on real ceilings")
+
+        # Both wattages have to be on the size list before their positions on
+        # it mean anything. Indexing first and checking afterwards throws
+        # ValueError on exactly the bad data this is meant to report, which
+        # ends the run on a traceback and skips every remaining row.
+        from_tdp = num(r["recommended_from_tdp_watts"])
+        if from_tdp not in sizes:
+            fail(f"{tag} TDP-based {from_tdp} W is not a size anyone sells")
+        elif computed in sizes:
+            if missed != sizes.index(int(computed)) - sizes.index(int(from_tdp)):
+                fail(f"{tag} sizes_missed_by_tdp does not match the two size columns")
+
+    if len(seen) != len(cpus) * len(gpus):
+        fail(f"[psu] {len(seen)} pairings for {len(cpus)} CPUs x {len(gpus)} GPUs")
+
+    return len(cpus)
+
+
 def main() -> int:
     manifest = json.loads((HERE / "manifest.json").read_text(encoding="utf-8"))
     for name in manifest["files"]:
@@ -350,6 +439,7 @@ def main() -> int:
         "EVs": check_ev(),
         "states of 1099 comparison": check_self_employed(),
         "LLM architectures": check_llm(),
+        "CPUs of PSU sizing": check_psu(),
     }
 
     print(f"  checked: " + ", ".join(f"{v} {k}" for k, v in counts.items()))

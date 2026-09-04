@@ -1,0 +1,885 @@
+cpu_slug,cpu,gpu_slug,gpu,continuous_watts,computed_psu_watts,vendor_recommended_psu_watts,recommended_psu_watts,binding_constraint,recommended_from_tdp_watts,sizes_missed_by_tdp,load_fraction_at_recommended,headroom_watts
+core-i5-12400f,Core i5-12400F,rtx-5090,GeForce RTX 5090,736,1000,1000,1000,agree,1000,0,0.736,264
+core-i5-12400f,Core i5-12400F,rtx-4090,GeForce RTX 4090,611,800,850,850,vendor,700,2,0.719,239
+core-i5-12400f,Core i5-12400F,rtx-3090-ti,GeForce RTX 3090 Ti,611,800,850,850,vendor,700,2,0.719,239
+core-i5-12400f,Core i5-12400F,rtx-5080,GeForce RTX 5080,521,700,850,850,vendor,600,2,0.613,329
+core-i5-12400f,Core i5-12400F,rx-7900-xtx,Radeon RX 7900 XTX,516,650,800,800,vendor,600,1,0.645,284
+core-i5-12400f,Core i5-12400F,rtx-3090,GeForce RTX 3090,511,650,750,750,vendor,600,1,0.681,239
+core-i5-12400f,Core i5-12400F,rtx-3080-ti,GeForce RTX 3080 Ti,511,650,750,750,vendor,600,1,0.681,239
+core-i5-12400f,Core i5-12400F,rtx-3080,GeForce RTX 3080,511,650,750,750,vendor,600,1,0.681,239
+core-i5-12400f,Core i5-12400F,rtx-4080-super,GeForce RTX 4080 SUPER,481,650,750,750,vendor,550,2,0.641,269
+core-i5-12400f,Core i5-12400F,rtx-4080,GeForce RTX 4080,481,650,750,750,vendor,550,2,0.641,269
+core-i5-12400f,Core i5-12400F,rx-7900-xt,Radeon RX 7900 XT,476,600,750,750,vendor,550,1,0.635,274
+core-i5-12400f,Core i5-12400F,rx-9070-xt,Radeon RX 9070 XT,465,600,750,750,vendor,550,1,0.62,285
+core-i5-12400f,Core i5-12400F,rtx-5070-ti,GeForce RTX 5070 Ti,461,600,750,750,vendor,550,1,0.615,289
+core-i5-12400f,Core i5-12400F,rtx-3070-ti,GeForce RTX 3070 Ti,451,600,650,650,vendor,500,2,0.694,199
+core-i5-12400f,Core i5-12400F,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,446,600,700,700,vendor,500,2,0.637,254
+core-i5-12400f,Core i5-12400F,rtx-4070-ti,GeForce RTX 4070 Ti,446,600,700,700,vendor,500,2,0.637,254
+core-i5-12400f,Core i5-12400F,rx-7800-xt,Radeon RX 7800 XT,424,550,700,700,vendor,500,1,0.606,276
+core-i5-12400f,Core i5-12400F,rx-7900-gre,Radeon RX 7900 GRE,421,550,700,700,vendor,500,1,0.601,279
+core-i5-12400f,Core i5-12400F,rtx-5070,GeForce RTX 5070,411,550,650,650,vendor,450,2,0.632,239
+core-i5-12400f,Core i5-12400F,rx-7700-xt,Radeon RX 7700 XT,406,550,700,700,vendor,450,2,0.58,294
+core-i5-12400f,Core i5-12400F,rtx-4070-super,GeForce RTX 4070 SUPER,381,500,650,650,vendor,450,1,0.586,269
+core-i5-12400f,Core i5-12400F,rtx-3070,GeForce RTX 3070,381,500,650,650,vendor,450,1,0.586,269
+core-i5-12400f,Core i5-12400F,rx-9070,Radeon RX 9070,381,500,650,650,vendor,450,1,0.586,269
+core-i5-12400f,Core i5-12400F,rtx-4070,GeForce RTX 4070,361,500,650,650,vendor,450,1,0.555,289
+core-i5-12400f,Core i5-12400F,rtx-3060-ti,GeForce RTX 3060 Ti,361,500,600,600,vendor,450,1,0.602,239
+core-i5-12400f,Core i5-12400F,rtx-5060-ti,GeForce RTX 5060 Ti,341,450,600,600,vendor,450,0,0.568,259
+core-i5-12400f,Core i5-12400F,rtx-3060,GeForce RTX 3060,331,450,550,550,vendor,450,0,0.602,219
+core-i5-12400f,Core i5-12400F,rtx-4060-ti,GeForce RTX 4060 Ti,326,450,550,550,vendor,450,0,0.593,224
+core-i5-12400f,Core i5-12400F,rx-7600,Radeon RX 7600,326,450,550,550,vendor,450,0,0.593,224
+core-i5-12400f,Core i5-12400F,rx-9060-xt,Radeon RX 9060 XT,321,450,550,550,vendor,450,0,0.584,229
+core-i5-12400f,Core i5-12400F,rtx-5060,GeForce RTX 5060,306,450,550,550,vendor,450,0,0.556,244
+core-i5-12400f,Core i5-12400F,rtx-5050,GeForce RTX 5050,291,450,550,550,vendor,450,0,0.529,259
+core-i5-12400f,Core i5-12400F,rtx-3050,GeForce RTX 3050,291,450,550,550,vendor,450,0,0.529,259
+core-i5-12400f,Core i5-12400F,rtx-4060,GeForce RTX 4060,276,450,550,550,vendor,450,0,0.502,274
+core-i5-13600k,Core i5-13600K,rtx-5090,GeForce RTX 5090,800,1000,1000,1000,agree,1000,0,0.8,200
+core-i5-13600k,Core i5-13600K,rtx-4090,GeForce RTX 4090,675,850,850,850,agree,800,1,0.794,175
+core-i5-13600k,Core i5-13600K,rtx-3090-ti,GeForce RTX 3090 Ti,675,850,850,850,agree,800,1,0.794,175
+core-i5-13600k,Core i5-13600K,rtx-5080,GeForce RTX 5080,585,750,850,850,vendor,700,1,0.688,265
+core-i5-13600k,Core i5-13600K,rx-7900-xtx,Radeon RX 7900 XTX,580,750,800,800,vendor,700,1,0.725,220
+core-i5-13600k,Core i5-13600K,rtx-3090,GeForce RTX 3090,575,750,750,750,agree,650,2,0.767,175
+core-i5-13600k,Core i5-13600K,rtx-3080-ti,GeForce RTX 3080 Ti,575,750,750,750,agree,650,2,0.767,175
+core-i5-13600k,Core i5-13600K,rtx-3080,GeForce RTX 3080,575,750,750,750,agree,650,2,0.767,175
+core-i5-13600k,Core i5-13600K,rtx-4080-super,GeForce RTX 4080 SUPER,545,700,750,750,vendor,650,1,0.727,205
+core-i5-13600k,Core i5-13600K,rtx-4080,GeForce RTX 4080,545,700,750,750,vendor,650,1,0.727,205
+core-i5-13600k,Core i5-13600K,rx-7900-xt,Radeon RX 7900 XT,540,700,750,750,vendor,650,1,0.72,210
+core-i5-13600k,Core i5-13600K,rx-9070-xt,Radeon RX 9070 XT,529,700,750,750,vendor,600,2,0.705,221
+core-i5-13600k,Core i5-13600K,rtx-5070-ti,GeForce RTX 5070 Ti,525,700,750,750,vendor,600,2,0.7,225
+core-i5-13600k,Core i5-13600K,rtx-3070-ti,GeForce RTX 3070 Ti,515,650,650,650,agree,600,1,0.792,135
+core-i5-13600k,Core i5-13600K,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,510,650,700,700,vendor,600,1,0.729,190
+core-i5-13600k,Core i5-13600K,rtx-4070-ti,GeForce RTX 4070 Ti,510,650,700,700,vendor,600,1,0.729,190
+core-i5-13600k,Core i5-13600K,rx-7800-xt,Radeon RX 7800 XT,488,650,700,700,vendor,550,2,0.697,212
+core-i5-13600k,Core i5-13600K,rx-7900-gre,Radeon RX 7900 GRE,485,650,700,700,vendor,550,2,0.693,215
+core-i5-13600k,Core i5-13600K,rtx-5070,GeForce RTX 5070,475,600,650,650,vendor,550,1,0.731,175
+core-i5-13600k,Core i5-13600K,rx-7700-xt,Radeon RX 7700 XT,470,600,700,700,vendor,550,1,0.671,230
+core-i5-13600k,Core i5-13600K,rtx-4070-super,GeForce RTX 4070 SUPER,445,600,650,650,vendor,500,2,0.685,205
+core-i5-13600k,Core i5-13600K,rtx-3070,GeForce RTX 3070,445,600,650,650,vendor,500,2,0.685,205
+core-i5-13600k,Core i5-13600K,rx-9070,Radeon RX 9070,445,600,650,650,vendor,500,2,0.685,205
+core-i5-13600k,Core i5-13600K,rtx-4070,GeForce RTX 4070,425,550,650,650,vendor,500,1,0.654,225
+core-i5-13600k,Core i5-13600K,rtx-3060-ti,GeForce RTX 3060 Ti,425,550,600,600,vendor,500,1,0.708,175
+core-i5-13600k,Core i5-13600K,rtx-5060-ti,GeForce RTX 5060 Ti,405,550,600,600,vendor,450,2,0.675,195
+core-i5-13600k,Core i5-13600K,rtx-3060,GeForce RTX 3060,395,500,550,550,vendor,450,1,0.718,155
+core-i5-13600k,Core i5-13600K,rtx-4060-ti,GeForce RTX 4060 Ti,390,500,550,550,vendor,450,1,0.709,160
+core-i5-13600k,Core i5-13600K,rx-7600,Radeon RX 7600,390,500,550,550,vendor,450,1,0.709,160
+core-i5-13600k,Core i5-13600K,rx-9060-xt,Radeon RX 9060 XT,385,500,550,550,vendor,450,1,0.7,165
+core-i5-13600k,Core i5-13600K,rtx-5060,GeForce RTX 5060,370,500,550,550,vendor,450,1,0.673,180
+core-i5-13600k,Core i5-13600K,rtx-5050,GeForce RTX 5050,355,450,550,550,vendor,450,0,0.646,195
+core-i5-13600k,Core i5-13600K,rtx-3050,GeForce RTX 3050,355,450,550,550,vendor,450,0,0.646,195
+core-i5-13600k,Core i5-13600K,rtx-4060,GeForce RTX 4060,340,450,550,550,vendor,450,0,0.618,210
+core-i5-14600k,Core i5-14600K,rtx-5090,GeForce RTX 5090,800,1000,1000,1000,agree,1000,0,0.8,200
+core-i5-14600k,Core i5-14600K,rtx-4090,GeForce RTX 4090,675,850,850,850,agree,800,1,0.794,175
+core-i5-14600k,Core i5-14600K,rtx-3090-ti,GeForce RTX 3090 Ti,675,850,850,850,agree,800,1,0.794,175
+core-i5-14600k,Core i5-14600K,rtx-5080,GeForce RTX 5080,585,750,850,850,vendor,700,1,0.688,265
+core-i5-14600k,Core i5-14600K,rx-7900-xtx,Radeon RX 7900 XTX,580,750,800,800,vendor,700,1,0.725,220
+core-i5-14600k,Core i5-14600K,rtx-3090,GeForce RTX 3090,575,750,750,750,agree,650,2,0.767,175
+core-i5-14600k,Core i5-14600K,rtx-3080-ti,GeForce RTX 3080 Ti,575,750,750,750,agree,650,2,0.767,175
+core-i5-14600k,Core i5-14600K,rtx-3080,GeForce RTX 3080,575,750,750,750,agree,650,2,0.767,175
+core-i5-14600k,Core i5-14600K,rtx-4080-super,GeForce RTX 4080 SUPER,545,700,750,750,vendor,650,1,0.727,205
+core-i5-14600k,Core i5-14600K,rtx-4080,GeForce RTX 4080,545,700,750,750,vendor,650,1,0.727,205
+core-i5-14600k,Core i5-14600K,rx-7900-xt,Radeon RX 7900 XT,540,700,750,750,vendor,650,1,0.72,210
+core-i5-14600k,Core i5-14600K,rx-9070-xt,Radeon RX 9070 XT,529,700,750,750,vendor,600,2,0.705,221
+core-i5-14600k,Core i5-14600K,rtx-5070-ti,GeForce RTX 5070 Ti,525,700,750,750,vendor,600,2,0.7,225
+core-i5-14600k,Core i5-14600K,rtx-3070-ti,GeForce RTX 3070 Ti,515,650,650,650,agree,600,1,0.792,135
+core-i5-14600k,Core i5-14600K,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,510,650,700,700,vendor,600,1,0.729,190
+core-i5-14600k,Core i5-14600K,rtx-4070-ti,GeForce RTX 4070 Ti,510,650,700,700,vendor,600,1,0.729,190
+core-i5-14600k,Core i5-14600K,rx-7800-xt,Radeon RX 7800 XT,488,650,700,700,vendor,550,2,0.697,212
+core-i5-14600k,Core i5-14600K,rx-7900-gre,Radeon RX 7900 GRE,485,650,700,700,vendor,550,2,0.693,215
+core-i5-14600k,Core i5-14600K,rtx-5070,GeForce RTX 5070,475,600,650,650,vendor,550,1,0.731,175
+core-i5-14600k,Core i5-14600K,rx-7700-xt,Radeon RX 7700 XT,470,600,700,700,vendor,550,1,0.671,230
+core-i5-14600k,Core i5-14600K,rtx-4070-super,GeForce RTX 4070 SUPER,445,600,650,650,vendor,500,2,0.685,205
+core-i5-14600k,Core i5-14600K,rtx-3070,GeForce RTX 3070,445,600,650,650,vendor,500,2,0.685,205
+core-i5-14600k,Core i5-14600K,rx-9070,Radeon RX 9070,445,600,650,650,vendor,500,2,0.685,205
+core-i5-14600k,Core i5-14600K,rtx-4070,GeForce RTX 4070,425,550,650,650,vendor,500,1,0.654,225
+core-i5-14600k,Core i5-14600K,rtx-3060-ti,GeForce RTX 3060 Ti,425,550,600,600,vendor,500,1,0.708,175
+core-i5-14600k,Core i5-14600K,rtx-5060-ti,GeForce RTX 5060 Ti,405,550,600,600,vendor,450,2,0.675,195
+core-i5-14600k,Core i5-14600K,rtx-3060,GeForce RTX 3060,395,500,550,550,vendor,450,1,0.718,155
+core-i5-14600k,Core i5-14600K,rtx-4060-ti,GeForce RTX 4060 Ti,390,500,550,550,vendor,450,1,0.709,160
+core-i5-14600k,Core i5-14600K,rx-7600,Radeon RX 7600,390,500,550,550,vendor,450,1,0.709,160
+core-i5-14600k,Core i5-14600K,rx-9060-xt,Radeon RX 9060 XT,385,500,550,550,vendor,450,1,0.7,165
+core-i5-14600k,Core i5-14600K,rtx-5060,GeForce RTX 5060,370,500,550,550,vendor,450,1,0.673,180
+core-i5-14600k,Core i5-14600K,rtx-5050,GeForce RTX 5050,355,450,550,550,vendor,450,0,0.646,195
+core-i5-14600k,Core i5-14600K,rtx-3050,GeForce RTX 3050,355,450,550,550,vendor,450,0,0.646,195
+core-i5-14600k,Core i5-14600K,rtx-4060,GeForce RTX 4060,340,450,550,550,vendor,450,0,0.618,210
+core-i7-13700k,Core i7-13700K,rtx-5090,GeForce RTX 5090,872,1200,1000,1200,build,1000,1,0.727,328
+core-i7-13700k,Core i7-13700K,rtx-4090,GeForce RTX 4090,747,1000,850,1000,build,800,2,0.747,253
+core-i7-13700k,Core i7-13700K,rtx-3090-ti,GeForce RTX 3090 Ti,747,1000,850,1000,build,800,2,0.747,253
+core-i7-13700k,Core i7-13700K,rtx-5080,GeForce RTX 5080,657,850,850,850,agree,700,3,0.773,193
+core-i7-13700k,Core i7-13700K,rx-7900-xtx,Radeon RX 7900 XTX,652,850,800,850,build,700,3,0.767,198
+core-i7-13700k,Core i7-13700K,rtx-3090,GeForce RTX 3090,647,850,750,850,build,650,4,0.761,203
+core-i7-13700k,Core i7-13700K,rtx-3080-ti,GeForce RTX 3080 Ti,647,850,750,850,build,650,4,0.761,203
+core-i7-13700k,Core i7-13700K,rtx-3080,GeForce RTX 3080,647,850,750,850,build,650,4,0.761,203
+core-i7-13700k,Core i7-13700K,rtx-4080-super,GeForce RTX 4080 SUPER,617,800,750,800,build,650,3,0.771,183
+core-i7-13700k,Core i7-13700K,rtx-4080,GeForce RTX 4080,617,800,750,800,build,650,3,0.771,183
+core-i7-13700k,Core i7-13700K,rx-7900-xt,Radeon RX 7900 XT,612,800,750,800,build,650,3,0.765,188
+core-i7-13700k,Core i7-13700K,rx-9070-xt,Radeon RX 9070 XT,601,800,750,800,build,600,4,0.751,199
+core-i7-13700k,Core i7-13700K,rtx-5070-ti,GeForce RTX 5070 Ti,597,750,750,750,agree,600,3,0.796,153
+core-i7-13700k,Core i7-13700K,rtx-3070-ti,GeForce RTX 3070 Ti,587,750,650,750,build,600,3,0.783,163
+core-i7-13700k,Core i7-13700K,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,582,750,700,750,build,600,3,0.776,168
+core-i7-13700k,Core i7-13700K,rtx-4070-ti,GeForce RTX 4070 Ti,582,750,700,750,build,600,3,0.776,168
+core-i7-13700k,Core i7-13700K,rx-7800-xt,Radeon RX 7800 XT,560,700,700,700,agree,550,3,0.8,140
+core-i7-13700k,Core i7-13700K,rx-7900-gre,Radeon RX 7900 GRE,557,700,700,700,agree,550,3,0.796,143
+core-i7-13700k,Core i7-13700K,rtx-5070,GeForce RTX 5070,547,700,650,700,build,550,3,0.781,153
+core-i7-13700k,Core i7-13700K,rx-7700-xt,Radeon RX 7700 XT,542,700,700,700,agree,550,3,0.774,158
+core-i7-13700k,Core i7-13700K,rtx-4070-super,GeForce RTX 4070 SUPER,517,650,650,650,agree,500,3,0.795,133
+core-i7-13700k,Core i7-13700K,rtx-3070,GeForce RTX 3070,517,650,650,650,agree,500,3,0.795,133
+core-i7-13700k,Core i7-13700K,rx-9070,Radeon RX 9070,517,650,650,650,agree,500,3,0.795,133
+core-i7-13700k,Core i7-13700K,rtx-4070,GeForce RTX 4070,497,650,650,650,agree,500,3,0.765,153
+core-i7-13700k,Core i7-13700K,rtx-3060-ti,GeForce RTX 3060 Ti,497,650,600,650,build,500,3,0.765,153
+core-i7-13700k,Core i7-13700K,rtx-5060-ti,GeForce RTX 5060 Ti,477,600,600,600,agree,450,3,0.795,123
+core-i7-13700k,Core i7-13700K,rtx-3060,GeForce RTX 3060,467,600,550,600,build,450,3,0.778,133
+core-i7-13700k,Core i7-13700K,rtx-4060-ti,GeForce RTX 4060 Ti,462,600,550,600,build,450,3,0.77,138
+core-i7-13700k,Core i7-13700K,rx-7600,Radeon RX 7600,462,600,550,600,build,450,3,0.77,138
+core-i7-13700k,Core i7-13700K,rx-9060-xt,Radeon RX 9060 XT,457,600,550,600,build,450,3,0.762,143
+core-i7-13700k,Core i7-13700K,rtx-5060,GeForce RTX 5060,442,600,550,600,build,450,3,0.737,158
+core-i7-13700k,Core i7-13700K,rtx-5050,GeForce RTX 5050,427,550,550,550,agree,450,2,0.776,123
+core-i7-13700k,Core i7-13700K,rtx-3050,GeForce RTX 3050,427,550,550,550,agree,450,2,0.776,123
+core-i7-13700k,Core i7-13700K,rtx-4060,GeForce RTX 4060,412,550,550,550,agree,450,2,0.749,138
+core-i7-14700k,Core i7-14700K,rtx-5090,GeForce RTX 5090,872,1200,1000,1200,build,1000,1,0.727,328
+core-i7-14700k,Core i7-14700K,rtx-4090,GeForce RTX 4090,747,1000,850,1000,build,800,2,0.747,253
+core-i7-14700k,Core i7-14700K,rtx-3090-ti,GeForce RTX 3090 Ti,747,1000,850,1000,build,800,2,0.747,253
+core-i7-14700k,Core i7-14700K,rtx-5080,GeForce RTX 5080,657,850,850,850,agree,700,3,0.773,193
+core-i7-14700k,Core i7-14700K,rx-7900-xtx,Radeon RX 7900 XTX,652,850,800,850,build,700,3,0.767,198
+core-i7-14700k,Core i7-14700K,rtx-3090,GeForce RTX 3090,647,850,750,850,build,650,4,0.761,203
+core-i7-14700k,Core i7-14700K,rtx-3080-ti,GeForce RTX 3080 Ti,647,850,750,850,build,650,4,0.761,203
+core-i7-14700k,Core i7-14700K,rtx-3080,GeForce RTX 3080,647,850,750,850,build,650,4,0.761,203
+core-i7-14700k,Core i7-14700K,rtx-4080-super,GeForce RTX 4080 SUPER,617,800,750,800,build,650,3,0.771,183
+core-i7-14700k,Core i7-14700K,rtx-4080,GeForce RTX 4080,617,800,750,800,build,650,3,0.771,183
+core-i7-14700k,Core i7-14700K,rx-7900-xt,Radeon RX 7900 XT,612,800,750,800,build,650,3,0.765,188
+core-i7-14700k,Core i7-14700K,rx-9070-xt,Radeon RX 9070 XT,601,800,750,800,build,600,4,0.751,199
+core-i7-14700k,Core i7-14700K,rtx-5070-ti,GeForce RTX 5070 Ti,597,750,750,750,agree,600,3,0.796,153
+core-i7-14700k,Core i7-14700K,rtx-3070-ti,GeForce RTX 3070 Ti,587,750,650,750,build,600,3,0.783,163
+core-i7-14700k,Core i7-14700K,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,582,750,700,750,build,600,3,0.776,168
+core-i7-14700k,Core i7-14700K,rtx-4070-ti,GeForce RTX 4070 Ti,582,750,700,750,build,600,3,0.776,168
+core-i7-14700k,Core i7-14700K,rx-7800-xt,Radeon RX 7800 XT,560,700,700,700,agree,550,3,0.8,140
+core-i7-14700k,Core i7-14700K,rx-7900-gre,Radeon RX 7900 GRE,557,700,700,700,agree,550,3,0.796,143
+core-i7-14700k,Core i7-14700K,rtx-5070,GeForce RTX 5070,547,700,650,700,build,550,3,0.781,153
+core-i7-14700k,Core i7-14700K,rx-7700-xt,Radeon RX 7700 XT,542,700,700,700,agree,550,3,0.774,158
+core-i7-14700k,Core i7-14700K,rtx-4070-super,GeForce RTX 4070 SUPER,517,650,650,650,agree,500,3,0.795,133
+core-i7-14700k,Core i7-14700K,rtx-3070,GeForce RTX 3070,517,650,650,650,agree,500,3,0.795,133
+core-i7-14700k,Core i7-14700K,rx-9070,Radeon RX 9070,517,650,650,650,agree,500,3,0.795,133
+core-i7-14700k,Core i7-14700K,rtx-4070,GeForce RTX 4070,497,650,650,650,agree,500,3,0.765,153
+core-i7-14700k,Core i7-14700K,rtx-3060-ti,GeForce RTX 3060 Ti,497,650,600,650,build,500,3,0.765,153
+core-i7-14700k,Core i7-14700K,rtx-5060-ti,GeForce RTX 5060 Ti,477,600,600,600,agree,450,3,0.795,123
+core-i7-14700k,Core i7-14700K,rtx-3060,GeForce RTX 3060,467,600,550,600,build,450,3,0.778,133
+core-i7-14700k,Core i7-14700K,rtx-4060-ti,GeForce RTX 4060 Ti,462,600,550,600,build,450,3,0.77,138
+core-i7-14700k,Core i7-14700K,rx-7600,Radeon RX 7600,462,600,550,600,build,450,3,0.77,138
+core-i7-14700k,Core i7-14700K,rx-9060-xt,Radeon RX 9060 XT,457,600,550,600,build,450,3,0.762,143
+core-i7-14700k,Core i7-14700K,rtx-5060,GeForce RTX 5060,442,600,550,600,build,450,3,0.737,158
+core-i7-14700k,Core i7-14700K,rtx-5050,GeForce RTX 5050,427,550,550,550,agree,450,2,0.776,123
+core-i7-14700k,Core i7-14700K,rtx-3050,GeForce RTX 3050,427,550,550,550,agree,450,2,0.776,123
+core-i7-14700k,Core i7-14700K,rtx-4060,GeForce RTX 4060,412,550,550,550,agree,450,2,0.749,138
+core-i9-13900k,Core i9-13900K,rtx-5090,GeForce RTX 5090,872,1200,1000,1200,build,1000,1,0.727,328
+core-i9-13900k,Core i9-13900K,rtx-4090,GeForce RTX 4090,747,1000,850,1000,build,800,2,0.747,253
+core-i9-13900k,Core i9-13900K,rtx-3090-ti,GeForce RTX 3090 Ti,747,1000,850,1000,build,800,2,0.747,253
+core-i9-13900k,Core i9-13900K,rtx-5080,GeForce RTX 5080,657,850,850,850,agree,700,3,0.773,193
+core-i9-13900k,Core i9-13900K,rx-7900-xtx,Radeon RX 7900 XTX,652,850,800,850,build,700,3,0.767,198
+core-i9-13900k,Core i9-13900K,rtx-3090,GeForce RTX 3090,647,850,750,850,build,650,4,0.761,203
+core-i9-13900k,Core i9-13900K,rtx-3080-ti,GeForce RTX 3080 Ti,647,850,750,850,build,650,4,0.761,203
+core-i9-13900k,Core i9-13900K,rtx-3080,GeForce RTX 3080,647,850,750,850,build,650,4,0.761,203
+core-i9-13900k,Core i9-13900K,rtx-4080-super,GeForce RTX 4080 SUPER,617,800,750,800,build,650,3,0.771,183
+core-i9-13900k,Core i9-13900K,rtx-4080,GeForce RTX 4080,617,800,750,800,build,650,3,0.771,183
+core-i9-13900k,Core i9-13900K,rx-7900-xt,Radeon RX 7900 XT,612,800,750,800,build,650,3,0.765,188
+core-i9-13900k,Core i9-13900K,rx-9070-xt,Radeon RX 9070 XT,601,800,750,800,build,600,4,0.751,199
+core-i9-13900k,Core i9-13900K,rtx-5070-ti,GeForce RTX 5070 Ti,597,750,750,750,agree,600,3,0.796,153
+core-i9-13900k,Core i9-13900K,rtx-3070-ti,GeForce RTX 3070 Ti,587,750,650,750,build,600,3,0.783,163
+core-i9-13900k,Core i9-13900K,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,582,750,700,750,build,600,3,0.776,168
+core-i9-13900k,Core i9-13900K,rtx-4070-ti,GeForce RTX 4070 Ti,582,750,700,750,build,600,3,0.776,168
+core-i9-13900k,Core i9-13900K,rx-7800-xt,Radeon RX 7800 XT,560,700,700,700,agree,550,3,0.8,140
+core-i9-13900k,Core i9-13900K,rx-7900-gre,Radeon RX 7900 GRE,557,700,700,700,agree,550,3,0.796,143
+core-i9-13900k,Core i9-13900K,rtx-5070,GeForce RTX 5070,547,700,650,700,build,550,3,0.781,153
+core-i9-13900k,Core i9-13900K,rx-7700-xt,Radeon RX 7700 XT,542,700,700,700,agree,550,3,0.774,158
+core-i9-13900k,Core i9-13900K,rtx-4070-super,GeForce RTX 4070 SUPER,517,650,650,650,agree,500,3,0.795,133
+core-i9-13900k,Core i9-13900K,rtx-3070,GeForce RTX 3070,517,650,650,650,agree,500,3,0.795,133
+core-i9-13900k,Core i9-13900K,rx-9070,Radeon RX 9070,517,650,650,650,agree,500,3,0.795,133
+core-i9-13900k,Core i9-13900K,rtx-4070,GeForce RTX 4070,497,650,650,650,agree,500,3,0.765,153
+core-i9-13900k,Core i9-13900K,rtx-3060-ti,GeForce RTX 3060 Ti,497,650,600,650,build,500,3,0.765,153
+core-i9-13900k,Core i9-13900K,rtx-5060-ti,GeForce RTX 5060 Ti,477,600,600,600,agree,450,3,0.795,123
+core-i9-13900k,Core i9-13900K,rtx-3060,GeForce RTX 3060,467,600,550,600,build,450,3,0.778,133
+core-i9-13900k,Core i9-13900K,rtx-4060-ti,GeForce RTX 4060 Ti,462,600,550,600,build,450,3,0.77,138
+core-i9-13900k,Core i9-13900K,rx-7600,Radeon RX 7600,462,600,550,600,build,450,3,0.77,138
+core-i9-13900k,Core i9-13900K,rx-9060-xt,Radeon RX 9060 XT,457,600,550,600,build,450,3,0.762,143
+core-i9-13900k,Core i9-13900K,rtx-5060,GeForce RTX 5060,442,600,550,600,build,450,3,0.737,158
+core-i9-13900k,Core i9-13900K,rtx-5050,GeForce RTX 5050,427,550,550,550,agree,450,2,0.776,123
+core-i9-13900k,Core i9-13900K,rtx-3050,GeForce RTX 3050,427,550,550,550,agree,450,2,0.776,123
+core-i9-13900k,Core i9-13900K,rtx-4060,GeForce RTX 4060,412,550,550,550,agree,450,2,0.749,138
+core-i9-14900k,Core i9-14900K,rtx-5090,GeForce RTX 5090,872,1200,1000,1200,build,1000,1,0.727,328
+core-i9-14900k,Core i9-14900K,rtx-4090,GeForce RTX 4090,747,1000,850,1000,build,800,2,0.747,253
+core-i9-14900k,Core i9-14900K,rtx-3090-ti,GeForce RTX 3090 Ti,747,1000,850,1000,build,800,2,0.747,253
+core-i9-14900k,Core i9-14900K,rtx-5080,GeForce RTX 5080,657,850,850,850,agree,700,3,0.773,193
+core-i9-14900k,Core i9-14900K,rx-7900-xtx,Radeon RX 7900 XTX,652,850,800,850,build,700,3,0.767,198
+core-i9-14900k,Core i9-14900K,rtx-3090,GeForce RTX 3090,647,850,750,850,build,650,4,0.761,203
+core-i9-14900k,Core i9-14900K,rtx-3080-ti,GeForce RTX 3080 Ti,647,850,750,850,build,650,4,0.761,203
+core-i9-14900k,Core i9-14900K,rtx-3080,GeForce RTX 3080,647,850,750,850,build,650,4,0.761,203
+core-i9-14900k,Core i9-14900K,rtx-4080-super,GeForce RTX 4080 SUPER,617,800,750,800,build,650,3,0.771,183
+core-i9-14900k,Core i9-14900K,rtx-4080,GeForce RTX 4080,617,800,750,800,build,650,3,0.771,183
+core-i9-14900k,Core i9-14900K,rx-7900-xt,Radeon RX 7900 XT,612,800,750,800,build,650,3,0.765,188
+core-i9-14900k,Core i9-14900K,rx-9070-xt,Radeon RX 9070 XT,601,800,750,800,build,600,4,0.751,199
+core-i9-14900k,Core i9-14900K,rtx-5070-ti,GeForce RTX 5070 Ti,597,750,750,750,agree,600,3,0.796,153
+core-i9-14900k,Core i9-14900K,rtx-3070-ti,GeForce RTX 3070 Ti,587,750,650,750,build,600,3,0.783,163
+core-i9-14900k,Core i9-14900K,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,582,750,700,750,build,600,3,0.776,168
+core-i9-14900k,Core i9-14900K,rtx-4070-ti,GeForce RTX 4070 Ti,582,750,700,750,build,600,3,0.776,168
+core-i9-14900k,Core i9-14900K,rx-7800-xt,Radeon RX 7800 XT,560,700,700,700,agree,550,3,0.8,140
+core-i9-14900k,Core i9-14900K,rx-7900-gre,Radeon RX 7900 GRE,557,700,700,700,agree,550,3,0.796,143
+core-i9-14900k,Core i9-14900K,rtx-5070,GeForce RTX 5070,547,700,650,700,build,550,3,0.781,153
+core-i9-14900k,Core i9-14900K,rx-7700-xt,Radeon RX 7700 XT,542,700,700,700,agree,550,3,0.774,158
+core-i9-14900k,Core i9-14900K,rtx-4070-super,GeForce RTX 4070 SUPER,517,650,650,650,agree,500,3,0.795,133
+core-i9-14900k,Core i9-14900K,rtx-3070,GeForce RTX 3070,517,650,650,650,agree,500,3,0.795,133
+core-i9-14900k,Core i9-14900K,rx-9070,Radeon RX 9070,517,650,650,650,agree,500,3,0.795,133
+core-i9-14900k,Core i9-14900K,rtx-4070,GeForce RTX 4070,497,650,650,650,agree,500,3,0.765,153
+core-i9-14900k,Core i9-14900K,rtx-3060-ti,GeForce RTX 3060 Ti,497,650,600,650,build,500,3,0.765,153
+core-i9-14900k,Core i9-14900K,rtx-5060-ti,GeForce RTX 5060 Ti,477,600,600,600,agree,450,3,0.795,123
+core-i9-14900k,Core i9-14900K,rtx-3060,GeForce RTX 3060,467,600,550,600,build,450,3,0.778,133
+core-i9-14900k,Core i9-14900K,rtx-4060-ti,GeForce RTX 4060 Ti,462,600,550,600,build,450,3,0.77,138
+core-i9-14900k,Core i9-14900K,rx-7600,Radeon RX 7600,462,600,550,600,build,450,3,0.77,138
+core-i9-14900k,Core i9-14900K,rx-9060-xt,Radeon RX 9060 XT,457,600,550,600,build,450,3,0.762,143
+core-i9-14900k,Core i9-14900K,rtx-5060,GeForce RTX 5060,442,600,550,600,build,450,3,0.737,158
+core-i9-14900k,Core i9-14900K,rtx-5050,GeForce RTX 5050,427,550,550,550,agree,450,2,0.776,123
+core-i9-14900k,Core i9-14900K,rtx-3050,GeForce RTX 3050,427,550,550,550,agree,450,2,0.776,123
+core-i9-14900k,Core i9-14900K,rtx-4060,GeForce RTX 4060,412,550,550,550,agree,450,2,0.749,138
+core-ultra-5-245k,Core Ultra 5 245K,rtx-5090,GeForce RTX 5090,778,1000,1000,1000,agree,1000,0,0.778,222
+core-ultra-5-245k,Core Ultra 5 245K,rtx-4090,GeForce RTX 4090,653,850,850,850,agree,800,1,0.768,197
+core-ultra-5-245k,Core Ultra 5 245K,rtx-3090-ti,GeForce RTX 3090 Ti,653,850,850,850,agree,800,1,0.768,197
+core-ultra-5-245k,Core Ultra 5 245K,rtx-5080,GeForce RTX 5080,563,750,850,850,vendor,700,1,0.662,287
+core-ultra-5-245k,Core Ultra 5 245K,rx-7900-xtx,Radeon RX 7900 XTX,558,700,800,800,vendor,700,0,0.698,242
+core-ultra-5-245k,Core Ultra 5 245K,rtx-3090,GeForce RTX 3090,553,700,750,750,vendor,650,1,0.737,197
+core-ultra-5-245k,Core Ultra 5 245K,rtx-3080-ti,GeForce RTX 3080 Ti,553,700,750,750,vendor,650,1,0.737,197
+core-ultra-5-245k,Core Ultra 5 245K,rtx-3080,GeForce RTX 3080,553,700,750,750,vendor,650,1,0.737,197
+core-ultra-5-245k,Core Ultra 5 245K,rtx-4080-super,GeForce RTX 4080 SUPER,523,700,750,750,vendor,650,1,0.697,227
+core-ultra-5-245k,Core Ultra 5 245K,rtx-4080,GeForce RTX 4080,523,700,750,750,vendor,650,1,0.697,227
+core-ultra-5-245k,Core Ultra 5 245K,rx-7900-xt,Radeon RX 7900 XT,518,650,750,750,vendor,650,0,0.691,232
+core-ultra-5-245k,Core Ultra 5 245K,rx-9070-xt,Radeon RX 9070 XT,507,650,750,750,vendor,600,1,0.676,243
+core-ultra-5-245k,Core Ultra 5 245K,rtx-5070-ti,GeForce RTX 5070 Ti,503,650,750,750,vendor,600,1,0.671,247
+core-ultra-5-245k,Core Ultra 5 245K,rtx-3070-ti,GeForce RTX 3070 Ti,493,650,650,650,agree,600,1,0.759,157
+core-ultra-5-245k,Core Ultra 5 245K,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,488,650,700,700,vendor,600,1,0.697,212
+core-ultra-5-245k,Core Ultra 5 245K,rtx-4070-ti,GeForce RTX 4070 Ti,488,650,700,700,vendor,600,1,0.697,212
+core-ultra-5-245k,Core Ultra 5 245K,rx-7800-xt,Radeon RX 7800 XT,466,600,700,700,vendor,550,1,0.666,234
+core-ultra-5-245k,Core Ultra 5 245K,rx-7900-gre,Radeon RX 7900 GRE,463,600,700,700,vendor,550,1,0.661,237
+core-ultra-5-245k,Core Ultra 5 245K,rtx-5070,GeForce RTX 5070,453,600,650,650,vendor,550,1,0.697,197
+core-ultra-5-245k,Core Ultra 5 245K,rx-7700-xt,Radeon RX 7700 XT,448,600,700,700,vendor,550,1,0.64,252
+core-ultra-5-245k,Core Ultra 5 245K,rtx-4070-super,GeForce RTX 4070 SUPER,423,550,650,650,vendor,500,1,0.651,227
+core-ultra-5-245k,Core Ultra 5 245K,rtx-3070,GeForce RTX 3070,423,550,650,650,vendor,500,1,0.651,227
+core-ultra-5-245k,Core Ultra 5 245K,rx-9070,Radeon RX 9070,423,550,650,650,vendor,500,1,0.651,227
+core-ultra-5-245k,Core Ultra 5 245K,rtx-4070,GeForce RTX 4070,403,550,650,650,vendor,500,1,0.62,247
+core-ultra-5-245k,Core Ultra 5 245K,rtx-3060-ti,GeForce RTX 3060 Ti,403,550,600,600,vendor,500,1,0.672,197
+core-ultra-5-245k,Core Ultra 5 245K,rtx-5060-ti,GeForce RTX 5060 Ti,383,500,600,600,vendor,450,1,0.638,217
+core-ultra-5-245k,Core Ultra 5 245K,rtx-3060,GeForce RTX 3060,373,500,550,550,vendor,450,1,0.678,177
+core-ultra-5-245k,Core Ultra 5 245K,rtx-4060-ti,GeForce RTX 4060 Ti,368,500,550,550,vendor,450,1,0.669,182
+core-ultra-5-245k,Core Ultra 5 245K,rx-7600,Radeon RX 7600,368,500,550,550,vendor,450,1,0.669,182
+core-ultra-5-245k,Core Ultra 5 245K,rx-9060-xt,Radeon RX 9060 XT,363,500,550,550,vendor,450,1,0.66,187
+core-ultra-5-245k,Core Ultra 5 245K,rtx-5060,GeForce RTX 5060,348,450,550,550,vendor,450,0,0.633,202
+core-ultra-5-245k,Core Ultra 5 245K,rtx-5050,GeForce RTX 5050,333,450,550,550,vendor,450,0,0.606,217
+core-ultra-5-245k,Core Ultra 5 245K,rtx-3050,GeForce RTX 3050,333,450,550,550,vendor,450,0,0.606,217
+core-ultra-5-245k,Core Ultra 5 245K,rtx-4060,GeForce RTX 4060,318,450,550,550,vendor,450,0,0.578,232
+core-ultra-7-265k,Core Ultra 7 265K,rtx-5090,GeForce RTX 5090,869,1200,1000,1200,build,1000,1,0.724,331
+core-ultra-7-265k,Core Ultra 7 265K,rtx-4090,GeForce RTX 4090,744,1000,850,1000,build,800,2,0.744,256
+core-ultra-7-265k,Core Ultra 7 265K,rtx-3090-ti,GeForce RTX 3090 Ti,744,1000,850,1000,build,800,2,0.744,256
+core-ultra-7-265k,Core Ultra 7 265K,rtx-5080,GeForce RTX 5080,654,850,850,850,agree,700,3,0.769,196
+core-ultra-7-265k,Core Ultra 7 265K,rx-7900-xtx,Radeon RX 7900 XTX,649,850,800,850,build,700,3,0.764,201
+core-ultra-7-265k,Core Ultra 7 265K,rtx-3090,GeForce RTX 3090,644,850,750,850,build,650,4,0.758,206
+core-ultra-7-265k,Core Ultra 7 265K,rtx-3080-ti,GeForce RTX 3080 Ti,644,850,750,850,build,650,4,0.758,206
+core-ultra-7-265k,Core Ultra 7 265K,rtx-3080,GeForce RTX 3080,644,850,750,850,build,650,4,0.758,206
+core-ultra-7-265k,Core Ultra 7 265K,rtx-4080-super,GeForce RTX 4080 SUPER,614,800,750,800,build,650,3,0.768,186
+core-ultra-7-265k,Core Ultra 7 265K,rtx-4080,GeForce RTX 4080,614,800,750,800,build,650,3,0.768,186
+core-ultra-7-265k,Core Ultra 7 265K,rx-7900-xt,Radeon RX 7900 XT,609,800,750,800,build,650,3,0.761,191
+core-ultra-7-265k,Core Ultra 7 265K,rx-9070-xt,Radeon RX 9070 XT,598,750,750,750,agree,600,3,0.797,152
+core-ultra-7-265k,Core Ultra 7 265K,rtx-5070-ti,GeForce RTX 5070 Ti,594,750,750,750,agree,600,3,0.792,156
+core-ultra-7-265k,Core Ultra 7 265K,rtx-3070-ti,GeForce RTX 3070 Ti,584,750,650,750,build,600,3,0.779,166
+core-ultra-7-265k,Core Ultra 7 265K,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,579,750,700,750,build,600,3,0.772,171
+core-ultra-7-265k,Core Ultra 7 265K,rtx-4070-ti,GeForce RTX 4070 Ti,579,750,700,750,build,600,3,0.772,171
+core-ultra-7-265k,Core Ultra 7 265K,rx-7800-xt,Radeon RX 7800 XT,557,700,700,700,agree,550,3,0.796,143
+core-ultra-7-265k,Core Ultra 7 265K,rx-7900-gre,Radeon RX 7900 GRE,554,700,700,700,agree,550,3,0.791,146
+core-ultra-7-265k,Core Ultra 7 265K,rtx-5070,GeForce RTX 5070,544,700,650,700,build,550,3,0.777,156
+core-ultra-7-265k,Core Ultra 7 265K,rx-7700-xt,Radeon RX 7700 XT,539,700,700,700,agree,550,3,0.77,161
+core-ultra-7-265k,Core Ultra 7 265K,rtx-4070-super,GeForce RTX 4070 SUPER,514,650,650,650,agree,500,3,0.791,136
+core-ultra-7-265k,Core Ultra 7 265K,rtx-3070,GeForce RTX 3070,514,650,650,650,agree,500,3,0.791,136
+core-ultra-7-265k,Core Ultra 7 265K,rx-9070,Radeon RX 9070,514,650,650,650,agree,500,3,0.791,136
+core-ultra-7-265k,Core Ultra 7 265K,rtx-4070,GeForce RTX 4070,494,650,650,650,agree,500,3,0.76,156
+core-ultra-7-265k,Core Ultra 7 265K,rtx-3060-ti,GeForce RTX 3060 Ti,494,650,600,650,build,500,3,0.76,156
+core-ultra-7-265k,Core Ultra 7 265K,rtx-5060-ti,GeForce RTX 5060 Ti,474,600,600,600,agree,450,3,0.79,126
+core-ultra-7-265k,Core Ultra 7 265K,rtx-3060,GeForce RTX 3060,464,600,550,600,build,450,3,0.773,136
+core-ultra-7-265k,Core Ultra 7 265K,rtx-4060-ti,GeForce RTX 4060 Ti,459,600,550,600,build,450,3,0.765,141
+core-ultra-7-265k,Core Ultra 7 265K,rx-7600,Radeon RX 7600,459,600,550,600,build,450,3,0.765,141
+core-ultra-7-265k,Core Ultra 7 265K,rx-9060-xt,Radeon RX 9060 XT,454,600,550,600,build,450,3,0.757,146
+core-ultra-7-265k,Core Ultra 7 265K,rtx-5060,GeForce RTX 5060,439,550,550,550,agree,450,2,0.798,111
+core-ultra-7-265k,Core Ultra 7 265K,rtx-5050,GeForce RTX 5050,424,550,550,550,agree,450,2,0.771,126
+core-ultra-7-265k,Core Ultra 7 265K,rtx-3050,GeForce RTX 3050,424,550,550,550,agree,450,2,0.771,126
+core-ultra-7-265k,Core Ultra 7 265K,rtx-4060,GeForce RTX 4060,409,550,550,550,agree,450,2,0.744,141
+core-ultra-9-285k,Core Ultra 9 285K,rtx-5090,GeForce RTX 5090,869,1200,1000,1200,build,1000,1,0.724,331
+core-ultra-9-285k,Core Ultra 9 285K,rtx-4090,GeForce RTX 4090,744,1000,850,1000,build,800,2,0.744,256
+core-ultra-9-285k,Core Ultra 9 285K,rtx-3090-ti,GeForce RTX 3090 Ti,744,1000,850,1000,build,800,2,0.744,256
+core-ultra-9-285k,Core Ultra 9 285K,rtx-5080,GeForce RTX 5080,654,850,850,850,agree,700,3,0.769,196
+core-ultra-9-285k,Core Ultra 9 285K,rx-7900-xtx,Radeon RX 7900 XTX,649,850,800,850,build,700,3,0.764,201
+core-ultra-9-285k,Core Ultra 9 285K,rtx-3090,GeForce RTX 3090,644,850,750,850,build,650,4,0.758,206
+core-ultra-9-285k,Core Ultra 9 285K,rtx-3080-ti,GeForce RTX 3080 Ti,644,850,750,850,build,650,4,0.758,206
+core-ultra-9-285k,Core Ultra 9 285K,rtx-3080,GeForce RTX 3080,644,850,750,850,build,650,4,0.758,206
+core-ultra-9-285k,Core Ultra 9 285K,rtx-4080-super,GeForce RTX 4080 SUPER,614,800,750,800,build,650,3,0.768,186
+core-ultra-9-285k,Core Ultra 9 285K,rtx-4080,GeForce RTX 4080,614,800,750,800,build,650,3,0.768,186
+core-ultra-9-285k,Core Ultra 9 285K,rx-7900-xt,Radeon RX 7900 XT,609,800,750,800,build,650,3,0.761,191
+core-ultra-9-285k,Core Ultra 9 285K,rx-9070-xt,Radeon RX 9070 XT,598,750,750,750,agree,600,3,0.797,152
+core-ultra-9-285k,Core Ultra 9 285K,rtx-5070-ti,GeForce RTX 5070 Ti,594,750,750,750,agree,600,3,0.792,156
+core-ultra-9-285k,Core Ultra 9 285K,rtx-3070-ti,GeForce RTX 3070 Ti,584,750,650,750,build,600,3,0.779,166
+core-ultra-9-285k,Core Ultra 9 285K,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,579,750,700,750,build,600,3,0.772,171
+core-ultra-9-285k,Core Ultra 9 285K,rtx-4070-ti,GeForce RTX 4070 Ti,579,750,700,750,build,600,3,0.772,171
+core-ultra-9-285k,Core Ultra 9 285K,rx-7800-xt,Radeon RX 7800 XT,557,700,700,700,agree,550,3,0.796,143
+core-ultra-9-285k,Core Ultra 9 285K,rx-7900-gre,Radeon RX 7900 GRE,554,700,700,700,agree,550,3,0.791,146
+core-ultra-9-285k,Core Ultra 9 285K,rtx-5070,GeForce RTX 5070,544,700,650,700,build,550,3,0.777,156
+core-ultra-9-285k,Core Ultra 9 285K,rx-7700-xt,Radeon RX 7700 XT,539,700,700,700,agree,550,3,0.77,161
+core-ultra-9-285k,Core Ultra 9 285K,rtx-4070-super,GeForce RTX 4070 SUPER,514,650,650,650,agree,500,3,0.791,136
+core-ultra-9-285k,Core Ultra 9 285K,rtx-3070,GeForce RTX 3070,514,650,650,650,agree,500,3,0.791,136
+core-ultra-9-285k,Core Ultra 9 285K,rx-9070,Radeon RX 9070,514,650,650,650,agree,500,3,0.791,136
+core-ultra-9-285k,Core Ultra 9 285K,rtx-4070,GeForce RTX 4070,494,650,650,650,agree,500,3,0.76,156
+core-ultra-9-285k,Core Ultra 9 285K,rtx-3060-ti,GeForce RTX 3060 Ti,494,650,600,650,build,500,3,0.76,156
+core-ultra-9-285k,Core Ultra 9 285K,rtx-5060-ti,GeForce RTX 5060 Ti,474,600,600,600,agree,450,3,0.79,126
+core-ultra-9-285k,Core Ultra 9 285K,rtx-3060,GeForce RTX 3060,464,600,550,600,build,450,3,0.773,136
+core-ultra-9-285k,Core Ultra 9 285K,rtx-4060-ti,GeForce RTX 4060 Ti,459,600,550,600,build,450,3,0.765,141
+core-ultra-9-285k,Core Ultra 9 285K,rx-7600,Radeon RX 7600,459,600,550,600,build,450,3,0.765,141
+core-ultra-9-285k,Core Ultra 9 285K,rx-9060-xt,Radeon RX 9060 XT,454,600,550,600,build,450,3,0.757,146
+core-ultra-9-285k,Core Ultra 9 285K,rtx-5060,GeForce RTX 5060,439,550,550,550,agree,450,2,0.798,111
+core-ultra-9-285k,Core Ultra 9 285K,rtx-5050,GeForce RTX 5050,424,550,550,550,agree,450,2,0.771,126
+core-ultra-9-285k,Core Ultra 9 285K,rtx-3050,GeForce RTX 3050,424,550,550,550,agree,450,2,0.771,126
+core-ultra-9-285k,Core Ultra 9 285K,rtx-4060,GeForce RTX 4060,409,550,550,550,agree,450,2,0.744,141
+ryzen-5-5600x,Ryzen 5 5600X,rtx-5090,GeForce RTX 5090,707,1000,1000,1000,agree,1000,0,0.707,293
+ryzen-5-5600x,Ryzen 5 5600X,rtx-4090,GeForce RTX 4090,582,750,850,850,vendor,700,1,0.685,268
+ryzen-5-5600x,Ryzen 5 5600X,rtx-3090-ti,GeForce RTX 3090 Ti,582,750,850,850,vendor,700,1,0.685,268
+ryzen-5-5600x,Ryzen 5 5600X,rtx-5080,GeForce RTX 5080,492,650,850,850,vendor,600,1,0.579,358
+ryzen-5-5600x,Ryzen 5 5600X,rx-7900-xtx,Radeon RX 7900 XTX,487,650,800,800,vendor,600,1,0.609,313
+ryzen-5-5600x,Ryzen 5 5600X,rtx-3090,GeForce RTX 3090,482,650,750,750,vendor,600,1,0.643,268
+ryzen-5-5600x,Ryzen 5 5600X,rtx-3080-ti,GeForce RTX 3080 Ti,482,650,750,750,vendor,600,1,0.643,268
+ryzen-5-5600x,Ryzen 5 5600X,rtx-3080,GeForce RTX 3080,482,650,750,750,vendor,600,1,0.643,268
+ryzen-5-5600x,Ryzen 5 5600X,rtx-4080-super,GeForce RTX 4080 SUPER,452,600,750,750,vendor,550,1,0.603,298
+ryzen-5-5600x,Ryzen 5 5600X,rtx-4080,GeForce RTX 4080,452,600,750,750,vendor,550,1,0.603,298
+ryzen-5-5600x,Ryzen 5 5600X,rx-7900-xt,Radeon RX 7900 XT,447,600,750,750,vendor,550,1,0.596,303
+ryzen-5-5600x,Ryzen 5 5600X,rx-9070-xt,Radeon RX 9070 XT,436,550,750,750,vendor,550,0,0.581,314
+ryzen-5-5600x,Ryzen 5 5600X,rtx-5070-ti,GeForce RTX 5070 Ti,432,550,750,750,vendor,550,0,0.576,318
+ryzen-5-5600x,Ryzen 5 5600X,rtx-3070-ti,GeForce RTX 3070 Ti,422,550,650,650,vendor,500,1,0.649,228
+ryzen-5-5600x,Ryzen 5 5600X,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,417,550,700,700,vendor,500,1,0.596,283
+ryzen-5-5600x,Ryzen 5 5600X,rtx-4070-ti,GeForce RTX 4070 Ti,417,550,700,700,vendor,500,1,0.596,283
+ryzen-5-5600x,Ryzen 5 5600X,rx-7800-xt,Radeon RX 7800 XT,395,500,700,700,vendor,500,0,0.564,305
+ryzen-5-5600x,Ryzen 5 5600X,rx-7900-gre,Radeon RX 7900 GRE,392,500,700,700,vendor,500,0,0.56,308
+ryzen-5-5600x,Ryzen 5 5600X,rtx-5070,GeForce RTX 5070,382,500,650,650,vendor,450,1,0.588,268
+ryzen-5-5600x,Ryzen 5 5600X,rx-7700-xt,Radeon RX 7700 XT,377,500,700,700,vendor,450,1,0.539,323
+ryzen-5-5600x,Ryzen 5 5600X,rtx-4070-super,GeForce RTX 4070 SUPER,352,450,650,650,vendor,450,0,0.542,298
+ryzen-5-5600x,Ryzen 5 5600X,rtx-3070,GeForce RTX 3070,352,450,650,650,vendor,450,0,0.542,298
+ryzen-5-5600x,Ryzen 5 5600X,rx-9070,Radeon RX 9070,352,450,650,650,vendor,450,0,0.542,298
+ryzen-5-5600x,Ryzen 5 5600X,rtx-4070,GeForce RTX 4070,332,450,650,650,vendor,450,0,0.511,318
+ryzen-5-5600x,Ryzen 5 5600X,rtx-3060-ti,GeForce RTX 3060 Ti,332,450,600,600,vendor,450,0,0.553,268
+ryzen-5-5600x,Ryzen 5 5600X,rtx-5060-ti,GeForce RTX 5060 Ti,312,450,600,600,vendor,450,0,0.52,288
+ryzen-5-5600x,Ryzen 5 5600X,rtx-3060,GeForce RTX 3060,302,450,550,550,vendor,450,0,0.549,248
+ryzen-5-5600x,Ryzen 5 5600X,rtx-4060-ti,GeForce RTX 4060 Ti,297,450,550,550,vendor,450,0,0.54,253
+ryzen-5-5600x,Ryzen 5 5600X,rx-7600,Radeon RX 7600,297,450,550,550,vendor,450,0,0.54,253
+ryzen-5-5600x,Ryzen 5 5600X,rx-9060-xt,Radeon RX 9060 XT,292,450,550,550,vendor,450,0,0.531,258
+ryzen-5-5600x,Ryzen 5 5600X,rtx-5060,GeForce RTX 5060,277,450,550,550,vendor,450,0,0.504,273
+ryzen-5-5600x,Ryzen 5 5600X,rtx-5050,GeForce RTX 5050,262,450,550,550,vendor,450,0,0.476,288
+ryzen-5-5600x,Ryzen 5 5600X,rtx-3050,GeForce RTX 3050,262,450,550,550,vendor,450,0,0.476,288
+ryzen-5-5600x,Ryzen 5 5600X,rtx-4060,GeForce RTX 4060,247,450,550,550,vendor,450,0,0.449,303
+ryzen-5-7600,Ryzen 5 7600,rtx-5090,GeForce RTX 5090,707,1000,1000,1000,agree,1000,0,0.707,293
+ryzen-5-7600,Ryzen 5 7600,rtx-4090,GeForce RTX 4090,582,750,850,850,vendor,700,1,0.685,268
+ryzen-5-7600,Ryzen 5 7600,rtx-3090-ti,GeForce RTX 3090 Ti,582,750,850,850,vendor,700,1,0.685,268
+ryzen-5-7600,Ryzen 5 7600,rtx-5080,GeForce RTX 5080,492,650,850,850,vendor,600,1,0.579,358
+ryzen-5-7600,Ryzen 5 7600,rx-7900-xtx,Radeon RX 7900 XTX,487,650,800,800,vendor,600,1,0.609,313
+ryzen-5-7600,Ryzen 5 7600,rtx-3090,GeForce RTX 3090,482,650,750,750,vendor,600,1,0.643,268
+ryzen-5-7600,Ryzen 5 7600,rtx-3080-ti,GeForce RTX 3080 Ti,482,650,750,750,vendor,600,1,0.643,268
+ryzen-5-7600,Ryzen 5 7600,rtx-3080,GeForce RTX 3080,482,650,750,750,vendor,600,1,0.643,268
+ryzen-5-7600,Ryzen 5 7600,rtx-4080-super,GeForce RTX 4080 SUPER,452,600,750,750,vendor,550,1,0.603,298
+ryzen-5-7600,Ryzen 5 7600,rtx-4080,GeForce RTX 4080,452,600,750,750,vendor,550,1,0.603,298
+ryzen-5-7600,Ryzen 5 7600,rx-7900-xt,Radeon RX 7900 XT,447,600,750,750,vendor,550,1,0.596,303
+ryzen-5-7600,Ryzen 5 7600,rx-9070-xt,Radeon RX 9070 XT,436,550,750,750,vendor,550,0,0.581,314
+ryzen-5-7600,Ryzen 5 7600,rtx-5070-ti,GeForce RTX 5070 Ti,432,550,750,750,vendor,550,0,0.576,318
+ryzen-5-7600,Ryzen 5 7600,rtx-3070-ti,GeForce RTX 3070 Ti,422,550,650,650,vendor,500,1,0.649,228
+ryzen-5-7600,Ryzen 5 7600,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,417,550,700,700,vendor,500,1,0.596,283
+ryzen-5-7600,Ryzen 5 7600,rtx-4070-ti,GeForce RTX 4070 Ti,417,550,700,700,vendor,500,1,0.596,283
+ryzen-5-7600,Ryzen 5 7600,rx-7800-xt,Radeon RX 7800 XT,395,500,700,700,vendor,500,0,0.564,305
+ryzen-5-7600,Ryzen 5 7600,rx-7900-gre,Radeon RX 7900 GRE,392,500,700,700,vendor,500,0,0.56,308
+ryzen-5-7600,Ryzen 5 7600,rtx-5070,GeForce RTX 5070,382,500,650,650,vendor,450,1,0.588,268
+ryzen-5-7600,Ryzen 5 7600,rx-7700-xt,Radeon RX 7700 XT,377,500,700,700,vendor,450,1,0.539,323
+ryzen-5-7600,Ryzen 5 7600,rtx-4070-super,GeForce RTX 4070 SUPER,352,450,650,650,vendor,450,0,0.542,298
+ryzen-5-7600,Ryzen 5 7600,rtx-3070,GeForce RTX 3070,352,450,650,650,vendor,450,0,0.542,298
+ryzen-5-7600,Ryzen 5 7600,rx-9070,Radeon RX 9070,352,450,650,650,vendor,450,0,0.542,298
+ryzen-5-7600,Ryzen 5 7600,rtx-4070,GeForce RTX 4070,332,450,650,650,vendor,450,0,0.511,318
+ryzen-5-7600,Ryzen 5 7600,rtx-3060-ti,GeForce RTX 3060 Ti,332,450,600,600,vendor,450,0,0.553,268
+ryzen-5-7600,Ryzen 5 7600,rtx-5060-ti,GeForce RTX 5060 Ti,312,450,600,600,vendor,450,0,0.52,288
+ryzen-5-7600,Ryzen 5 7600,rtx-3060,GeForce RTX 3060,302,450,550,550,vendor,450,0,0.549,248
+ryzen-5-7600,Ryzen 5 7600,rtx-4060-ti,GeForce RTX 4060 Ti,297,450,550,550,vendor,450,0,0.54,253
+ryzen-5-7600,Ryzen 5 7600,rx-7600,Radeon RX 7600,297,450,550,550,vendor,450,0,0.54,253
+ryzen-5-7600,Ryzen 5 7600,rx-9060-xt,Radeon RX 9060 XT,292,450,550,550,vendor,450,0,0.531,258
+ryzen-5-7600,Ryzen 5 7600,rtx-5060,GeForce RTX 5060,277,450,550,550,vendor,450,0,0.504,273
+ryzen-5-7600,Ryzen 5 7600,rtx-5050,GeForce RTX 5050,262,450,550,550,vendor,450,0,0.476,288
+ryzen-5-7600,Ryzen 5 7600,rtx-3050,GeForce RTX 3050,262,450,550,550,vendor,450,0,0.476,288
+ryzen-5-7600,Ryzen 5 7600,rtx-4060,GeForce RTX 4060,247,450,550,550,vendor,450,0,0.449,303
+ryzen-5-7600x,Ryzen 5 7600X,rtx-5090,GeForce RTX 5090,761,1000,1000,1000,agree,1000,0,0.761,239
+ryzen-5-7600x,Ryzen 5 7600X,rtx-4090,GeForce RTX 4090,636,800,850,850,vendor,750,1,0.748,214
+ryzen-5-7600x,Ryzen 5 7600X,rtx-3090-ti,GeForce RTX 3090 Ti,636,800,850,850,vendor,750,1,0.748,214
+ryzen-5-7600x,Ryzen 5 7600X,rtx-5080,GeForce RTX 5080,546,700,850,850,vendor,650,1,0.642,304
+ryzen-5-7600x,Ryzen 5 7600X,rx-7900-xtx,Radeon RX 7900 XTX,541,700,800,800,vendor,650,1,0.676,259
+ryzen-5-7600x,Ryzen 5 7600X,rtx-3090,GeForce RTX 3090,536,700,750,750,vendor,650,1,0.715,214
+ryzen-5-7600x,Ryzen 5 7600X,rtx-3080-ti,GeForce RTX 3080 Ti,536,700,750,750,vendor,650,1,0.715,214
+ryzen-5-7600x,Ryzen 5 7600X,rtx-3080,GeForce RTX 3080,536,700,750,750,vendor,650,1,0.715,214
+ryzen-5-7600x,Ryzen 5 7600X,rtx-4080-super,GeForce RTX 4080 SUPER,506,650,750,750,vendor,600,1,0.675,244
+ryzen-5-7600x,Ryzen 5 7600X,rtx-4080,GeForce RTX 4080,506,650,750,750,vendor,600,1,0.675,244
+ryzen-5-7600x,Ryzen 5 7600X,rx-7900-xt,Radeon RX 7900 XT,501,650,750,750,vendor,600,1,0.668,249
+ryzen-5-7600x,Ryzen 5 7600X,rx-9070-xt,Radeon RX 9070 XT,490,650,750,750,vendor,600,1,0.653,260
+ryzen-5-7600x,Ryzen 5 7600X,rtx-5070-ti,GeForce RTX 5070 Ti,486,650,750,750,vendor,600,1,0.648,264
+ryzen-5-7600x,Ryzen 5 7600X,rtx-3070-ti,GeForce RTX 3070 Ti,476,600,650,650,vendor,550,1,0.732,174
+ryzen-5-7600x,Ryzen 5 7600X,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,471,600,700,700,vendor,550,1,0.673,229
+ryzen-5-7600x,Ryzen 5 7600X,rtx-4070-ti,GeForce RTX 4070 Ti,471,600,700,700,vendor,550,1,0.673,229
+ryzen-5-7600x,Ryzen 5 7600X,rx-7800-xt,Radeon RX 7800 XT,449,600,700,700,vendor,550,1,0.641,251
+ryzen-5-7600x,Ryzen 5 7600X,rx-7900-gre,Radeon RX 7900 GRE,446,600,700,700,vendor,550,1,0.637,254
+ryzen-5-7600x,Ryzen 5 7600X,rtx-5070,GeForce RTX 5070,436,550,650,650,vendor,500,1,0.671,214
+ryzen-5-7600x,Ryzen 5 7600X,rx-7700-xt,Radeon RX 7700 XT,431,550,700,700,vendor,500,1,0.616,269
+ryzen-5-7600x,Ryzen 5 7600X,rtx-4070-super,GeForce RTX 4070 SUPER,406,550,650,650,vendor,500,1,0.625,244
+ryzen-5-7600x,Ryzen 5 7600X,rtx-3070,GeForce RTX 3070,406,550,650,650,vendor,500,1,0.625,244
+ryzen-5-7600x,Ryzen 5 7600X,rx-9070,Radeon RX 9070,406,550,650,650,vendor,500,1,0.625,244
+ryzen-5-7600x,Ryzen 5 7600X,rtx-4070,GeForce RTX 4070,386,500,650,650,vendor,450,1,0.594,264
+ryzen-5-7600x,Ryzen 5 7600X,rtx-3060-ti,GeForce RTX 3060 Ti,386,500,600,600,vendor,450,1,0.643,214
+ryzen-5-7600x,Ryzen 5 7600X,rtx-5060-ti,GeForce RTX 5060 Ti,366,500,600,600,vendor,450,1,0.61,234
+ryzen-5-7600x,Ryzen 5 7600X,rtx-3060,GeForce RTX 3060,356,450,550,550,vendor,450,0,0.647,194
+ryzen-5-7600x,Ryzen 5 7600X,rtx-4060-ti,GeForce RTX 4060 Ti,351,450,550,550,vendor,450,0,0.638,199
+ryzen-5-7600x,Ryzen 5 7600X,rx-7600,Radeon RX 7600,351,450,550,550,vendor,450,0,0.638,199
+ryzen-5-7600x,Ryzen 5 7600X,rx-9060-xt,Radeon RX 9060 XT,346,450,550,550,vendor,450,0,0.629,204
+ryzen-5-7600x,Ryzen 5 7600X,rtx-5060,GeForce RTX 5060,331,450,550,550,vendor,450,0,0.602,219
+ryzen-5-7600x,Ryzen 5 7600X,rtx-5050,GeForce RTX 5050,316,450,550,550,vendor,450,0,0.575,234
+ryzen-5-7600x,Ryzen 5 7600X,rtx-3050,GeForce RTX 3050,316,450,550,550,vendor,450,0,0.575,234
+ryzen-5-7600x,Ryzen 5 7600X,rtx-4060,GeForce RTX 4060,301,450,550,550,vendor,450,0,0.547,249
+ryzen-5-9600x,Ryzen 5 9600X,rtx-5090,GeForce RTX 5090,707,1000,1000,1000,agree,1000,0,0.707,293
+ryzen-5-9600x,Ryzen 5 9600X,rtx-4090,GeForce RTX 4090,582,750,850,850,vendor,700,1,0.685,268
+ryzen-5-9600x,Ryzen 5 9600X,rtx-3090-ti,GeForce RTX 3090 Ti,582,750,850,850,vendor,700,1,0.685,268
+ryzen-5-9600x,Ryzen 5 9600X,rtx-5080,GeForce RTX 5080,492,650,850,850,vendor,600,1,0.579,358
+ryzen-5-9600x,Ryzen 5 9600X,rx-7900-xtx,Radeon RX 7900 XTX,487,650,800,800,vendor,600,1,0.609,313
+ryzen-5-9600x,Ryzen 5 9600X,rtx-3090,GeForce RTX 3090,482,650,750,750,vendor,600,1,0.643,268
+ryzen-5-9600x,Ryzen 5 9600X,rtx-3080-ti,GeForce RTX 3080 Ti,482,650,750,750,vendor,600,1,0.643,268
+ryzen-5-9600x,Ryzen 5 9600X,rtx-3080,GeForce RTX 3080,482,650,750,750,vendor,600,1,0.643,268
+ryzen-5-9600x,Ryzen 5 9600X,rtx-4080-super,GeForce RTX 4080 SUPER,452,600,750,750,vendor,550,1,0.603,298
+ryzen-5-9600x,Ryzen 5 9600X,rtx-4080,GeForce RTX 4080,452,600,750,750,vendor,550,1,0.603,298
+ryzen-5-9600x,Ryzen 5 9600X,rx-7900-xt,Radeon RX 7900 XT,447,600,750,750,vendor,550,1,0.596,303
+ryzen-5-9600x,Ryzen 5 9600X,rx-9070-xt,Radeon RX 9070 XT,436,550,750,750,vendor,550,0,0.581,314
+ryzen-5-9600x,Ryzen 5 9600X,rtx-5070-ti,GeForce RTX 5070 Ti,432,550,750,750,vendor,550,0,0.576,318
+ryzen-5-9600x,Ryzen 5 9600X,rtx-3070-ti,GeForce RTX 3070 Ti,422,550,650,650,vendor,500,1,0.649,228
+ryzen-5-9600x,Ryzen 5 9600X,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,417,550,700,700,vendor,500,1,0.596,283
+ryzen-5-9600x,Ryzen 5 9600X,rtx-4070-ti,GeForce RTX 4070 Ti,417,550,700,700,vendor,500,1,0.596,283
+ryzen-5-9600x,Ryzen 5 9600X,rx-7800-xt,Radeon RX 7800 XT,395,500,700,700,vendor,500,0,0.564,305
+ryzen-5-9600x,Ryzen 5 9600X,rx-7900-gre,Radeon RX 7900 GRE,392,500,700,700,vendor,500,0,0.56,308
+ryzen-5-9600x,Ryzen 5 9600X,rtx-5070,GeForce RTX 5070,382,500,650,650,vendor,450,1,0.588,268
+ryzen-5-9600x,Ryzen 5 9600X,rx-7700-xt,Radeon RX 7700 XT,377,500,700,700,vendor,450,1,0.539,323
+ryzen-5-9600x,Ryzen 5 9600X,rtx-4070-super,GeForce RTX 4070 SUPER,352,450,650,650,vendor,450,0,0.542,298
+ryzen-5-9600x,Ryzen 5 9600X,rtx-3070,GeForce RTX 3070,352,450,650,650,vendor,450,0,0.542,298
+ryzen-5-9600x,Ryzen 5 9600X,rx-9070,Radeon RX 9070,352,450,650,650,vendor,450,0,0.542,298
+ryzen-5-9600x,Ryzen 5 9600X,rtx-4070,GeForce RTX 4070,332,450,650,650,vendor,450,0,0.511,318
+ryzen-5-9600x,Ryzen 5 9600X,rtx-3060-ti,GeForce RTX 3060 Ti,332,450,600,600,vendor,450,0,0.553,268
+ryzen-5-9600x,Ryzen 5 9600X,rtx-5060-ti,GeForce RTX 5060 Ti,312,450,600,600,vendor,450,0,0.52,288
+ryzen-5-9600x,Ryzen 5 9600X,rtx-3060,GeForce RTX 3060,302,450,550,550,vendor,450,0,0.549,248
+ryzen-5-9600x,Ryzen 5 9600X,rtx-4060-ti,GeForce RTX 4060 Ti,297,450,550,550,vendor,450,0,0.54,253
+ryzen-5-9600x,Ryzen 5 9600X,rx-7600,Radeon RX 7600,297,450,550,550,vendor,450,0,0.54,253
+ryzen-5-9600x,Ryzen 5 9600X,rx-9060-xt,Radeon RX 9060 XT,292,450,550,550,vendor,450,0,0.531,258
+ryzen-5-9600x,Ryzen 5 9600X,rtx-5060,GeForce RTX 5060,277,450,550,550,vendor,450,0,0.504,273
+ryzen-5-9600x,Ryzen 5 9600X,rtx-5050,GeForce RTX 5050,262,450,550,550,vendor,450,0,0.476,288
+ryzen-5-9600x,Ryzen 5 9600X,rtx-3050,GeForce RTX 3050,262,450,550,550,vendor,450,0,0.476,288
+ryzen-5-9600x,Ryzen 5 9600X,rtx-4060,GeForce RTX 4060,247,450,550,550,vendor,450,0,0.449,303
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rtx-5090,GeForce RTX 5090,761,1000,1000,1000,agree,1000,0,0.761,239
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rtx-4090,GeForce RTX 4090,636,800,850,850,vendor,750,1,0.748,214
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rtx-3090-ti,GeForce RTX 3090 Ti,636,800,850,850,vendor,750,1,0.748,214
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rtx-5080,GeForce RTX 5080,546,700,850,850,vendor,650,1,0.642,304
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rx-7900-xtx,Radeon RX 7900 XTX,541,700,800,800,vendor,650,1,0.676,259
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rtx-3090,GeForce RTX 3090,536,700,750,750,vendor,650,1,0.715,214
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rtx-3080-ti,GeForce RTX 3080 Ti,536,700,750,750,vendor,650,1,0.715,214
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rtx-3080,GeForce RTX 3080,536,700,750,750,vendor,650,1,0.715,214
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rtx-4080-super,GeForce RTX 4080 SUPER,506,650,750,750,vendor,600,1,0.675,244
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rtx-4080,GeForce RTX 4080,506,650,750,750,vendor,600,1,0.675,244
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rx-7900-xt,Radeon RX 7900 XT,501,650,750,750,vendor,600,1,0.668,249
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rx-9070-xt,Radeon RX 9070 XT,490,650,750,750,vendor,600,1,0.653,260
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rtx-5070-ti,GeForce RTX 5070 Ti,486,650,750,750,vendor,600,1,0.648,264
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rtx-3070-ti,GeForce RTX 3070 Ti,476,600,650,650,vendor,550,1,0.732,174
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,471,600,700,700,vendor,550,1,0.673,229
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rtx-4070-ti,GeForce RTX 4070 Ti,471,600,700,700,vendor,550,1,0.673,229
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rx-7800-xt,Radeon RX 7800 XT,449,600,700,700,vendor,550,1,0.641,251
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rx-7900-gre,Radeon RX 7900 GRE,446,600,700,700,vendor,550,1,0.637,254
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rtx-5070,GeForce RTX 5070,436,550,650,650,vendor,500,1,0.671,214
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rx-7700-xt,Radeon RX 7700 XT,431,550,700,700,vendor,500,1,0.616,269
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rtx-4070-super,GeForce RTX 4070 SUPER,406,550,650,650,vendor,500,1,0.625,244
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rtx-3070,GeForce RTX 3070,406,550,650,650,vendor,500,1,0.625,244
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rx-9070,Radeon RX 9070,406,550,650,650,vendor,500,1,0.625,244
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rtx-4070,GeForce RTX 4070,386,500,650,650,vendor,450,1,0.594,264
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rtx-3060-ti,GeForce RTX 3060 Ti,386,500,600,600,vendor,450,1,0.643,214
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rtx-5060-ti,GeForce RTX 5060 Ti,366,500,600,600,vendor,450,1,0.61,234
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rtx-3060,GeForce RTX 3060,356,450,550,550,vendor,450,0,0.647,194
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rtx-4060-ti,GeForce RTX 4060 Ti,351,450,550,550,vendor,450,0,0.638,199
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rx-7600,Radeon RX 7600,351,450,550,550,vendor,450,0,0.638,199
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rx-9060-xt,Radeon RX 9060 XT,346,450,550,550,vendor,450,0,0.629,204
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rtx-5060,GeForce RTX 5060,331,450,550,550,vendor,450,0,0.602,219
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rtx-5050,GeForce RTX 5050,316,450,550,550,vendor,450,0,0.575,234
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rtx-3050,GeForce RTX 3050,316,450,550,550,vendor,450,0,0.575,234
+ryzen-7-5800x3d,Ryzen 7 5800X3D,rtx-4060,GeForce RTX 4060,301,450,550,550,vendor,450,0,0.547,249
+ryzen-7-7700x,Ryzen 7 7700X,rtx-5090,GeForce RTX 5090,761,1000,1000,1000,agree,1000,0,0.761,239
+ryzen-7-7700x,Ryzen 7 7700X,rtx-4090,GeForce RTX 4090,636,800,850,850,vendor,750,1,0.748,214
+ryzen-7-7700x,Ryzen 7 7700X,rtx-3090-ti,GeForce RTX 3090 Ti,636,800,850,850,vendor,750,1,0.748,214
+ryzen-7-7700x,Ryzen 7 7700X,rtx-5080,GeForce RTX 5080,546,700,850,850,vendor,650,1,0.642,304
+ryzen-7-7700x,Ryzen 7 7700X,rx-7900-xtx,Radeon RX 7900 XTX,541,700,800,800,vendor,650,1,0.676,259
+ryzen-7-7700x,Ryzen 7 7700X,rtx-3090,GeForce RTX 3090,536,700,750,750,vendor,650,1,0.715,214
+ryzen-7-7700x,Ryzen 7 7700X,rtx-3080-ti,GeForce RTX 3080 Ti,536,700,750,750,vendor,650,1,0.715,214
+ryzen-7-7700x,Ryzen 7 7700X,rtx-3080,GeForce RTX 3080,536,700,750,750,vendor,650,1,0.715,214
+ryzen-7-7700x,Ryzen 7 7700X,rtx-4080-super,GeForce RTX 4080 SUPER,506,650,750,750,vendor,600,1,0.675,244
+ryzen-7-7700x,Ryzen 7 7700X,rtx-4080,GeForce RTX 4080,506,650,750,750,vendor,600,1,0.675,244
+ryzen-7-7700x,Ryzen 7 7700X,rx-7900-xt,Radeon RX 7900 XT,501,650,750,750,vendor,600,1,0.668,249
+ryzen-7-7700x,Ryzen 7 7700X,rx-9070-xt,Radeon RX 9070 XT,490,650,750,750,vendor,600,1,0.653,260
+ryzen-7-7700x,Ryzen 7 7700X,rtx-5070-ti,GeForce RTX 5070 Ti,486,650,750,750,vendor,600,1,0.648,264
+ryzen-7-7700x,Ryzen 7 7700X,rtx-3070-ti,GeForce RTX 3070 Ti,476,600,650,650,vendor,550,1,0.732,174
+ryzen-7-7700x,Ryzen 7 7700X,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,471,600,700,700,vendor,550,1,0.673,229
+ryzen-7-7700x,Ryzen 7 7700X,rtx-4070-ti,GeForce RTX 4070 Ti,471,600,700,700,vendor,550,1,0.673,229
+ryzen-7-7700x,Ryzen 7 7700X,rx-7800-xt,Radeon RX 7800 XT,449,600,700,700,vendor,550,1,0.641,251
+ryzen-7-7700x,Ryzen 7 7700X,rx-7900-gre,Radeon RX 7900 GRE,446,600,700,700,vendor,550,1,0.637,254
+ryzen-7-7700x,Ryzen 7 7700X,rtx-5070,GeForce RTX 5070,436,550,650,650,vendor,500,1,0.671,214
+ryzen-7-7700x,Ryzen 7 7700X,rx-7700-xt,Radeon RX 7700 XT,431,550,700,700,vendor,500,1,0.616,269
+ryzen-7-7700x,Ryzen 7 7700X,rtx-4070-super,GeForce RTX 4070 SUPER,406,550,650,650,vendor,500,1,0.625,244
+ryzen-7-7700x,Ryzen 7 7700X,rtx-3070,GeForce RTX 3070,406,550,650,650,vendor,500,1,0.625,244
+ryzen-7-7700x,Ryzen 7 7700X,rx-9070,Radeon RX 9070,406,550,650,650,vendor,500,1,0.625,244
+ryzen-7-7700x,Ryzen 7 7700X,rtx-4070,GeForce RTX 4070,386,500,650,650,vendor,450,1,0.594,264
+ryzen-7-7700x,Ryzen 7 7700X,rtx-3060-ti,GeForce RTX 3060 Ti,386,500,600,600,vendor,450,1,0.643,214
+ryzen-7-7700x,Ryzen 7 7700X,rtx-5060-ti,GeForce RTX 5060 Ti,366,500,600,600,vendor,450,1,0.61,234
+ryzen-7-7700x,Ryzen 7 7700X,rtx-3060,GeForce RTX 3060,356,450,550,550,vendor,450,0,0.647,194
+ryzen-7-7700x,Ryzen 7 7700X,rtx-4060-ti,GeForce RTX 4060 Ti,351,450,550,550,vendor,450,0,0.638,199
+ryzen-7-7700x,Ryzen 7 7700X,rx-7600,Radeon RX 7600,351,450,550,550,vendor,450,0,0.638,199
+ryzen-7-7700x,Ryzen 7 7700X,rx-9060-xt,Radeon RX 9060 XT,346,450,550,550,vendor,450,0,0.629,204
+ryzen-7-7700x,Ryzen 7 7700X,rtx-5060,GeForce RTX 5060,331,450,550,550,vendor,450,0,0.602,219
+ryzen-7-7700x,Ryzen 7 7700X,rtx-5050,GeForce RTX 5050,316,450,550,550,vendor,450,0,0.575,234
+ryzen-7-7700x,Ryzen 7 7700X,rtx-3050,GeForce RTX 3050,316,450,550,550,vendor,450,0,0.575,234
+ryzen-7-7700x,Ryzen 7 7700X,rtx-4060,GeForce RTX 4060,301,450,550,550,vendor,450,0,0.547,249
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rtx-5090,GeForce RTX 5090,781,1000,1000,1000,agree,1000,0,0.781,219
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rtx-4090,GeForce RTX 4090,656,850,850,850,agree,800,1,0.772,194
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rtx-3090-ti,GeForce RTX 3090 Ti,656,850,850,850,agree,800,1,0.772,194
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rtx-5080,GeForce RTX 5080,566,750,850,850,vendor,700,1,0.666,284
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rx-7900-xtx,Radeon RX 7900 XTX,561,750,800,800,vendor,650,2,0.701,239
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rtx-3090,GeForce RTX 3090,556,700,750,750,vendor,650,1,0.741,194
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rtx-3080-ti,GeForce RTX 3080 Ti,556,700,750,750,vendor,650,1,0.741,194
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rtx-3080,GeForce RTX 3080,556,700,750,750,vendor,650,1,0.741,194
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rtx-4080-super,GeForce RTX 4080 SUPER,526,700,750,750,vendor,650,1,0.701,224
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rtx-4080,GeForce RTX 4080,526,700,750,750,vendor,650,1,0.701,224
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rx-7900-xt,Radeon RX 7900 XT,521,700,750,750,vendor,600,2,0.695,229
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rx-9070-xt,Radeon RX 9070 XT,510,650,750,750,vendor,600,1,0.68,240
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rtx-5070-ti,GeForce RTX 5070 Ti,506,650,750,750,vendor,600,1,0.675,244
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rtx-3070-ti,GeForce RTX 3070 Ti,496,650,650,650,agree,600,1,0.763,154
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,491,650,700,700,vendor,600,1,0.701,209
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rtx-4070-ti,GeForce RTX 4070 Ti,491,650,700,700,vendor,600,1,0.701,209
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rx-7800-xt,Radeon RX 7800 XT,469,600,700,700,vendor,550,1,0.67,231
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rx-7900-gre,Radeon RX 7900 GRE,466,600,700,700,vendor,550,1,0.666,234
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rtx-5070,GeForce RTX 5070,456,600,650,650,vendor,550,1,0.702,194
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rx-7700-xt,Radeon RX 7700 XT,451,600,700,700,vendor,550,1,0.644,249
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rtx-4070-super,GeForce RTX 4070 SUPER,426,550,650,650,vendor,500,1,0.655,224
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rtx-3070,GeForce RTX 3070,426,550,650,650,vendor,500,1,0.655,224
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rx-9070,Radeon RX 9070,426,550,650,650,vendor,500,1,0.655,224
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rtx-4070,GeForce RTX 4070,406,550,650,650,vendor,500,1,0.625,244
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rtx-3060-ti,GeForce RTX 3060 Ti,406,550,600,600,vendor,500,1,0.677,194
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rtx-5060-ti,GeForce RTX 5060 Ti,386,500,600,600,vendor,450,1,0.643,214
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rtx-3060,GeForce RTX 3060,376,500,550,550,vendor,450,1,0.684,174
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rtx-4060-ti,GeForce RTX 4060 Ti,371,500,550,550,vendor,450,1,0.675,179
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rx-7600,Radeon RX 7600,371,500,550,550,vendor,450,1,0.675,179
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rx-9060-xt,Radeon RX 9060 XT,366,500,550,550,vendor,450,1,0.666,184
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rtx-5060,GeForce RTX 5060,351,450,550,550,vendor,450,0,0.638,199
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rtx-5050,GeForce RTX 5050,336,450,550,550,vendor,450,0,0.611,214
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rtx-3050,GeForce RTX 3050,336,450,550,550,vendor,450,0,0.611,214
+ryzen-7-7800x3d,Ryzen 7 7800X3D,rtx-4060,GeForce RTX 4060,321,450,550,550,vendor,450,0,0.584,229
+ryzen-7-9700x,Ryzen 7 9700X,rtx-5090,GeForce RTX 5090,707,1000,1000,1000,agree,1000,0,0.707,293
+ryzen-7-9700x,Ryzen 7 9700X,rtx-4090,GeForce RTX 4090,582,750,850,850,vendor,700,1,0.685,268
+ryzen-7-9700x,Ryzen 7 9700X,rtx-3090-ti,GeForce RTX 3090 Ti,582,750,850,850,vendor,700,1,0.685,268
+ryzen-7-9700x,Ryzen 7 9700X,rtx-5080,GeForce RTX 5080,492,650,850,850,vendor,600,1,0.579,358
+ryzen-7-9700x,Ryzen 7 9700X,rx-7900-xtx,Radeon RX 7900 XTX,487,650,800,800,vendor,600,1,0.609,313
+ryzen-7-9700x,Ryzen 7 9700X,rtx-3090,GeForce RTX 3090,482,650,750,750,vendor,600,1,0.643,268
+ryzen-7-9700x,Ryzen 7 9700X,rtx-3080-ti,GeForce RTX 3080 Ti,482,650,750,750,vendor,600,1,0.643,268
+ryzen-7-9700x,Ryzen 7 9700X,rtx-3080,GeForce RTX 3080,482,650,750,750,vendor,600,1,0.643,268
+ryzen-7-9700x,Ryzen 7 9700X,rtx-4080-super,GeForce RTX 4080 SUPER,452,600,750,750,vendor,550,1,0.603,298
+ryzen-7-9700x,Ryzen 7 9700X,rtx-4080,GeForce RTX 4080,452,600,750,750,vendor,550,1,0.603,298
+ryzen-7-9700x,Ryzen 7 9700X,rx-7900-xt,Radeon RX 7900 XT,447,600,750,750,vendor,550,1,0.596,303
+ryzen-7-9700x,Ryzen 7 9700X,rx-9070-xt,Radeon RX 9070 XT,436,550,750,750,vendor,550,0,0.581,314
+ryzen-7-9700x,Ryzen 7 9700X,rtx-5070-ti,GeForce RTX 5070 Ti,432,550,750,750,vendor,550,0,0.576,318
+ryzen-7-9700x,Ryzen 7 9700X,rtx-3070-ti,GeForce RTX 3070 Ti,422,550,650,650,vendor,500,1,0.649,228
+ryzen-7-9700x,Ryzen 7 9700X,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,417,550,700,700,vendor,500,1,0.596,283
+ryzen-7-9700x,Ryzen 7 9700X,rtx-4070-ti,GeForce RTX 4070 Ti,417,550,700,700,vendor,500,1,0.596,283
+ryzen-7-9700x,Ryzen 7 9700X,rx-7800-xt,Radeon RX 7800 XT,395,500,700,700,vendor,500,0,0.564,305
+ryzen-7-9700x,Ryzen 7 9700X,rx-7900-gre,Radeon RX 7900 GRE,392,500,700,700,vendor,500,0,0.56,308
+ryzen-7-9700x,Ryzen 7 9700X,rtx-5070,GeForce RTX 5070,382,500,650,650,vendor,450,1,0.588,268
+ryzen-7-9700x,Ryzen 7 9700X,rx-7700-xt,Radeon RX 7700 XT,377,500,700,700,vendor,450,1,0.539,323
+ryzen-7-9700x,Ryzen 7 9700X,rtx-4070-super,GeForce RTX 4070 SUPER,352,450,650,650,vendor,450,0,0.542,298
+ryzen-7-9700x,Ryzen 7 9700X,rtx-3070,GeForce RTX 3070,352,450,650,650,vendor,450,0,0.542,298
+ryzen-7-9700x,Ryzen 7 9700X,rx-9070,Radeon RX 9070,352,450,650,650,vendor,450,0,0.542,298
+ryzen-7-9700x,Ryzen 7 9700X,rtx-4070,GeForce RTX 4070,332,450,650,650,vendor,450,0,0.511,318
+ryzen-7-9700x,Ryzen 7 9700X,rtx-3060-ti,GeForce RTX 3060 Ti,332,450,600,600,vendor,450,0,0.553,268
+ryzen-7-9700x,Ryzen 7 9700X,rtx-5060-ti,GeForce RTX 5060 Ti,312,450,600,600,vendor,450,0,0.52,288
+ryzen-7-9700x,Ryzen 7 9700X,rtx-3060,GeForce RTX 3060,302,450,550,550,vendor,450,0,0.549,248
+ryzen-7-9700x,Ryzen 7 9700X,rtx-4060-ti,GeForce RTX 4060 Ti,297,450,550,550,vendor,450,0,0.54,253
+ryzen-7-9700x,Ryzen 7 9700X,rx-7600,Radeon RX 7600,297,450,550,550,vendor,450,0,0.54,253
+ryzen-7-9700x,Ryzen 7 9700X,rx-9060-xt,Radeon RX 9060 XT,292,450,550,550,vendor,450,0,0.531,258
+ryzen-7-9700x,Ryzen 7 9700X,rtx-5060,GeForce RTX 5060,277,450,550,550,vendor,450,0,0.504,273
+ryzen-7-9700x,Ryzen 7 9700X,rtx-5050,GeForce RTX 5050,262,450,550,550,vendor,450,0,0.476,288
+ryzen-7-9700x,Ryzen 7 9700X,rtx-3050,GeForce RTX 3050,262,450,550,550,vendor,450,0,0.476,288
+ryzen-7-9700x,Ryzen 7 9700X,rtx-4060,GeForce RTX 4060,247,450,550,550,vendor,450,0,0.449,303
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rtx-5090,GeForce RTX 5090,781,1000,1000,1000,agree,1000,0,0.781,219
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rtx-4090,GeForce RTX 4090,656,850,850,850,agree,800,1,0.772,194
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rtx-3090-ti,GeForce RTX 3090 Ti,656,850,850,850,agree,800,1,0.772,194
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rtx-5080,GeForce RTX 5080,566,750,850,850,vendor,700,1,0.666,284
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rx-7900-xtx,Radeon RX 7900 XTX,561,750,800,800,vendor,650,2,0.701,239
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rtx-3090,GeForce RTX 3090,556,700,750,750,vendor,650,1,0.741,194
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rtx-3080-ti,GeForce RTX 3080 Ti,556,700,750,750,vendor,650,1,0.741,194
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rtx-3080,GeForce RTX 3080,556,700,750,750,vendor,650,1,0.741,194
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rtx-4080-super,GeForce RTX 4080 SUPER,526,700,750,750,vendor,650,1,0.701,224
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rtx-4080,GeForce RTX 4080,526,700,750,750,vendor,650,1,0.701,224
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rx-7900-xt,Radeon RX 7900 XT,521,700,750,750,vendor,600,2,0.695,229
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rx-9070-xt,Radeon RX 9070 XT,510,650,750,750,vendor,600,1,0.68,240
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rtx-5070-ti,GeForce RTX 5070 Ti,506,650,750,750,vendor,600,1,0.675,244
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rtx-3070-ti,GeForce RTX 3070 Ti,496,650,650,650,agree,600,1,0.763,154
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,491,650,700,700,vendor,600,1,0.701,209
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rtx-4070-ti,GeForce RTX 4070 Ti,491,650,700,700,vendor,600,1,0.701,209
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rx-7800-xt,Radeon RX 7800 XT,469,600,700,700,vendor,550,1,0.67,231
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rx-7900-gre,Radeon RX 7900 GRE,466,600,700,700,vendor,550,1,0.666,234
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rtx-5070,GeForce RTX 5070,456,600,650,650,vendor,550,1,0.702,194
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rx-7700-xt,Radeon RX 7700 XT,451,600,700,700,vendor,550,1,0.644,249
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rtx-4070-super,GeForce RTX 4070 SUPER,426,550,650,650,vendor,500,1,0.655,224
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rtx-3070,GeForce RTX 3070,426,550,650,650,vendor,500,1,0.655,224
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rx-9070,Radeon RX 9070,426,550,650,650,vendor,500,1,0.655,224
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rtx-4070,GeForce RTX 4070,406,550,650,650,vendor,500,1,0.625,244
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rtx-3060-ti,GeForce RTX 3060 Ti,406,550,600,600,vendor,500,1,0.677,194
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rtx-5060-ti,GeForce RTX 5060 Ti,386,500,600,600,vendor,450,1,0.643,214
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rtx-3060,GeForce RTX 3060,376,500,550,550,vendor,450,1,0.684,174
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rtx-4060-ti,GeForce RTX 4060 Ti,371,500,550,550,vendor,450,1,0.675,179
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rx-7600,Radeon RX 7600,371,500,550,550,vendor,450,1,0.675,179
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rx-9060-xt,Radeon RX 9060 XT,366,500,550,550,vendor,450,1,0.666,184
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rtx-5060,GeForce RTX 5060,351,450,550,550,vendor,450,0,0.638,199
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rtx-5050,GeForce RTX 5050,336,450,550,550,vendor,450,0,0.611,214
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rtx-3050,GeForce RTX 3050,336,450,550,550,vendor,450,0,0.611,214
+ryzen-7-9800x3d,Ryzen 7 9800X3D,rtx-4060,GeForce RTX 4060,321,450,550,550,vendor,450,0,0.584,229
+ryzen-9-5950x,Ryzen 9 5950X,rtx-5090,GeForce RTX 5090,761,1000,1000,1000,agree,1000,0,0.761,239
+ryzen-9-5950x,Ryzen 9 5950X,rtx-4090,GeForce RTX 4090,636,800,850,850,vendor,750,1,0.748,214
+ryzen-9-5950x,Ryzen 9 5950X,rtx-3090-ti,GeForce RTX 3090 Ti,636,800,850,850,vendor,750,1,0.748,214
+ryzen-9-5950x,Ryzen 9 5950X,rtx-5080,GeForce RTX 5080,546,700,850,850,vendor,650,1,0.642,304
+ryzen-9-5950x,Ryzen 9 5950X,rx-7900-xtx,Radeon RX 7900 XTX,541,700,800,800,vendor,650,1,0.676,259
+ryzen-9-5950x,Ryzen 9 5950X,rtx-3090,GeForce RTX 3090,536,700,750,750,vendor,650,1,0.715,214
+ryzen-9-5950x,Ryzen 9 5950X,rtx-3080-ti,GeForce RTX 3080 Ti,536,700,750,750,vendor,650,1,0.715,214
+ryzen-9-5950x,Ryzen 9 5950X,rtx-3080,GeForce RTX 3080,536,700,750,750,vendor,650,1,0.715,214
+ryzen-9-5950x,Ryzen 9 5950X,rtx-4080-super,GeForce RTX 4080 SUPER,506,650,750,750,vendor,600,1,0.675,244
+ryzen-9-5950x,Ryzen 9 5950X,rtx-4080,GeForce RTX 4080,506,650,750,750,vendor,600,1,0.675,244
+ryzen-9-5950x,Ryzen 9 5950X,rx-7900-xt,Radeon RX 7900 XT,501,650,750,750,vendor,600,1,0.668,249
+ryzen-9-5950x,Ryzen 9 5950X,rx-9070-xt,Radeon RX 9070 XT,490,650,750,750,vendor,600,1,0.653,260
+ryzen-9-5950x,Ryzen 9 5950X,rtx-5070-ti,GeForce RTX 5070 Ti,486,650,750,750,vendor,600,1,0.648,264
+ryzen-9-5950x,Ryzen 9 5950X,rtx-3070-ti,GeForce RTX 3070 Ti,476,600,650,650,vendor,550,1,0.732,174
+ryzen-9-5950x,Ryzen 9 5950X,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,471,600,700,700,vendor,550,1,0.673,229
+ryzen-9-5950x,Ryzen 9 5950X,rtx-4070-ti,GeForce RTX 4070 Ti,471,600,700,700,vendor,550,1,0.673,229
+ryzen-9-5950x,Ryzen 9 5950X,rx-7800-xt,Radeon RX 7800 XT,449,600,700,700,vendor,550,1,0.641,251
+ryzen-9-5950x,Ryzen 9 5950X,rx-7900-gre,Radeon RX 7900 GRE,446,600,700,700,vendor,550,1,0.637,254
+ryzen-9-5950x,Ryzen 9 5950X,rtx-5070,GeForce RTX 5070,436,550,650,650,vendor,500,1,0.671,214
+ryzen-9-5950x,Ryzen 9 5950X,rx-7700-xt,Radeon RX 7700 XT,431,550,700,700,vendor,500,1,0.616,269
+ryzen-9-5950x,Ryzen 9 5950X,rtx-4070-super,GeForce RTX 4070 SUPER,406,550,650,650,vendor,500,1,0.625,244
+ryzen-9-5950x,Ryzen 9 5950X,rtx-3070,GeForce RTX 3070,406,550,650,650,vendor,500,1,0.625,244
+ryzen-9-5950x,Ryzen 9 5950X,rx-9070,Radeon RX 9070,406,550,650,650,vendor,500,1,0.625,244
+ryzen-9-5950x,Ryzen 9 5950X,rtx-4070,GeForce RTX 4070,386,500,650,650,vendor,450,1,0.594,264
+ryzen-9-5950x,Ryzen 9 5950X,rtx-3060-ti,GeForce RTX 3060 Ti,386,500,600,600,vendor,450,1,0.643,214
+ryzen-9-5950x,Ryzen 9 5950X,rtx-5060-ti,GeForce RTX 5060 Ti,366,500,600,600,vendor,450,1,0.61,234
+ryzen-9-5950x,Ryzen 9 5950X,rtx-3060,GeForce RTX 3060,356,450,550,550,vendor,450,0,0.647,194
+ryzen-9-5950x,Ryzen 9 5950X,rtx-4060-ti,GeForce RTX 4060 Ti,351,450,550,550,vendor,450,0,0.638,199
+ryzen-9-5950x,Ryzen 9 5950X,rx-7600,Radeon RX 7600,351,450,550,550,vendor,450,0,0.638,199
+ryzen-9-5950x,Ryzen 9 5950X,rx-9060-xt,Radeon RX 9060 XT,346,450,550,550,vendor,450,0,0.629,204
+ryzen-9-5950x,Ryzen 9 5950X,rtx-5060,GeForce RTX 5060,331,450,550,550,vendor,450,0,0.602,219
+ryzen-9-5950x,Ryzen 9 5950X,rtx-5050,GeForce RTX 5050,316,450,550,550,vendor,450,0,0.575,234
+ryzen-9-5950x,Ryzen 9 5950X,rtx-3050,GeForce RTX 3050,316,450,550,550,vendor,450,0,0.575,234
+ryzen-9-5950x,Ryzen 9 5950X,rtx-4060,GeForce RTX 4060,301,450,550,550,vendor,450,0,0.547,249
+ryzen-9-7900x,Ryzen 9 7900X,rtx-5090,GeForce RTX 5090,849,1200,1000,1200,build,1000,1,0.708,351
+ryzen-9-7900x,Ryzen 9 7900X,rtx-4090,GeForce RTX 4090,724,1000,850,1000,build,850,1,0.724,276
+ryzen-9-7900x,Ryzen 9 7900X,rtx-3090-ti,GeForce RTX 3090 Ti,724,1000,850,1000,build,850,1,0.724,276
+ryzen-9-7900x,Ryzen 9 7900X,rtx-5080,GeForce RTX 5080,634,800,850,850,vendor,750,1,0.746,216
+ryzen-9-7900x,Ryzen 9 7900X,rx-7900-xtx,Radeon RX 7900 XTX,629,800,800,800,agree,750,1,0.786,171
+ryzen-9-7900x,Ryzen 9 7900X,rtx-3090,GeForce RTX 3090,624,800,750,800,build,750,1,0.78,176
+ryzen-9-7900x,Ryzen 9 7900X,rtx-3080-ti,GeForce RTX 3080 Ti,624,800,750,800,build,750,1,0.78,176
+ryzen-9-7900x,Ryzen 9 7900X,rtx-3080,GeForce RTX 3080,624,800,750,800,build,750,1,0.78,176
+ryzen-9-7900x,Ryzen 9 7900X,rtx-4080-super,GeForce RTX 4080 SUPER,594,750,750,750,agree,700,1,0.792,156
+ryzen-9-7900x,Ryzen 9 7900X,rtx-4080,GeForce RTX 4080,594,750,750,750,agree,700,1,0.792,156
+ryzen-9-7900x,Ryzen 9 7900X,rx-7900-xt,Radeon RX 7900 XT,589,750,750,750,agree,700,1,0.785,161
+ryzen-9-7900x,Ryzen 9 7900X,rx-9070-xt,Radeon RX 9070 XT,578,750,750,750,agree,650,2,0.771,172
+ryzen-9-7900x,Ryzen 9 7900X,rtx-5070-ti,GeForce RTX 5070 Ti,574,750,750,750,agree,650,2,0.765,176
+ryzen-9-7900x,Ryzen 9 7900X,rtx-3070-ti,GeForce RTX 3070 Ti,564,750,650,750,build,650,2,0.752,186
+ryzen-9-7900x,Ryzen 9 7900X,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,559,700,700,700,agree,650,1,0.799,141
+ryzen-9-7900x,Ryzen 9 7900X,rtx-4070-ti,GeForce RTX 4070 Ti,559,700,700,700,agree,650,1,0.799,141
+ryzen-9-7900x,Ryzen 9 7900X,rx-7800-xt,Radeon RX 7800 XT,537,700,700,700,agree,600,2,0.767,163
+ryzen-9-7900x,Ryzen 9 7900X,rx-7900-gre,Radeon RX 7900 GRE,534,700,700,700,agree,600,2,0.763,166
+ryzen-9-7900x,Ryzen 9 7900X,rtx-5070,GeForce RTX 5070,524,700,650,700,build,600,2,0.749,176
+ryzen-9-7900x,Ryzen 9 7900X,rx-7700-xt,Radeon RX 7700 XT,519,650,700,700,vendor,600,1,0.741,181
+ryzen-9-7900x,Ryzen 9 7900X,rtx-4070-super,GeForce RTX 4070 SUPER,494,650,650,650,agree,550,2,0.76,156
+ryzen-9-7900x,Ryzen 9 7900X,rtx-3070,GeForce RTX 3070,494,650,650,650,agree,550,2,0.76,156
+ryzen-9-7900x,Ryzen 9 7900X,rx-9070,Radeon RX 9070,494,650,650,650,agree,550,2,0.76,156
+ryzen-9-7900x,Ryzen 9 7900X,rtx-4070,GeForce RTX 4070,474,600,650,650,vendor,550,1,0.729,176
+ryzen-9-7900x,Ryzen 9 7900X,rtx-3060-ti,GeForce RTX 3060 Ti,474,600,600,600,agree,550,1,0.79,126
+ryzen-9-7900x,Ryzen 9 7900X,rtx-5060-ti,GeForce RTX 5060 Ti,454,600,600,600,agree,500,2,0.757,146
+ryzen-9-7900x,Ryzen 9 7900X,rtx-3060,GeForce RTX 3060,444,600,550,600,build,500,2,0.74,156
+ryzen-9-7900x,Ryzen 9 7900X,rtx-4060-ti,GeForce RTX 4060 Ti,439,550,550,550,agree,500,1,0.798,111
+ryzen-9-7900x,Ryzen 9 7900X,rx-7600,Radeon RX 7600,439,550,550,550,agree,500,1,0.798,111
+ryzen-9-7900x,Ryzen 9 7900X,rx-9060-xt,Radeon RX 9060 XT,434,550,550,550,agree,500,1,0.789,116
+ryzen-9-7900x,Ryzen 9 7900X,rtx-5060,GeForce RTX 5060,419,550,550,550,agree,450,2,0.762,131
+ryzen-9-7900x,Ryzen 9 7900X,rtx-5050,GeForce RTX 5050,404,550,550,550,agree,450,2,0.735,146
+ryzen-9-7900x,Ryzen 9 7900X,rtx-3050,GeForce RTX 3050,404,550,550,550,agree,450,2,0.735,146
+ryzen-9-7900x,Ryzen 9 7900X,rtx-4060,GeForce RTX 4060,389,500,550,550,vendor,450,1,0.707,161
+ryzen-9-7950x,Ryzen 9 7950X,rtx-5090,GeForce RTX 5090,849,1200,1000,1200,build,1000,1,0.708,351
+ryzen-9-7950x,Ryzen 9 7950X,rtx-4090,GeForce RTX 4090,724,1000,850,1000,build,850,1,0.724,276
+ryzen-9-7950x,Ryzen 9 7950X,rtx-3090-ti,GeForce RTX 3090 Ti,724,1000,850,1000,build,850,1,0.724,276
+ryzen-9-7950x,Ryzen 9 7950X,rtx-5080,GeForce RTX 5080,634,800,850,850,vendor,750,1,0.746,216
+ryzen-9-7950x,Ryzen 9 7950X,rx-7900-xtx,Radeon RX 7900 XTX,629,800,800,800,agree,750,1,0.786,171
+ryzen-9-7950x,Ryzen 9 7950X,rtx-3090,GeForce RTX 3090,624,800,750,800,build,750,1,0.78,176
+ryzen-9-7950x,Ryzen 9 7950X,rtx-3080-ti,GeForce RTX 3080 Ti,624,800,750,800,build,750,1,0.78,176
+ryzen-9-7950x,Ryzen 9 7950X,rtx-3080,GeForce RTX 3080,624,800,750,800,build,750,1,0.78,176
+ryzen-9-7950x,Ryzen 9 7950X,rtx-4080-super,GeForce RTX 4080 SUPER,594,750,750,750,agree,700,1,0.792,156
+ryzen-9-7950x,Ryzen 9 7950X,rtx-4080,GeForce RTX 4080,594,750,750,750,agree,700,1,0.792,156
+ryzen-9-7950x,Ryzen 9 7950X,rx-7900-xt,Radeon RX 7900 XT,589,750,750,750,agree,700,1,0.785,161
+ryzen-9-7950x,Ryzen 9 7950X,rx-9070-xt,Radeon RX 9070 XT,578,750,750,750,agree,650,2,0.771,172
+ryzen-9-7950x,Ryzen 9 7950X,rtx-5070-ti,GeForce RTX 5070 Ti,574,750,750,750,agree,650,2,0.765,176
+ryzen-9-7950x,Ryzen 9 7950X,rtx-3070-ti,GeForce RTX 3070 Ti,564,750,650,750,build,650,2,0.752,186
+ryzen-9-7950x,Ryzen 9 7950X,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,559,700,700,700,agree,650,1,0.799,141
+ryzen-9-7950x,Ryzen 9 7950X,rtx-4070-ti,GeForce RTX 4070 Ti,559,700,700,700,agree,650,1,0.799,141
+ryzen-9-7950x,Ryzen 9 7950X,rx-7800-xt,Radeon RX 7800 XT,537,700,700,700,agree,600,2,0.767,163
+ryzen-9-7950x,Ryzen 9 7950X,rx-7900-gre,Radeon RX 7900 GRE,534,700,700,700,agree,600,2,0.763,166
+ryzen-9-7950x,Ryzen 9 7950X,rtx-5070,GeForce RTX 5070,524,700,650,700,build,600,2,0.749,176
+ryzen-9-7950x,Ryzen 9 7950X,rx-7700-xt,Radeon RX 7700 XT,519,650,700,700,vendor,600,1,0.741,181
+ryzen-9-7950x,Ryzen 9 7950X,rtx-4070-super,GeForce RTX 4070 SUPER,494,650,650,650,agree,550,2,0.76,156
+ryzen-9-7950x,Ryzen 9 7950X,rtx-3070,GeForce RTX 3070,494,650,650,650,agree,550,2,0.76,156
+ryzen-9-7950x,Ryzen 9 7950X,rx-9070,Radeon RX 9070,494,650,650,650,agree,550,2,0.76,156
+ryzen-9-7950x,Ryzen 9 7950X,rtx-4070,GeForce RTX 4070,474,600,650,650,vendor,550,1,0.729,176
+ryzen-9-7950x,Ryzen 9 7950X,rtx-3060-ti,GeForce RTX 3060 Ti,474,600,600,600,agree,550,1,0.79,126
+ryzen-9-7950x,Ryzen 9 7950X,rtx-5060-ti,GeForce RTX 5060 Ti,454,600,600,600,agree,500,2,0.757,146
+ryzen-9-7950x,Ryzen 9 7950X,rtx-3060,GeForce RTX 3060,444,600,550,600,build,500,2,0.74,156
+ryzen-9-7950x,Ryzen 9 7950X,rtx-4060-ti,GeForce RTX 4060 Ti,439,550,550,550,agree,500,1,0.798,111
+ryzen-9-7950x,Ryzen 9 7950X,rx-7600,Radeon RX 7600,439,550,550,550,agree,500,1,0.798,111
+ryzen-9-7950x,Ryzen 9 7950X,rx-9060-xt,Radeon RX 9060 XT,434,550,550,550,agree,500,1,0.789,116
+ryzen-9-7950x,Ryzen 9 7950X,rtx-5060,GeForce RTX 5060,419,550,550,550,agree,450,2,0.762,131
+ryzen-9-7950x,Ryzen 9 7950X,rtx-5050,GeForce RTX 5050,404,550,550,550,agree,450,2,0.735,146
+ryzen-9-7950x,Ryzen 9 7950X,rtx-3050,GeForce RTX 3050,404,550,550,550,agree,450,2,0.735,146
+ryzen-9-7950x,Ryzen 9 7950X,rtx-4060,GeForce RTX 4060,389,500,550,550,vendor,450,1,0.707,161
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rtx-5090,GeForce RTX 5090,781,1000,1000,1000,agree,1000,0,0.781,219
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rtx-4090,GeForce RTX 4090,656,850,850,850,agree,800,1,0.772,194
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rtx-3090-ti,GeForce RTX 3090 Ti,656,850,850,850,agree,800,1,0.772,194
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rtx-5080,GeForce RTX 5080,566,750,850,850,vendor,700,1,0.666,284
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rx-7900-xtx,Radeon RX 7900 XTX,561,750,800,800,vendor,650,2,0.701,239
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rtx-3090,GeForce RTX 3090,556,700,750,750,vendor,650,1,0.741,194
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rtx-3080-ti,GeForce RTX 3080 Ti,556,700,750,750,vendor,650,1,0.741,194
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rtx-3080,GeForce RTX 3080,556,700,750,750,vendor,650,1,0.741,194
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rtx-4080-super,GeForce RTX 4080 SUPER,526,700,750,750,vendor,650,1,0.701,224
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rtx-4080,GeForce RTX 4080,526,700,750,750,vendor,650,1,0.701,224
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rx-7900-xt,Radeon RX 7900 XT,521,700,750,750,vendor,600,2,0.695,229
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rx-9070-xt,Radeon RX 9070 XT,510,650,750,750,vendor,600,1,0.68,240
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rtx-5070-ti,GeForce RTX 5070 Ti,506,650,750,750,vendor,600,1,0.675,244
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rtx-3070-ti,GeForce RTX 3070 Ti,496,650,650,650,agree,600,1,0.763,154
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,491,650,700,700,vendor,600,1,0.701,209
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rtx-4070-ti,GeForce RTX 4070 Ti,491,650,700,700,vendor,600,1,0.701,209
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rx-7800-xt,Radeon RX 7800 XT,469,600,700,700,vendor,550,1,0.67,231
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rx-7900-gre,Radeon RX 7900 GRE,466,600,700,700,vendor,550,1,0.666,234
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rtx-5070,GeForce RTX 5070,456,600,650,650,vendor,550,1,0.702,194
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rx-7700-xt,Radeon RX 7700 XT,451,600,700,700,vendor,550,1,0.644,249
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rtx-4070-super,GeForce RTX 4070 SUPER,426,550,650,650,vendor,500,1,0.655,224
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rtx-3070,GeForce RTX 3070,426,550,650,650,vendor,500,1,0.655,224
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rx-9070,Radeon RX 9070,426,550,650,650,vendor,500,1,0.655,224
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rtx-4070,GeForce RTX 4070,406,550,650,650,vendor,500,1,0.625,244
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rtx-3060-ti,GeForce RTX 3060 Ti,406,550,600,600,vendor,500,1,0.677,194
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rtx-5060-ti,GeForce RTX 5060 Ti,386,500,600,600,vendor,450,1,0.643,214
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rtx-3060,GeForce RTX 3060,376,500,550,550,vendor,450,1,0.684,174
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rtx-4060-ti,GeForce RTX 4060 Ti,371,500,550,550,vendor,450,1,0.675,179
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rx-7600,Radeon RX 7600,371,500,550,550,vendor,450,1,0.675,179
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rx-9060-xt,Radeon RX 9060 XT,366,500,550,550,vendor,450,1,0.666,184
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rtx-5060,GeForce RTX 5060,351,450,550,550,vendor,450,0,0.638,199
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rtx-5050,GeForce RTX 5050,336,450,550,550,vendor,450,0,0.611,214
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rtx-3050,GeForce RTX 3050,336,450,550,550,vendor,450,0,0.611,214
+ryzen-9-7950x3d,Ryzen 9 7950X3D,rtx-4060,GeForce RTX 4060,321,450,550,550,vendor,450,0,0.584,229
+ryzen-9-9900x,Ryzen 9 9900X,rtx-5090,GeForce RTX 5090,781,1000,1000,1000,agree,1000,0,0.781,219
+ryzen-9-9900x,Ryzen 9 9900X,rtx-4090,GeForce RTX 4090,656,850,850,850,agree,800,1,0.772,194
+ryzen-9-9900x,Ryzen 9 9900X,rtx-3090-ti,GeForce RTX 3090 Ti,656,850,850,850,agree,800,1,0.772,194
+ryzen-9-9900x,Ryzen 9 9900X,rtx-5080,GeForce RTX 5080,566,750,850,850,vendor,700,1,0.666,284
+ryzen-9-9900x,Ryzen 9 9900X,rx-7900-xtx,Radeon RX 7900 XTX,561,750,800,800,vendor,650,2,0.701,239
+ryzen-9-9900x,Ryzen 9 9900X,rtx-3090,GeForce RTX 3090,556,700,750,750,vendor,650,1,0.741,194
+ryzen-9-9900x,Ryzen 9 9900X,rtx-3080-ti,GeForce RTX 3080 Ti,556,700,750,750,vendor,650,1,0.741,194
+ryzen-9-9900x,Ryzen 9 9900X,rtx-3080,GeForce RTX 3080,556,700,750,750,vendor,650,1,0.741,194
+ryzen-9-9900x,Ryzen 9 9900X,rtx-4080-super,GeForce RTX 4080 SUPER,526,700,750,750,vendor,650,1,0.701,224
+ryzen-9-9900x,Ryzen 9 9900X,rtx-4080,GeForce RTX 4080,526,700,750,750,vendor,650,1,0.701,224
+ryzen-9-9900x,Ryzen 9 9900X,rx-7900-xt,Radeon RX 7900 XT,521,700,750,750,vendor,600,2,0.695,229
+ryzen-9-9900x,Ryzen 9 9900X,rx-9070-xt,Radeon RX 9070 XT,510,650,750,750,vendor,600,1,0.68,240
+ryzen-9-9900x,Ryzen 9 9900X,rtx-5070-ti,GeForce RTX 5070 Ti,506,650,750,750,vendor,600,1,0.675,244
+ryzen-9-9900x,Ryzen 9 9900X,rtx-3070-ti,GeForce RTX 3070 Ti,496,650,650,650,agree,600,1,0.763,154
+ryzen-9-9900x,Ryzen 9 9900X,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,491,650,700,700,vendor,600,1,0.701,209
+ryzen-9-9900x,Ryzen 9 9900X,rtx-4070-ti,GeForce RTX 4070 Ti,491,650,700,700,vendor,600,1,0.701,209
+ryzen-9-9900x,Ryzen 9 9900X,rx-7800-xt,Radeon RX 7800 XT,469,600,700,700,vendor,550,1,0.67,231
+ryzen-9-9900x,Ryzen 9 9900X,rx-7900-gre,Radeon RX 7900 GRE,466,600,700,700,vendor,550,1,0.666,234
+ryzen-9-9900x,Ryzen 9 9900X,rtx-5070,GeForce RTX 5070,456,600,650,650,vendor,550,1,0.702,194
+ryzen-9-9900x,Ryzen 9 9900X,rx-7700-xt,Radeon RX 7700 XT,451,600,700,700,vendor,550,1,0.644,249
+ryzen-9-9900x,Ryzen 9 9900X,rtx-4070-super,GeForce RTX 4070 SUPER,426,550,650,650,vendor,500,1,0.655,224
+ryzen-9-9900x,Ryzen 9 9900X,rtx-3070,GeForce RTX 3070,426,550,650,650,vendor,500,1,0.655,224
+ryzen-9-9900x,Ryzen 9 9900X,rx-9070,Radeon RX 9070,426,550,650,650,vendor,500,1,0.655,224
+ryzen-9-9900x,Ryzen 9 9900X,rtx-4070,GeForce RTX 4070,406,550,650,650,vendor,500,1,0.625,244
+ryzen-9-9900x,Ryzen 9 9900X,rtx-3060-ti,GeForce RTX 3060 Ti,406,550,600,600,vendor,500,1,0.677,194
+ryzen-9-9900x,Ryzen 9 9900X,rtx-5060-ti,GeForce RTX 5060 Ti,386,500,600,600,vendor,450,1,0.643,214
+ryzen-9-9900x,Ryzen 9 9900X,rtx-3060,GeForce RTX 3060,376,500,550,550,vendor,450,1,0.684,174
+ryzen-9-9900x,Ryzen 9 9900X,rtx-4060-ti,GeForce RTX 4060 Ti,371,500,550,550,vendor,450,1,0.675,179
+ryzen-9-9900x,Ryzen 9 9900X,rx-7600,Radeon RX 7600,371,500,550,550,vendor,450,1,0.675,179
+ryzen-9-9900x,Ryzen 9 9900X,rx-9060-xt,Radeon RX 9060 XT,366,500,550,550,vendor,450,1,0.666,184
+ryzen-9-9900x,Ryzen 9 9900X,rtx-5060,GeForce RTX 5060,351,450,550,550,vendor,450,0,0.638,199
+ryzen-9-9900x,Ryzen 9 9900X,rtx-5050,GeForce RTX 5050,336,450,550,550,vendor,450,0,0.611,214
+ryzen-9-9900x,Ryzen 9 9900X,rtx-3050,GeForce RTX 3050,336,450,550,550,vendor,450,0,0.611,214
+ryzen-9-9900x,Ryzen 9 9900X,rtx-4060,GeForce RTX 4060,321,450,550,550,vendor,450,0,0.584,229
+ryzen-9-9950x,Ryzen 9 9950X,rtx-5090,GeForce RTX 5090,849,1200,1000,1200,build,1000,1,0.708,351
+ryzen-9-9950x,Ryzen 9 9950X,rtx-4090,GeForce RTX 4090,724,1000,850,1000,build,850,1,0.724,276
+ryzen-9-9950x,Ryzen 9 9950X,rtx-3090-ti,GeForce RTX 3090 Ti,724,1000,850,1000,build,850,1,0.724,276
+ryzen-9-9950x,Ryzen 9 9950X,rtx-5080,GeForce RTX 5080,634,800,850,850,vendor,750,1,0.746,216
+ryzen-9-9950x,Ryzen 9 9950X,rx-7900-xtx,Radeon RX 7900 XTX,629,800,800,800,agree,750,1,0.786,171
+ryzen-9-9950x,Ryzen 9 9950X,rtx-3090,GeForce RTX 3090,624,800,750,800,build,750,1,0.78,176
+ryzen-9-9950x,Ryzen 9 9950X,rtx-3080-ti,GeForce RTX 3080 Ti,624,800,750,800,build,750,1,0.78,176
+ryzen-9-9950x,Ryzen 9 9950X,rtx-3080,GeForce RTX 3080,624,800,750,800,build,750,1,0.78,176
+ryzen-9-9950x,Ryzen 9 9950X,rtx-4080-super,GeForce RTX 4080 SUPER,594,750,750,750,agree,700,1,0.792,156
+ryzen-9-9950x,Ryzen 9 9950X,rtx-4080,GeForce RTX 4080,594,750,750,750,agree,700,1,0.792,156
+ryzen-9-9950x,Ryzen 9 9950X,rx-7900-xt,Radeon RX 7900 XT,589,750,750,750,agree,700,1,0.785,161
+ryzen-9-9950x,Ryzen 9 9950X,rx-9070-xt,Radeon RX 9070 XT,578,750,750,750,agree,650,2,0.771,172
+ryzen-9-9950x,Ryzen 9 9950X,rtx-5070-ti,GeForce RTX 5070 Ti,574,750,750,750,agree,650,2,0.765,176
+ryzen-9-9950x,Ryzen 9 9950X,rtx-3070-ti,GeForce RTX 3070 Ti,564,750,650,750,build,650,2,0.752,186
+ryzen-9-9950x,Ryzen 9 9950X,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,559,700,700,700,agree,650,1,0.799,141
+ryzen-9-9950x,Ryzen 9 9950X,rtx-4070-ti,GeForce RTX 4070 Ti,559,700,700,700,agree,650,1,0.799,141
+ryzen-9-9950x,Ryzen 9 9950X,rx-7800-xt,Radeon RX 7800 XT,537,700,700,700,agree,600,2,0.767,163
+ryzen-9-9950x,Ryzen 9 9950X,rx-7900-gre,Radeon RX 7900 GRE,534,700,700,700,agree,600,2,0.763,166
+ryzen-9-9950x,Ryzen 9 9950X,rtx-5070,GeForce RTX 5070,524,700,650,700,build,600,2,0.749,176
+ryzen-9-9950x,Ryzen 9 9950X,rx-7700-xt,Radeon RX 7700 XT,519,650,700,700,vendor,600,1,0.741,181
+ryzen-9-9950x,Ryzen 9 9950X,rtx-4070-super,GeForce RTX 4070 SUPER,494,650,650,650,agree,550,2,0.76,156
+ryzen-9-9950x,Ryzen 9 9950X,rtx-3070,GeForce RTX 3070,494,650,650,650,agree,550,2,0.76,156
+ryzen-9-9950x,Ryzen 9 9950X,rx-9070,Radeon RX 9070,494,650,650,650,agree,550,2,0.76,156
+ryzen-9-9950x,Ryzen 9 9950X,rtx-4070,GeForce RTX 4070,474,600,650,650,vendor,550,1,0.729,176
+ryzen-9-9950x,Ryzen 9 9950X,rtx-3060-ti,GeForce RTX 3060 Ti,474,600,600,600,agree,550,1,0.79,126
+ryzen-9-9950x,Ryzen 9 9950X,rtx-5060-ti,GeForce RTX 5060 Ti,454,600,600,600,agree,500,2,0.757,146
+ryzen-9-9950x,Ryzen 9 9950X,rtx-3060,GeForce RTX 3060,444,600,550,600,build,500,2,0.74,156
+ryzen-9-9950x,Ryzen 9 9950X,rtx-4060-ti,GeForce RTX 4060 Ti,439,550,550,550,agree,500,1,0.798,111
+ryzen-9-9950x,Ryzen 9 9950X,rx-7600,Radeon RX 7600,439,550,550,550,agree,500,1,0.798,111
+ryzen-9-9950x,Ryzen 9 9950X,rx-9060-xt,Radeon RX 9060 XT,434,550,550,550,agree,500,1,0.789,116
+ryzen-9-9950x,Ryzen 9 9950X,rtx-5060,GeForce RTX 5060,419,550,550,550,agree,450,2,0.762,131
+ryzen-9-9950x,Ryzen 9 9950X,rtx-5050,GeForce RTX 5050,404,550,550,550,agree,450,2,0.735,146
+ryzen-9-9950x,Ryzen 9 9950X,rtx-3050,GeForce RTX 3050,404,550,550,550,agree,450,2,0.735,146
+ryzen-9-9950x,Ryzen 9 9950X,rtx-4060,GeForce RTX 4060,389,500,550,550,vendor,450,1,0.707,161
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rtx-5090,GeForce RTX 5090,849,1200,1000,1200,build,1000,1,0.708,351
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rtx-4090,GeForce RTX 4090,724,1000,850,1000,build,850,1,0.724,276
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rtx-3090-ti,GeForce RTX 3090 Ti,724,1000,850,1000,build,850,1,0.724,276
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rtx-5080,GeForce RTX 5080,634,800,850,850,vendor,750,1,0.746,216
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rx-7900-xtx,Radeon RX 7900 XTX,629,800,800,800,agree,750,1,0.786,171
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rtx-3090,GeForce RTX 3090,624,800,750,800,build,750,1,0.78,176
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rtx-3080-ti,GeForce RTX 3080 Ti,624,800,750,800,build,750,1,0.78,176
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rtx-3080,GeForce RTX 3080,624,800,750,800,build,750,1,0.78,176
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rtx-4080-super,GeForce RTX 4080 SUPER,594,750,750,750,agree,700,1,0.792,156
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rtx-4080,GeForce RTX 4080,594,750,750,750,agree,700,1,0.792,156
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rx-7900-xt,Radeon RX 7900 XT,589,750,750,750,agree,700,1,0.785,161
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rx-9070-xt,Radeon RX 9070 XT,578,750,750,750,agree,650,2,0.771,172
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rtx-5070-ti,GeForce RTX 5070 Ti,574,750,750,750,agree,650,2,0.765,176
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rtx-3070-ti,GeForce RTX 3070 Ti,564,750,650,750,build,650,2,0.752,186
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,559,700,700,700,agree,650,1,0.799,141
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rtx-4070-ti,GeForce RTX 4070 Ti,559,700,700,700,agree,650,1,0.799,141
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rx-7800-xt,Radeon RX 7800 XT,537,700,700,700,agree,600,2,0.767,163
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rx-7900-gre,Radeon RX 7900 GRE,534,700,700,700,agree,600,2,0.763,166
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rtx-5070,GeForce RTX 5070,524,700,650,700,build,600,2,0.749,176
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rx-7700-xt,Radeon RX 7700 XT,519,650,700,700,vendor,600,1,0.741,181
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rtx-4070-super,GeForce RTX 4070 SUPER,494,650,650,650,agree,550,2,0.76,156
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rtx-3070,GeForce RTX 3070,494,650,650,650,agree,550,2,0.76,156
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rx-9070,Radeon RX 9070,494,650,650,650,agree,550,2,0.76,156
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rtx-4070,GeForce RTX 4070,474,600,650,650,vendor,550,1,0.729,176
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rtx-3060-ti,GeForce RTX 3060 Ti,474,600,600,600,agree,550,1,0.79,126
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rtx-5060-ti,GeForce RTX 5060 Ti,454,600,600,600,agree,500,2,0.757,146
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rtx-3060,GeForce RTX 3060,444,600,550,600,build,500,2,0.74,156
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rtx-4060-ti,GeForce RTX 4060 Ti,439,550,550,550,agree,500,1,0.798,111
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rx-7600,Radeon RX 7600,439,550,550,550,agree,500,1,0.798,111
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rx-9060-xt,Radeon RX 9060 XT,434,550,550,550,agree,500,1,0.789,116
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rtx-5060,GeForce RTX 5060,419,550,550,550,agree,450,2,0.762,131
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rtx-5050,GeForce RTX 5050,404,550,550,550,agree,450,2,0.735,146
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rtx-3050,GeForce RTX 3050,404,550,550,550,agree,450,2,0.735,146
+ryzen-9-9950x3d,Ryzen 9 9950X3D,rtx-4060,GeForce RTX 4060,389,500,550,550,vendor,450,1,0.707,161

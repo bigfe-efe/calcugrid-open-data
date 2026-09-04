@@ -1,0 +1,27 @@
+slug,name,vendor,family,socket,cores,tdp_watts,peak_watts,peak_over_tdp_watts,peak_to_tdp_ratio,note
+ryzen-5-9600x,Ryzen 5 9600X,AMD,Ryzen 9000,AM5,6,65,88,23,1.354,
+ryzen-7-9700x,Ryzen 7 9700X,AMD,Ryzen 9000,AM5,8,65,88,23,1.354,
+ryzen-7-9800x3d,Ryzen 7 9800X3D,AMD,Ryzen 9000,AM5,8,120,162,42,1.35,"The card most gaming builds are paired with, and modest for its reputation: 162 W at the socket is less than half what a Core i9 of the same era asks for."
+ryzen-9-9900x,Ryzen 9 9900X,AMD,Ryzen 9000,AM5,12,120,162,42,1.35,
+ryzen-9-9950x,Ryzen 9 9950X,AMD,Ryzen 9000,AM5,16,170,230,60,1.353,
+ryzen-9-9950x3d,Ryzen 9 9950X3D,AMD,Ryzen 9000,AM5,16,170,230,60,1.353,
+ryzen-5-7600,Ryzen 5 7600,AMD,Ryzen 7000,AM5,6,65,88,23,1.354,
+ryzen-5-7600x,Ryzen 5 7600X,AMD,Ryzen 7000,AM5,6,105,142,37,1.352,
+ryzen-7-7700x,Ryzen 7 7700X,AMD,Ryzen 7000,AM5,8,105,142,37,1.352,
+ryzen-7-7800x3d,Ryzen 7 7800X3D,AMD,Ryzen 7000,AM5,8,120,162,42,1.35,"Identical power limits to the 9800X3D that replaced it, which is why a supply bought for one fits the other."
+ryzen-9-7900x,Ryzen 9 7900X,AMD,Ryzen 7000,AM5,12,170,230,60,1.353,
+ryzen-9-7950x,Ryzen 9 7950X,AMD,Ryzen 7000,AM5,16,170,230,60,1.353,
+ryzen-9-7950x3d,Ryzen 9 7950X3D,AMD,Ryzen 7000,AM5,16,120,162,42,1.35,
+ryzen-5-5600x,Ryzen 5 5600X,AMD,Ryzen 5000,AM4,6,65,88,23,1.354,
+ryzen-7-5800x3d,Ryzen 7 5800X3D,AMD,Ryzen 5000,AM4,8,105,142,37,1.352,
+ryzen-9-5950x,Ryzen 9 5950X,AMD,Ryzen 5000,AM4,16,105,142,37,1.352,
+core-ultra-5-245k,Core Ultra 5 245K,Intel,Core Ultra 200S,LGA1851,14,125,159,34,1.272,
+core-ultra-7-265k,Core Ultra 7 265K,Intel,Core Ultra 200S,LGA1851,20,125,250,125,2,
+core-ultra-9-285k,Core Ultra 9 285K,Intel,Core Ultra 200S,LGA1851,24,125,250,125,2,"Rated to 250 W, with a 295 W extreme profile some boards enable by default. If yours does, size against that instead."
+core-i5-12400f,Core i5-12400F,Intel,Core 12th gen,LGA1700,6,65,117,52,1.8,
+core-i5-13600k,Core i5-13600K,Intel,Core 13th gen,LGA1700,14,125,181,56,1.448,
+core-i7-13700k,Core i7-13700K,Intel,Core 13th gen,LGA1700,16,125,253,128,2.024,
+core-i9-13900k,Core i9-13900K,Intel,Core 13th gen,LGA1700,24,125,253,128,2.024,
+core-i5-14600k,Core i5-14600K,Intel,Core 14th gen,LGA1700,14,125,181,56,1.448,
+core-i7-14700k,Core i7-14700K,Intel,Core 14th gen,LGA1700,20,125,253,128,2.024,
+core-i9-14900k,Core i9-14900K,Intel,Core 14th gen,LGA1700,24,125,253,128,2.024,The clearest case for ignoring TDP: a 125 W label on a part that draws 253 W whenever it boosts.

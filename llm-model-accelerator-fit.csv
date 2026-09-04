@@ -299,6 +299,36 @@ qwen2-5-14b,Qwen2.5 14B,14.77,a100-40gb,NVIDIA A100 40GB,datacenter,40,38,yes,27
 qwen2-5-14b,Qwen2.5 14B,14.77,a100-80gb,NVIDIA A100 80GB,datacenter,80,76,yes,65.963,fp16,32768
 qwen2-5-14b,Qwen2.5 14B,14.77,h100-80gb,NVIDIA H100 80GB,datacenter,80,76,yes,65.963,fp16,32768
 qwen2-5-14b,Qwen2.5 14B,14.77,l40s-48gb,NVIDIA L40S 48GB,datacenter,48,45.6,yes,35.563,fp16,32768
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,rtx-5090,GeForce RTX 5090,discrete,32,29.4,yes,19.363,q8-0,113939
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,rtx-4090,GeForce RTX 4090,discrete,24,22.1,yes,12.063,q8-0,74071
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,rtx-3090,GeForce RTX 3090,discrete,24,22.1,yes,12.063,q8-0,74071
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,rtx-5080,GeForce RTX 5080,discrete,16,14.7,yes,4.663,q6-k,33657
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,rtx-4080-super,GeForce RTX 4080 SUPER,discrete,16,14.7,yes,4.663,q6-k,33657
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,rtx-5070-ti,GeForce RTX 5070 Ti,discrete,16,14.7,yes,4.663,q6-k,33657
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,discrete,16,14.7,yes,4.663,q6-k,33657
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,rtx-5070,GeForce RTX 5070,discrete,12,11,yes,0.963,q4-k-m,13450
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,rtx-4070,GeForce RTX 4070,discrete,12,11,yes,0.963,q4-k-m,13450
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,rtx-3060-12gb,GeForce RTX 3060 12GB,discrete,12,11,yes,0.963,q4-k-m,13450
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,rtx-4060-ti-16gb,GeForce RTX 4060 Ti 16GB,discrete,16,14.7,yes,4.663,q6-k,33657
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,rtx-3080,GeForce RTX 3080,discrete,10,9.2,no,-0.837,q3-k-m,3620
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,rx-7900-xtx,Radeon RX 7900 XTX,discrete,24,22.1,yes,12.063,q8-0,74071
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,rx-7900-xt,Radeon RX 7900 XT,discrete,20,18.4,yes,8.363,q8-0,53864
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,rx-9070-xt,Radeon RX 9070 XT,discrete,16,14.7,yes,4.663,q6-k,33657
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,2x-rtx-3090,2× RTX 3090 (48 GB),multi,48,44.2,yes,34.163,fp16,131072
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,2x-rtx-4090,2× RTX 4090 (48 GB),multi,48,44.2,yes,34.163,fp16,131072
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,4x-rtx-3090,4× RTX 3090 (96 GB),multi,96,88.3,yes,78.263,fp16,131072
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,m4-max-64gb,"Mac (M4 Max, 64 GB)",unified,64,48,yes,37.963,fp16,131072
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,m4-max-128gb,"Mac (M4 Max, 128 GB)",unified,128,96,yes,85.963,fp16,131072
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,m4-pro-48gb,"Mac (M4 Pro, 48 GB)",unified,48,36,yes,25.963,fp16,131072
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,m4-24gb,"Mac (M4, 24 GB)",unified,24,16.1,yes,6.063,q6-k,41303
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,m3-max-128gb,"Mac (M3 Max, 128 GB)",unified,128,96,yes,85.963,fp16,131072
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,m2-ultra-192gb,"Mac Studio (M2 Ultra, 192 GB)",unified,192,144,yes,133.963,fp16,131072
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,m1-max-32gb,"Mac (M1 Max, 32 GB)",unified,32,21.4,yes,11.363,q8-0,70248
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,m2-16gb,"Mac (M2, 16 GB)",unified,16,10.7,yes,0.663,q4-k-m,11812
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,a100-40gb,NVIDIA A100 40GB,datacenter,40,38,yes,27.963,fp16,131072
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,a100-80gb,NVIDIA A100 80GB,datacenter,80,76,yes,65.963,fp16,131072
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,h100-80gb,NVIDIA H100 80GB,datacenter,80,76,yes,65.963,fp16,131072
+deepseek-r1-distill-qwen-14b,DeepSeek-R1 Distill Qwen 14B,14.77,l40s-48gb,NVIDIA L40S 48GB,datacenter,48,45.6,yes,35.563,fp16,131072
 gemma-2-27b,Gemma 2 27B,27.23,rtx-5090,GeForce RTX 5090,discrete,32,29.4,yes,11.462,q6-k,8192
 gemma-2-27b,Gemma 2 27B,27.23,rtx-4090,GeForce RTX 4090,discrete,24,22.1,yes,4.162,q5-k-m,8192
 gemma-2-27b,Gemma 2 27B,27.23,rtx-3090,GeForce RTX 3090,discrete,24,22.1,yes,4.162,q5-k-m,8192
@@ -329,6 +359,36 @@ gemma-2-27b,Gemma 2 27B,27.23,a100-40gb,NVIDIA A100 40GB,datacenter,40,38,yes,20
 gemma-2-27b,Gemma 2 27B,27.23,a100-80gb,NVIDIA A100 80GB,datacenter,80,76,yes,58.062,fp16,8192
 gemma-2-27b,Gemma 2 27B,27.23,h100-80gb,NVIDIA H100 80GB,datacenter,80,76,yes,58.062,fp16,8192
 gemma-2-27b,Gemma 2 27B,27.23,l40s-48gb,NVIDIA L40S 48GB,datacenter,48,45.6,yes,27.662,q8-0,8192
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,rtx-5090,GeForce RTX 5090,discrete,32,29.4,yes,11.855,q6-k,40960
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,rtx-4090,GeForce RTX 4090,discrete,24,22.1,yes,4.555,q5-k-m,40960
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,rtx-3090,GeForce RTX 3090,discrete,24,22.1,yes,4.555,q5-k-m,40960
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,rtx-5080,GeForce RTX 5080,discrete,16,14.7,no,-2.845,,0
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,rtx-4080-super,GeForce RTX 4080 SUPER,discrete,16,14.7,no,-2.845,,0
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,rtx-5070-ti,GeForce RTX 5070 Ti,discrete,16,14.7,no,-2.845,,0
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,discrete,16,14.7,no,-2.845,,0
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,rtx-5070,GeForce RTX 5070,discrete,12,11,no,-6.545,,0
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,rtx-4070,GeForce RTX 4070,discrete,12,11,no,-6.545,,0
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,rtx-3060-12gb,GeForce RTX 3060 12GB,discrete,12,11,no,-6.545,,0
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,rtx-4060-ti-16gb,GeForce RTX 4060 Ti 16GB,discrete,16,14.7,no,-2.845,,0
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,rtx-3080,GeForce RTX 3080,discrete,10,9.2,no,-8.345,,0
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,rx-7900-xtx,Radeon RX 7900 XTX,discrete,24,22.1,yes,4.555,q5-k-m,40960
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,rx-7900-xt,Radeon RX 7900 XT,discrete,20,18.4,tight,0.855,q4-k-m,17533
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,rx-9070-xt,Radeon RX 9070 XT,discrete,16,14.7,no,-2.845,,0
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,2x-rtx-3090,2× RTX 3090 (48 GB),multi,48,44.2,yes,26.655,q8-0,40960
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,2x-rtx-4090,2× RTX 4090 (48 GB),multi,48,44.2,yes,26.655,q8-0,40960
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,4x-rtx-3090,4× RTX 3090 (96 GB),multi,96,88.3,yes,70.755,fp16,40960
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,m4-max-64gb,"Mac (M4 Max, 64 GB)",unified,64,48,yes,30.455,q8-0,40960
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,m4-max-128gb,"Mac (M4 Max, 128 GB)",unified,128,96,yes,78.455,fp16,40960
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,m4-pro-48gb,"Mac (M4 Pro, 48 GB)",unified,48,36,yes,18.455,q8-0,40960
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,m4-24gb,"Mac (M4, 24 GB)",unified,24,16.1,no,-1.445,q3-k-m,0
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,m3-max-128gb,"Mac (M3 Max, 128 GB)",unified,128,96,yes,78.455,fp16,40960
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,m2-ultra-192gb,"Mac Studio (M2 Ultra, 192 GB)",unified,192,144,yes,126.455,fp16,40960
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,m1-max-32gb,"Mac (M1 Max, 32 GB)",unified,32,21.4,yes,3.855,q5-k-m,40960
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,m2-16gb,"Mac (M2, 16 GB)",unified,16,10.7,no,-6.845,,0
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,a100-40gb,NVIDIA A100 40GB,datacenter,40,38,yes,20.455,q8-0,40960
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,a100-80gb,NVIDIA A100 80GB,datacenter,80,76,yes,58.455,fp16,40960
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,h100-80gb,NVIDIA H100 80GB,datacenter,80,76,yes,58.455,fp16,40960
+qwen3-30b-a3b,Qwen3 30B-A3B,30.53,l40s-48gb,NVIDIA L40S 48GB,datacenter,48,45.6,yes,28.055,q8-0,40960
 qwen2-5-32b,Qwen2.5 32B,32.76,rtx-5090,GeForce RTX 5090,discrete,32,29.4,yes,9.437,q6-k,32768
 qwen2-5-32b,Qwen2.5 32B,32.76,rtx-4090,GeForce RTX 4090,discrete,24,22.1,yes,2.137,q4-k-m,16943
 qwen2-5-32b,Qwen2.5 32B,32.76,rtx-3090,GeForce RTX 3090,discrete,24,22.1,yes,2.137,q4-k-m,16943
@@ -389,6 +449,66 @@ qwen2-5-coder-32b,Qwen2.5 Coder 32B,32.76,a100-40gb,NVIDIA A100 40GB,datacenter,
 qwen2-5-coder-32b,Qwen2.5 Coder 32B,32.76,a100-80gb,NVIDIA A100 80GB,datacenter,80,76,yes,56.037,fp16,32768
 qwen2-5-coder-32b,Qwen2.5 Coder 32B,32.76,h100-80gb,NVIDIA H100 80GB,datacenter,80,76,yes,56.037,fp16,32768
 qwen2-5-coder-32b,Qwen2.5 Coder 32B,32.76,l40s-48gb,NVIDIA L40S 48GB,datacenter,48,45.6,yes,25.637,q8-0,32768
+qwen3-32b,Qwen3 32B,32.76,rtx-5090,GeForce RTX 5090,discrete,32,29.4,yes,9.437,q6-k,40960
+qwen3-32b,Qwen3 32B,32.76,rtx-4090,GeForce RTX 4090,discrete,24,22.1,yes,2.137,q4-k-m,16946
+qwen3-32b,Qwen3 32B,32.76,rtx-3090,GeForce RTX 3090,discrete,24,22.1,yes,2.137,q4-k-m,16946
+qwen3-32b,Qwen3 32B,32.76,rtx-5080,GeForce RTX 5080,discrete,16,14.7,no,-5.263,,0
+qwen3-32b,Qwen3 32B,32.76,rtx-4080-super,GeForce RTX 4080 SUPER,discrete,16,14.7,no,-5.263,,0
+qwen3-32b,Qwen3 32B,32.76,rtx-5070-ti,GeForce RTX 5070 Ti,discrete,16,14.7,no,-5.263,,0
+qwen3-32b,Qwen3 32B,32.76,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,discrete,16,14.7,no,-5.263,,0
+qwen3-32b,Qwen3 32B,32.76,rtx-5070,GeForce RTX 5070,discrete,12,11,no,-8.963,,0
+qwen3-32b,Qwen3 32B,32.76,rtx-4070,GeForce RTX 4070,discrete,12,11,no,-8.963,,0
+qwen3-32b,Qwen3 32B,32.76,rtx-3060-12gb,GeForce RTX 3060 12GB,discrete,12,11,no,-8.963,,0
+qwen3-32b,Qwen3 32B,32.76,rtx-4060-ti-16gb,GeForce RTX 4060 Ti 16GB,discrete,16,14.7,no,-5.263,,0
+qwen3-32b,Qwen3 32B,32.76,rtx-3080,GeForce RTX 3080,discrete,10,9.2,no,-10.763,,0
+qwen3-32b,Qwen3 32B,32.76,rx-7900-xtx,Radeon RX 7900 XTX,discrete,24,22.1,yes,2.137,q4-k-m,16946
+qwen3-32b,Qwen3 32B,32.76,rx-7900-xt,Radeon RX 7900 XT,discrete,20,18.4,no,-1.563,q3-k-m,1791
+qwen3-32b,Qwen3 32B,32.76,rx-9070-xt,Radeon RX 9070 XT,discrete,16,14.7,no,-5.263,,0
+qwen3-32b,Qwen3 32B,32.76,2x-rtx-3090,2× RTX 3090 (48 GB),multi,48,44.2,yes,24.237,q8-0,40960
+qwen3-32b,Qwen3 32B,32.76,2x-rtx-4090,2× RTX 4090 (48 GB),multi,48,44.2,yes,24.237,q8-0,40960
+qwen3-32b,Qwen3 32B,32.76,4x-rtx-3090,4× RTX 3090 (96 GB),multi,96,88.3,yes,68.337,fp16,40960
+qwen3-32b,Qwen3 32B,32.76,m4-max-64gb,"Mac (M4 Max, 64 GB)",unified,64,48,yes,28.037,q8-0,40960
+qwen3-32b,Qwen3 32B,32.76,m4-max-128gb,"Mac (M4 Max, 128 GB)",unified,128,96,yes,76.037,fp16,40960
+qwen3-32b,Qwen3 32B,32.76,m4-pro-48gb,"Mac (M4 Pro, 48 GB)",unified,48,36,yes,16.037,q8-0,40960
+qwen3-32b,Qwen3 32B,32.76,m4-24gb,"Mac (M4, 24 GB)",unified,24,16.1,no,-3.863,,0
+qwen3-32b,Qwen3 32B,32.76,m3-max-128gb,"Mac (M3 Max, 128 GB)",unified,128,96,yes,76.037,fp16,40960
+qwen3-32b,Qwen3 32B,32.76,m2-ultra-192gb,"Mac Studio (M2 Ultra, 192 GB)",unified,192,144,yes,124.037,fp16,40960
+qwen3-32b,Qwen3 32B,32.76,m1-max-32gb,"Mac (M1 Max, 32 GB)",unified,32,21.4,yes,1.437,q4-k-m,14079
+qwen3-32b,Qwen3 32B,32.76,m2-16gb,"Mac (M2, 16 GB)",unified,16,10.7,no,-9.263,,0
+qwen3-32b,Qwen3 32B,32.76,a100-40gb,NVIDIA A100 40GB,datacenter,40,38,yes,18.037,q8-0,40960
+qwen3-32b,Qwen3 32B,32.76,a100-80gb,NVIDIA A100 80GB,datacenter,80,76,yes,56.037,fp16,40960
+qwen3-32b,Qwen3 32B,32.76,h100-80gb,NVIDIA H100 80GB,datacenter,80,76,yes,56.037,fp16,40960
+qwen3-32b,Qwen3 32B,32.76,l40s-48gb,NVIDIA L40S 48GB,datacenter,48,45.6,yes,25.637,q8-0,40960
+mixtral-8x7b,Mixtral 8x7B,46.7,rtx-5090,GeForce RTX 5090,discrete,32,29.4,yes,3.134,q4-k-m,32768
+mixtral-8x7b,Mixtral 8x7B,46.7,rtx-4090,GeForce RTX 4090,discrete,24,22.1,no,-4.166,,0
+mixtral-8x7b,Mixtral 8x7B,46.7,rtx-3090,GeForce RTX 3090,discrete,24,22.1,no,-4.166,,0
+mixtral-8x7b,Mixtral 8x7B,46.7,rtx-5080,GeForce RTX 5080,discrete,16,14.7,no,-11.566,,0
+mixtral-8x7b,Mixtral 8x7B,46.7,rtx-4080-super,GeForce RTX 4080 SUPER,discrete,16,14.7,no,-11.566,,0
+mixtral-8x7b,Mixtral 8x7B,46.7,rtx-5070-ti,GeForce RTX 5070 Ti,discrete,16,14.7,no,-11.566,,0
+mixtral-8x7b,Mixtral 8x7B,46.7,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,discrete,16,14.7,no,-11.566,,0
+mixtral-8x7b,Mixtral 8x7B,46.7,rtx-5070,GeForce RTX 5070,discrete,12,11,no,-15.266,,0
+mixtral-8x7b,Mixtral 8x7B,46.7,rtx-4070,GeForce RTX 4070,discrete,12,11,no,-15.266,,0
+mixtral-8x7b,Mixtral 8x7B,46.7,rtx-3060-12gb,GeForce RTX 3060 12GB,discrete,12,11,no,-15.266,,0
+mixtral-8x7b,Mixtral 8x7B,46.7,rtx-4060-ti-16gb,GeForce RTX 4060 Ti 16GB,discrete,16,14.7,no,-11.566,,0
+mixtral-8x7b,Mixtral 8x7B,46.7,rtx-3080,GeForce RTX 3080,discrete,10,9.2,no,-17.066,,0
+mixtral-8x7b,Mixtral 8x7B,46.7,rx-7900-xtx,Radeon RX 7900 XTX,discrete,24,22.1,no,-4.166,,0
+mixtral-8x7b,Mixtral 8x7B,46.7,rx-7900-xt,Radeon RX 7900 XT,discrete,20,18.4,no,-7.866,,0
+mixtral-8x7b,Mixtral 8x7B,46.7,rx-9070-xt,Radeon RX 9070 XT,discrete,16,14.7,no,-11.566,,0
+mixtral-8x7b,Mixtral 8x7B,46.7,2x-rtx-3090,2× RTX 3090 (48 GB),multi,48,44.2,yes,17.934,q6-k,32768
+mixtral-8x7b,Mixtral 8x7B,46.7,2x-rtx-4090,2× RTX 4090 (48 GB),multi,48,44.2,yes,17.934,q6-k,32768
+mixtral-8x7b,Mixtral 8x7B,46.7,4x-rtx-3090,4× RTX 3090 (96 GB),multi,96,88.3,yes,62.034,q8-0,32768
+mixtral-8x7b,Mixtral 8x7B,46.7,m4-max-64gb,"Mac (M4 Max, 64 GB)",unified,64,48,yes,21.734,q6-k,32768
+mixtral-8x7b,Mixtral 8x7B,46.7,m4-max-128gb,"Mac (M4 Max, 128 GB)",unified,128,96,yes,69.734,fp16,32768
+mixtral-8x7b,Mixtral 8x7B,46.7,m4-pro-48gb,"Mac (M4 Pro, 48 GB)",unified,48,36,yes,9.734,q5-k-m,32768
+mixtral-8x7b,Mixtral 8x7B,46.7,m4-24gb,"Mac (M4, 24 GB)",unified,24,16.1,no,-10.166,,0
+mixtral-8x7b,Mixtral 8x7B,46.7,m3-max-128gb,"Mac (M3 Max, 128 GB)",unified,128,96,yes,69.734,fp16,32768
+mixtral-8x7b,Mixtral 8x7B,46.7,m2-ultra-192gb,"Mac Studio (M2 Ultra, 192 GB)",unified,192,144,yes,117.734,fp16,32768
+mixtral-8x7b,Mixtral 8x7B,46.7,m1-max-32gb,"Mac (M1 Max, 32 GB)",unified,32,21.4,no,-4.866,,0
+mixtral-8x7b,Mixtral 8x7B,46.7,m2-16gb,"Mac (M2, 16 GB)",unified,16,10.7,no,-15.566,,0
+mixtral-8x7b,Mixtral 8x7B,46.7,a100-40gb,NVIDIA A100 40GB,datacenter,40,38,yes,11.734,q6-k,32768
+mixtral-8x7b,Mixtral 8x7B,46.7,a100-80gb,NVIDIA A100 80GB,datacenter,80,76,yes,49.734,q8-0,32768
+mixtral-8x7b,Mixtral 8x7B,46.7,h100-80gb,NVIDIA H100 80GB,datacenter,80,76,yes,49.734,q8-0,32768
+mixtral-8x7b,Mixtral 8x7B,46.7,l40s-48gb,NVIDIA L40S 48GB,datacenter,48,45.6,yes,19.334,q6-k,32768
 llama-3-3-70b,Llama 3.3 70B,70.55,rtx-5090,GeForce RTX 5090,discrete,32,29.4,no,-10.86,,0
 llama-3-3-70b,Llama 3.3 70B,70.55,rtx-4090,GeForce RTX 4090,discrete,24,22.1,no,-18.16,,0
 llama-3-3-70b,Llama 3.3 70B,70.55,rtx-3090,GeForce RTX 3090,discrete,24,22.1,no,-18.16,,0
@@ -449,3 +569,33 @@ qwen2-5-72b,Qwen2.5 72B,72.7,a100-40gb,NVIDIA A100 40GB,datacenter,40,38,no,-3.3
 qwen2-5-72b,Qwen2.5 72B,72.7,a100-80gb,NVIDIA A100 80GB,datacenter,80,76,yes,34.613,q8-0,32768
 qwen2-5-72b,Qwen2.5 72B,72.7,h100-80gb,NVIDIA H100 80GB,datacenter,80,76,yes,34.613,q8-0,32768
 qwen2-5-72b,Qwen2.5 72B,72.7,l40s-48gb,NVIDIA L40S 48GB,datacenter,48,45.6,yes,4.213,q4-k-m,21995
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,rtx-5090,GeForce RTX 5090,discrete,32,29.4,no,-96.027,,0
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,rtx-4090,GeForce RTX 4090,discrete,24,22.1,no,-103.327,,0
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,rtx-3090,GeForce RTX 3090,discrete,24,22.1,no,-103.327,,0
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,rtx-5080,GeForce RTX 5080,discrete,16,14.7,no,-110.727,,0
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,rtx-4080-super,GeForce RTX 4080 SUPER,discrete,16,14.7,no,-110.727,,0
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,rtx-5070-ti,GeForce RTX 5070 Ti,discrete,16,14.7,no,-110.727,,0
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,rtx-4070-ti-super,GeForce RTX 4070 Ti SUPER,discrete,16,14.7,no,-110.727,,0
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,rtx-5070,GeForce RTX 5070,discrete,12,11,no,-114.427,,0
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,rtx-4070,GeForce RTX 4070,discrete,12,11,no,-114.427,,0
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,rtx-3060-12gb,GeForce RTX 3060 12GB,discrete,12,11,no,-114.427,,0
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,rtx-4060-ti-16gb,GeForce RTX 4060 Ti 16GB,discrete,16,14.7,no,-110.727,,0
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,rtx-3080,GeForce RTX 3080,discrete,10,9.2,no,-116.227,,0
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,rx-7900-xtx,Radeon RX 7900 XTX,discrete,24,22.1,no,-103.327,,0
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,rx-7900-xt,Radeon RX 7900 XT,discrete,20,18.4,no,-107.027,,0
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,rx-9070-xt,Radeon RX 9070 XT,discrete,16,14.7,no,-110.727,,0
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,2x-rtx-3090,2× RTX 3090 (48 GB),multi,48,44.2,no,-81.227,,0
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,2x-rtx-4090,2× RTX 4090 (48 GB),multi,48,44.2,no,-81.227,,0
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,4x-rtx-3090,4× RTX 3090 (96 GB),multi,96,88.3,no,-37.127,,0
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,m4-max-64gb,"Mac (M4 Max, 64 GB)",unified,64,48,no,-77.427,,0
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,m4-max-128gb,"Mac (M4 Max, 128 GB)",unified,128,96,no,-29.427,,0
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,m4-pro-48gb,"Mac (M4 Pro, 48 GB)",unified,48,36,no,-89.427,,0
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,m4-24gb,"Mac (M4, 24 GB)",unified,24,16.1,no,-109.327,,0
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,m3-max-128gb,"Mac (M3 Max, 128 GB)",unified,128,96,no,-29.427,,0
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,m2-ultra-192gb,"Mac Studio (M2 Ultra, 192 GB)",unified,192,144,yes,18.573,q4-k-m,40960
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,m1-max-32gb,"Mac (M1 Max, 32 GB)",unified,32,21.4,no,-104.027,,0
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,m2-16gb,"Mac (M2, 16 GB)",unified,16,10.7,no,-114.727,,0
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,a100-40gb,NVIDIA A100 40GB,datacenter,40,38,no,-87.427,,0
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,a100-80gb,NVIDIA A100 80GB,datacenter,80,76,no,-49.427,,0
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,h100-80gb,NVIDIA H100 80GB,datacenter,80,76,no,-49.427,,0
+qwen3-235b-a22b,Qwen3 235B-A22B,235.09,l40s-48gb,NVIDIA L40S 48GB,datacenter,48,45.6,no,-79.827,,0

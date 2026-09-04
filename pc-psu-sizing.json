@@ -1,0 +1,787 @@
+{
+  "generatedAt": "2026-09-02",
+  "computedNotMeasured": "These are computed ceilings, not wall-meter readings. Continuous draw is the CPU peak plus the GPU total graphics power plus a fixed platform allowance; the recommended supply is the smallest standard size that keeps that draw at or under the target load fraction. Real systems draw less than this most of the time, which is the point: a supply is sized for the ceiling, not the average.",
+  "formula": {
+    "continuousWatts": "cpu_peak_watts + gpu_total_graphics_power_watts + platform_watts",
+    "platformWatts": 44,
+    "platformParts": [
+      {
+        "slug": "motherboard",
+        "name": "Motherboard",
+        "watts": 25,
+        "default": 1,
+        "max": 1,
+        "note": "Chipset, VRM losses, onboard controllers. Enthusiast boards with extra controllers run higher."
+      },
+      {
+        "slug": "ram",
+        "name": "Memory module",
+        "watts": 3,
+        "default": 2,
+        "max": 8,
+        "note": "Per DIMM. DDR5 at high clocks sits at the top of this."
+      },
+      {
+        "slug": "nvme",
+        "name": "NVMe SSD",
+        "watts": 7,
+        "default": 1,
+        "max": 6,
+        "note": "Per drive, at write load. Idle is under a watt."
+      },
+      {
+        "slug": "sata",
+        "name": "SATA drive",
+        "watts": 8,
+        "default": 0,
+        "max": 8,
+        "note": "Per drive. A spinning disk spikes higher on spin-up."
+      },
+      {
+        "slug": "fan",
+        "name": "Case fan",
+        "watts": 2,
+        "default": 3,
+        "max": 12,
+        "note": "Per fan. RGB models draw more for the lighting than the motor."
+      },
+      {
+        "slug": "aio",
+        "name": "AIO pump",
+        "watts": 10,
+        "default": 0,
+        "max": 2,
+        "note": "Per pump. Air coolers draw only their fan, already counted above."
+      }
+    ],
+    "recommendedWatts": "smallest size in psu_sizes where continuous_watts / size <= target_load_fraction, then raised to the vendor recommendation if that is higher",
+    "targetLoadFraction": 0.8,
+    "psuSizes": [
+      450,
+      500,
+      550,
+      600,
+      650,
+      700,
+      750,
+      800,
+      850,
+      1000,
+      1200,
+      1300,
+      1600
+    ],
+    "note": "cpu_peak_watts, not cpu_tdp_watts. TDP is a thermal design figure, not a power limit: AMD allows 1.35x TDP as Package Power Tracking and Intel publishes Maximum Turbo Power as a separate number. Sizing on TDP understates a modern build and is the commonest error in PSU calculators — sizes_missed_by_tdp counts the standard supply sizes it costs, per build, in the pairing table."
+  },
+  "efficiencyRatings": [
+    {
+      "slug": "bronze",
+      "name": "80+ Bronze",
+      "efficiency": 0.85
+    },
+    {
+      "slug": "gold",
+      "name": "80+ Gold",
+      "efficiency": 0.9,
+      "default": true
+    },
+    {
+      "slug": "platinum",
+      "name": "80+ Platinum",
+      "efficiency": 0.92
+    },
+    {
+      "slug": "titanium",
+      "name": "80+ Titanium",
+      "efficiency": 0.94
+    }
+  ],
+  "sources": {
+    "cpus": "AMD and Intel published processor specifications",
+    "gpus": "Manufacturer specifications, shared with the GPU power dataset",
+    "platform": "Component class allowances, itemised on every page"
+  },
+  "disclaimer": "A sizing estimate, not a measurement. It adds the processor's power ceiling, the graphics card's rated board power and an itemised allowance for the rest of the system, then leaves headroom so the supply is not running at its limit. Real draw depends on the board's power profile, how far the parts are overclocked, and how a particular graphics card handles transient spikes. Treat a result within 50 W of a supply's rating as a reason to choose the next size up.",
+  "cpus": [
+    {
+      "slug": "ryzen-5-9600x",
+      "name": "Ryzen 5 9600X",
+      "vendor": "AMD",
+      "family": "Ryzen 9000",
+      "socket": "AM5",
+      "cores": 6,
+      "tdp_watts": 65,
+      "peak_watts": 88,
+      "peak_over_tdp_watts": 23,
+      "peak_to_tdp_ratio": 1.354,
+      "note": ""
+    },
+    {
+      "slug": "ryzen-7-9700x",
+      "name": "Ryzen 7 9700X",
+      "vendor": "AMD",
+      "family": "Ryzen 9000",
+      "socket": "AM5",
+      "cores": 8,
+      "tdp_watts": 65,
+      "peak_watts": 88,
+      "peak_over_tdp_watts": 23,
+      "peak_to_tdp_ratio": 1.354,
+      "note": ""
+    },
+    {
+      "slug": "ryzen-7-9800x3d",
+      "name": "Ryzen 7 9800X3D",
+      "vendor": "AMD",
+      "family": "Ryzen 9000",
+      "socket": "AM5",
+      "cores": 8,
+      "tdp_watts": 120,
+      "peak_watts": 162,
+      "peak_over_tdp_watts": 42,
+      "peak_to_tdp_ratio": 1.35,
+      "note": "The card most gaming builds are paired with, and modest for its reputation: 162 W at the socket is less than half what a Core i9 of the same era asks for."
+    },
+    {
+      "slug": "ryzen-9-9900x",
+      "name": "Ryzen 9 9900X",
+      "vendor": "AMD",
+      "family": "Ryzen 9000",
+      "socket": "AM5",
+      "cores": 12,
+      "tdp_watts": 120,
+      "peak_watts": 162,
+      "peak_over_tdp_watts": 42,
+      "peak_to_tdp_ratio": 1.35,
+      "note": ""
+    },
+    {
+      "slug": "ryzen-9-9950x",
+      "name": "Ryzen 9 9950X",
+      "vendor": "AMD",
+      "family": "Ryzen 9000",
+      "socket": "AM5",
+      "cores": 16,
+      "tdp_watts": 170,
+      "peak_watts": 230,
+      "peak_over_tdp_watts": 60,
+      "peak_to_tdp_ratio": 1.353,
+      "note": ""
+    },
+    {
+      "slug": "ryzen-9-9950x3d",
+      "name": "Ryzen 9 9950X3D",
+      "vendor": "AMD",
+      "family": "Ryzen 9000",
+      "socket": "AM5",
+      "cores": 16,
+      "tdp_watts": 170,
+      "peak_watts": 230,
+      "peak_over_tdp_watts": 60,
+      "peak_to_tdp_ratio": 1.353,
+      "note": ""
+    },
+    {
+      "slug": "ryzen-5-7600",
+      "name": "Ryzen 5 7600",
+      "vendor": "AMD",
+      "family": "Ryzen 7000",
+      "socket": "AM5",
+      "cores": 6,
+      "tdp_watts": 65,
+      "peak_watts": 88,
+      "peak_over_tdp_watts": 23,
+      "peak_to_tdp_ratio": 1.354,
+      "note": ""
+    },
+    {
+      "slug": "ryzen-5-7600x",
+      "name": "Ryzen 5 7600X",
+      "vendor": "AMD",
+      "family": "Ryzen 7000",
+      "socket": "AM5",
+      "cores": 6,
+      "tdp_watts": 105,
+      "peak_watts": 142,
+      "peak_over_tdp_watts": 37,
+      "peak_to_tdp_ratio": 1.352,
+      "note": ""
+    },
+    {
+      "slug": "ryzen-7-7700x",
+      "name": "Ryzen 7 7700X",
+      "vendor": "AMD",
+      "family": "Ryzen 7000",
+      "socket": "AM5",
+      "cores": 8,
+      "tdp_watts": 105,
+      "peak_watts": 142,
+      "peak_over_tdp_watts": 37,
+      "peak_to_tdp_ratio": 1.352,
+      "note": ""
+    },
+    {
+      "slug": "ryzen-7-7800x3d",
+      "name": "Ryzen 7 7800X3D",
+      "vendor": "AMD",
+      "family": "Ryzen 7000",
+      "socket": "AM5",
+      "cores": 8,
+      "tdp_watts": 120,
+      "peak_watts": 162,
+      "peak_over_tdp_watts": 42,
+      "peak_to_tdp_ratio": 1.35,
+      "note": "Identical power limits to the 9800X3D that replaced it, which is why a supply bought for one fits the other."
+    },
+    {
+      "slug": "ryzen-9-7900x",
+      "name": "Ryzen 9 7900X",
+      "vendor": "AMD",
+      "family": "Ryzen 7000",
+      "socket": "AM5",
+      "cores": 12,
+      "tdp_watts": 170,
+      "peak_watts": 230,
+      "peak_over_tdp_watts": 60,
+      "peak_to_tdp_ratio": 1.353,
+      "note": ""
+    },
+    {
+      "slug": "ryzen-9-7950x",
+      "name": "Ryzen 9 7950X",
+      "vendor": "AMD",
+      "family": "Ryzen 7000",
+      "socket": "AM5",
+      "cores": 16,
+      "tdp_watts": 170,
+      "peak_watts": 230,
+      "peak_over_tdp_watts": 60,
+      "peak_to_tdp_ratio": 1.353,
+      "note": ""
+    },
+    {
+      "slug": "ryzen-9-7950x3d",
+      "name": "Ryzen 9 7950X3D",
+      "vendor": "AMD",
+      "family": "Ryzen 7000",
+      "socket": "AM5",
+      "cores": 16,
+      "tdp_watts": 120,
+      "peak_watts": 162,
+      "peak_over_tdp_watts": 42,
+      "peak_to_tdp_ratio": 1.35,
+      "note": ""
+    },
+    {
+      "slug": "ryzen-5-5600x",
+      "name": "Ryzen 5 5600X",
+      "vendor": "AMD",
+      "family": "Ryzen 5000",
+      "socket": "AM4",
+      "cores": 6,
+      "tdp_watts": 65,
+      "peak_watts": 88,
+      "peak_over_tdp_watts": 23,
+      "peak_to_tdp_ratio": 1.354,
+      "note": ""
+    },
+    {
+      "slug": "ryzen-7-5800x3d",
+      "name": "Ryzen 7 5800X3D",
+      "vendor": "AMD",
+      "family": "Ryzen 5000",
+      "socket": "AM4",
+      "cores": 8,
+      "tdp_watts": 105,
+      "peak_watts": 142,
+      "peak_over_tdp_watts": 37,
+      "peak_to_tdp_ratio": 1.352,
+      "note": ""
+    },
+    {
+      "slug": "ryzen-9-5950x",
+      "name": "Ryzen 9 5950X",
+      "vendor": "AMD",
+      "family": "Ryzen 5000",
+      "socket": "AM4",
+      "cores": 16,
+      "tdp_watts": 105,
+      "peak_watts": 142,
+      "peak_over_tdp_watts": 37,
+      "peak_to_tdp_ratio": 1.352,
+      "note": ""
+    },
+    {
+      "slug": "core-ultra-5-245k",
+      "name": "Core Ultra 5 245K",
+      "vendor": "Intel",
+      "family": "Core Ultra 200S",
+      "socket": "LGA1851",
+      "cores": 14,
+      "tdp_watts": 125,
+      "peak_watts": 159,
+      "peak_over_tdp_watts": 34,
+      "peak_to_tdp_ratio": 1.272,
+      "note": ""
+    },
+    {
+      "slug": "core-ultra-7-265k",
+      "name": "Core Ultra 7 265K",
+      "vendor": "Intel",
+      "family": "Core Ultra 200S",
+      "socket": "LGA1851",
+      "cores": 20,
+      "tdp_watts": 125,
+      "peak_watts": 250,
+      "peak_over_tdp_watts": 125,
+      "peak_to_tdp_ratio": 2,
+      "note": ""
+    },
+    {
+      "slug": "core-ultra-9-285k",
+      "name": "Core Ultra 9 285K",
+      "vendor": "Intel",
+      "family": "Core Ultra 200S",
+      "socket": "LGA1851",
+      "cores": 24,
+      "tdp_watts": 125,
+      "peak_watts": 250,
+      "peak_over_tdp_watts": 125,
+      "peak_to_tdp_ratio": 2,
+      "note": "Rated to 250 W, with a 295 W extreme profile some boards enable by default. If yours does, size against that instead."
+    },
+    {
+      "slug": "core-i5-12400f",
+      "name": "Core i5-12400F",
+      "vendor": "Intel",
+      "family": "Core 12th gen",
+      "socket": "LGA1700",
+      "cores": 6,
+      "tdp_watts": 65,
+      "peak_watts": 117,
+      "peak_over_tdp_watts": 52,
+      "peak_to_tdp_ratio": 1.8,
+      "note": ""
+    },
+    {
+      "slug": "core-i5-13600k",
+      "name": "Core i5-13600K",
+      "vendor": "Intel",
+      "family": "Core 13th gen",
+      "socket": "LGA1700",
+      "cores": 14,
+      "tdp_watts": 125,
+      "peak_watts": 181,
+      "peak_over_tdp_watts": 56,
+      "peak_to_tdp_ratio": 1.448,
+      "note": ""
+    },
+    {
+      "slug": "core-i7-13700k",
+      "name": "Core i7-13700K",
+      "vendor": "Intel",
+      "family": "Core 13th gen",
+      "socket": "LGA1700",
+      "cores": 16,
+      "tdp_watts": 125,
+      "peak_watts": 253,
+      "peak_over_tdp_watts": 128,
+      "peak_to_tdp_ratio": 2.024,
+      "note": ""
+    },
+    {
+      "slug": "core-i9-13900k",
+      "name": "Core i9-13900K",
+      "vendor": "Intel",
+      "family": "Core 13th gen",
+      "socket": "LGA1700",
+      "cores": 24,
+      "tdp_watts": 125,
+      "peak_watts": 253,
+      "peak_over_tdp_watts": 128,
+      "peak_to_tdp_ratio": 2.024,
+      "note": ""
+    },
+    {
+      "slug": "core-i5-14600k",
+      "name": "Core i5-14600K",
+      "vendor": "Intel",
+      "family": "Core 14th gen",
+      "socket": "LGA1700",
+      "cores": 14,
+      "tdp_watts": 125,
+      "peak_watts": 181,
+      "peak_over_tdp_watts": 56,
+      "peak_to_tdp_ratio": 1.448,
+      "note": ""
+    },
+    {
+      "slug": "core-i7-14700k",
+      "name": "Core i7-14700K",
+      "vendor": "Intel",
+      "family": "Core 14th gen",
+      "socket": "LGA1700",
+      "cores": 20,
+      "tdp_watts": 125,
+      "peak_watts": 253,
+      "peak_over_tdp_watts": 128,
+      "peak_to_tdp_ratio": 2.024,
+      "note": ""
+    },
+    {
+      "slug": "core-i9-14900k",
+      "name": "Core i9-14900K",
+      "vendor": "Intel",
+      "family": "Core 14th gen",
+      "socket": "LGA1700",
+      "cores": 24,
+      "tdp_watts": 125,
+      "peak_watts": 253,
+      "peak_over_tdp_watts": 128,
+      "peak_to_tdp_ratio": 2.024,
+      "note": "The clearest case for ignoring TDP: a 125 W label on a part that draws 253 W whenever it boosts."
+    }
+  ],
+  "gpus": [
+    {
+      "slug": "rtx-5090",
+      "name": "GeForce RTX 5090",
+      "vendor": "NVIDIA",
+      "series": "RTX 50",
+      "release_year": 2025,
+      "total_graphics_power_watts": 575,
+      "vendor_recommended_psu_watts": 1000,
+      "vram_gb": 32
+    },
+    {
+      "slug": "rtx-4090",
+      "name": "GeForce RTX 4090",
+      "vendor": "NVIDIA",
+      "series": "RTX 40",
+      "release_year": 2022,
+      "total_graphics_power_watts": 450,
+      "vendor_recommended_psu_watts": 850,
+      "vram_gb": 24
+    },
+    {
+      "slug": "rtx-3090-ti",
+      "name": "GeForce RTX 3090 Ti",
+      "vendor": "NVIDIA",
+      "series": "RTX 30",
+      "release_year": 2022,
+      "total_graphics_power_watts": 450,
+      "vendor_recommended_psu_watts": 850,
+      "vram_gb": 24
+    },
+    {
+      "slug": "rtx-5080",
+      "name": "GeForce RTX 5080",
+      "vendor": "NVIDIA",
+      "series": "RTX 50",
+      "release_year": 2025,
+      "total_graphics_power_watts": 360,
+      "vendor_recommended_psu_watts": 850,
+      "vram_gb": 16
+    },
+    {
+      "slug": "rx-7900-xtx",
+      "name": "Radeon RX 7900 XTX",
+      "vendor": "AMD",
+      "series": "RX 7000",
+      "release_year": 2022,
+      "total_graphics_power_watts": 355,
+      "vendor_recommended_psu_watts": 800,
+      "vram_gb": 24
+    },
+    {
+      "slug": "rtx-3090",
+      "name": "GeForce RTX 3090",
+      "vendor": "NVIDIA",
+      "series": "RTX 30",
+      "release_year": 2020,
+      "total_graphics_power_watts": 350,
+      "vendor_recommended_psu_watts": 750,
+      "vram_gb": 24
+    },
+    {
+      "slug": "rtx-3080-ti",
+      "name": "GeForce RTX 3080 Ti",
+      "vendor": "NVIDIA",
+      "series": "RTX 30",
+      "release_year": 2021,
+      "total_graphics_power_watts": 350,
+      "vendor_recommended_psu_watts": 750,
+      "vram_gb": 12
+    },
+    {
+      "slug": "rtx-3080",
+      "name": "GeForce RTX 3080",
+      "vendor": "NVIDIA",
+      "series": "RTX 30",
+      "release_year": 2020,
+      "total_graphics_power_watts": 350,
+      "vendor_recommended_psu_watts": 750,
+      "vram_gb": 12
+    },
+    {
+      "slug": "rtx-4080-super",
+      "name": "GeForce RTX 4080 SUPER",
+      "vendor": "NVIDIA",
+      "series": "RTX 40",
+      "release_year": 2024,
+      "total_graphics_power_watts": 320,
+      "vendor_recommended_psu_watts": 750,
+      "vram_gb": 16
+    },
+    {
+      "slug": "rtx-4080",
+      "name": "GeForce RTX 4080",
+      "vendor": "NVIDIA",
+      "series": "RTX 40",
+      "release_year": 2022,
+      "total_graphics_power_watts": 320,
+      "vendor_recommended_psu_watts": 750,
+      "vram_gb": 16
+    },
+    {
+      "slug": "rx-7900-xt",
+      "name": "Radeon RX 7900 XT",
+      "vendor": "AMD",
+      "series": "RX 7000",
+      "release_year": 2022,
+      "total_graphics_power_watts": 315,
+      "vendor_recommended_psu_watts": 750,
+      "vram_gb": 20
+    },
+    {
+      "slug": "rx-9070-xt",
+      "name": "Radeon RX 9070 XT",
+      "vendor": "AMD",
+      "series": "RX 9000",
+      "release_year": 2025,
+      "total_graphics_power_watts": 304,
+      "vendor_recommended_psu_watts": 750,
+      "vram_gb": 16
+    },
+    {
+      "slug": "rtx-5070-ti",
+      "name": "GeForce RTX 5070 Ti",
+      "vendor": "NVIDIA",
+      "series": "RTX 50",
+      "release_year": 2025,
+      "total_graphics_power_watts": 300,
+      "vendor_recommended_psu_watts": 750,
+      "vram_gb": 16
+    },
+    {
+      "slug": "rtx-3070-ti",
+      "name": "GeForce RTX 3070 Ti",
+      "vendor": "NVIDIA",
+      "series": "RTX 30",
+      "release_year": 2021,
+      "total_graphics_power_watts": 290,
+      "vendor_recommended_psu_watts": 650,
+      "vram_gb": 8
+    },
+    {
+      "slug": "rtx-4070-ti-super",
+      "name": "GeForce RTX 4070 Ti SUPER",
+      "vendor": "NVIDIA",
+      "series": "RTX 40",
+      "release_year": 2024,
+      "total_graphics_power_watts": 285,
+      "vendor_recommended_psu_watts": 700,
+      "vram_gb": 16
+    },
+    {
+      "slug": "rtx-4070-ti",
+      "name": "GeForce RTX 4070 Ti",
+      "vendor": "NVIDIA",
+      "series": "RTX 40",
+      "release_year": 2023,
+      "total_graphics_power_watts": 285,
+      "vendor_recommended_psu_watts": 700,
+      "vram_gb": 12
+    },
+    {
+      "slug": "rx-7800-xt",
+      "name": "Radeon RX 7800 XT",
+      "vendor": "AMD",
+      "series": "RX 7000",
+      "release_year": 2023,
+      "total_graphics_power_watts": 263,
+      "vendor_recommended_psu_watts": 700,
+      "vram_gb": 16
+    },
+    {
+      "slug": "rx-7900-gre",
+      "name": "Radeon RX 7900 GRE",
+      "vendor": "AMD",
+      "series": "RX 7000",
+      "release_year": 2023,
+      "total_graphics_power_watts": 260,
+      "vendor_recommended_psu_watts": 700,
+      "vram_gb": 16
+    },
+    {
+      "slug": "rtx-5070",
+      "name": "GeForce RTX 5070",
+      "vendor": "NVIDIA",
+      "series": "RTX 50",
+      "release_year": 2025,
+      "total_graphics_power_watts": 250,
+      "vendor_recommended_psu_watts": 650,
+      "vram_gb": 12
+    },
+    {
+      "slug": "rx-7700-xt",
+      "name": "Radeon RX 7700 XT",
+      "vendor": "AMD",
+      "series": "RX 7000",
+      "release_year": 2023,
+      "total_graphics_power_watts": 245,
+      "vendor_recommended_psu_watts": 700,
+      "vram_gb": 12
+    },
+    {
+      "slug": "rtx-4070-super",
+      "name": "GeForce RTX 4070 SUPER",
+      "vendor": "NVIDIA",
+      "series": "RTX 40",
+      "release_year": 2024,
+      "total_graphics_power_watts": 220,
+      "vendor_recommended_psu_watts": 650,
+      "vram_gb": 12
+    },
+    {
+      "slug": "rtx-3070",
+      "name": "GeForce RTX 3070",
+      "vendor": "NVIDIA",
+      "series": "RTX 30",
+      "release_year": 2020,
+      "total_graphics_power_watts": 220,
+      "vendor_recommended_psu_watts": 650,
+      "vram_gb": 8
+    },
+    {
+      "slug": "rx-9070",
+      "name": "Radeon RX 9070",
+      "vendor": "AMD",
+      "series": "RX 9000",
+      "release_year": 2025,
+      "total_graphics_power_watts": 220,
+      "vendor_recommended_psu_watts": 650,
+      "vram_gb": 16
+    },
+    {
+      "slug": "rtx-4070",
+      "name": "GeForce RTX 4070",
+      "vendor": "NVIDIA",
+      "series": "RTX 40",
+      "release_year": 2023,
+      "total_graphics_power_watts": 200,
+      "vendor_recommended_psu_watts": 650,
+      "vram_gb": 12
+    },
+    {
+      "slug": "rtx-3060-ti",
+      "name": "GeForce RTX 3060 Ti",
+      "vendor": "NVIDIA",
+      "series": "RTX 30",
+      "release_year": 2020,
+      "total_graphics_power_watts": 200,
+      "vendor_recommended_psu_watts": 600,
+      "vram_gb": 8
+    },
+    {
+      "slug": "rtx-5060-ti",
+      "name": "GeForce RTX 5060 Ti",
+      "vendor": "NVIDIA",
+      "series": "RTX 50",
+      "release_year": 2025,
+      "total_graphics_power_watts": 180,
+      "vendor_recommended_psu_watts": 600,
+      "vram_gb": 16
+    },
+    {
+      "slug": "rtx-3060",
+      "name": "GeForce RTX 3060",
+      "vendor": "NVIDIA",
+      "series": "RTX 30",
+      "release_year": 2021,
+      "total_graphics_power_watts": 170,
+      "vendor_recommended_psu_watts": 550,
+      "vram_gb": 12
+    },
+    {
+      "slug": "rtx-4060-ti",
+      "name": "GeForce RTX 4060 Ti",
+      "vendor": "NVIDIA",
+      "series": "RTX 40",
+      "release_year": 2023,
+      "total_graphics_power_watts": 165,
+      "vendor_recommended_psu_watts": 550,
+      "vram_gb": 8
+    },
+    {
+      "slug": "rx-7600",
+      "name": "Radeon RX 7600",
+      "vendor": "AMD",
+      "series": "RX 7000",
+      "release_year": 2023,
+      "total_graphics_power_watts": 165,
+      "vendor_recommended_psu_watts": 550,
+      "vram_gb": 8
+    },
+    {
+      "slug": "rx-9060-xt",
+      "name": "Radeon RX 9060 XT",
+      "vendor": "AMD",
+      "series": "RX 9000",
+      "release_year": 2025,
+      "total_graphics_power_watts": 160,
+      "vendor_recommended_psu_watts": 550,
+      "vram_gb": 16
+    },
+    {
+      "slug": "rtx-5060",
+      "name": "GeForce RTX 5060",
+      "vendor": "NVIDIA",
+      "series": "RTX 50",
+      "release_year": 2025,
+      "total_graphics_power_watts": 145,
+      "vendor_recommended_psu_watts": 550,
+      "vram_gb": 8
+    },
+    {
+      "slug": "rtx-5050",
+      "name": "GeForce RTX 5050",
+      "vendor": "NVIDIA",
+      "series": "RTX 50",
+      "release_year": 2025,
+      "total_graphics_power_watts": 130,
+      "vendor_recommended_psu_watts": 550,
+      "vram_gb": 8
+    },
+    {
+      "slug": "rtx-3050",
+      "name": "GeForce RTX 3050",
+      "vendor": "NVIDIA",
+      "series": "RTX 30",
+      "release_year": 2022,
+      "total_graphics_power_watts": 130,
+      "vendor_recommended_psu_watts": 550,
+      "vram_gb": 8
+    },
+    {
+      "slug": "rtx-4060",
+      "name": "GeForce RTX 4060",
+      "vendor": "NVIDIA",
+      "series": "RTX 40",
+      "release_year": 2023,
+      "total_graphics_power_watts": 115,
+      "vendor_recommended_psu_watts": 550,
+      "vram_gb": 8
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28",
+  "generatedAt": "2026-09-04",
   "license": "CC BY 4.0",
   "attribution": "CalcuGrid — https://calcugrid.com",
   "files": [
@@ -15,6 +15,10 @@
     "llm-model-architectures.csv",
     "llm-vram-by-quantisation.csv",
     "llm-vram.json",
+    "pc-cpu-power-specs.csv",
+    "pc-gpu-power-specs.csv",
+    "pc-psu-sizing-by-build.csv",
+    "pc-psu-sizing.json",
     "us-1099-vs-w2-by-state.csv",
     "us-1099-vs-w2-by-state.json",
     "us-electricity-rates.csv",
@@ -46,9 +50,14 @@
     },
     "selfEmployed": 51,
     "localLlm": {
-      "models": 15,
+      "models": 20,
       "accelerators": 30,
-      "fits": 450
+      "fits": 600
+    },
+    "psu": {
+      "cpus": 26,
+      "gpus": 34,
+      "pairings": 884
     }
   }
 }

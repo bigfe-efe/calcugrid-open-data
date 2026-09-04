@@ -24,11 +24,15 @@ git clone https://github.com/bigfe-efe/calcugrid-open-data.git
 | EV efficiency | 50 vehicles | `ev-efficiency.csv` |
 | US residential electricity rates | 51 states | `us-electricity-rates.csv` |
 | 1099 vs W-2 tax, by state | 51 states | `us-1099-vs-w2-by-state.csv` · `.json` |
-| LLM model architectures | 15 models | `llm-model-architectures.csv` |
-| — memory by quantisation | 90 rows | `llm-vram-by-quantisation.csv` |
+| LLM model architectures | 20 models | `llm-model-architectures.csv` |
+| — memory by quantisation | 120 rows | `llm-vram-by-quantisation.csv` |
 | — accelerators | 30 devices | `llm-accelerators.csv` |
-| — model × accelerator fit | 450 rows | `llm-model-accelerator-fit.csv` |
+| — model × accelerator fit | 600 rows | `llm-model-accelerator-fit.csv` |
 | — everything, with caveats | — | `llm-vram.json` |
+| Desktop CPU power limits | 26 CPUs | `pc-cpu-power-specs.csv` |
+| Desktop GPU power limits | 34 cards | `pc-gpu-power-specs.csv` |
+| PSU sizing by build | 884 pairings | `pc-psu-sizing-by-build.csv` |
+| — method and caveats | — | `pc-psu-sizing.json` |
 
 `manifest.json` lists every file with row counts and the generation date.
 
@@ -146,6 +150,55 @@ Rates change. Check the `generatedAt` field before relying on this for anything 
 
 `recommended_psu_w` is the vendor recommendation, which deliberately leaves headroom for transient spikes above the rated limit.
 
+### PSU sizing — TDP is not a power limit
+
+This is the trap the dataset exists to document, and it is the same shape as
+the `head_dim` one above: a published number that looks like the right input
+and is not.
+
+A CPU's TDP is a thermal design figure. It is not what the chip is allowed to
+draw. AMD permits 1.35× the rated TDP as Package Power Tracking; Intel
+publishes Maximum Turbo Power as a separate number entirely. Both are on the
+manufacturer's own spec sheet. Neither is the number most calculators use.
+
+The `pc-cpu-power-specs.csv` columns put them side by side:
+
+```
+name                 tdp_watts   peak_watts   ratio
+Core i9-14900K             125          253    2.02
+Core Ultra 9 285K          125          250    2.00
+Ryzen 9 9950X              170          230    1.35
+```
+
+`pc-psu-sizing-by-build.csv` carries what that costs. For each of the 884
+CPU × GPU pairings, `recommended_from_tdp_watts` is the supply you would buy
+having summed TDPs, and `computed_psu_watts` is the one the real ceilings ask
+for. `sizes_missed_by_tdp` counts the standard supply sizes between them:
+
+```
+sizes missed    pairings
+      0            157   (18%)
+     +1            433   (49%)
+     +2            128   (14%)
+     +3            144   (16%)
+     +4             22    (2%)
+```
+
+In 727 of 884 combinations — 82% — sizing on TDP selects a supply that is too
+small. Use `peak_watts`.
+
+Two caveats on the sizing itself. These are computed ceilings, not wall-meter
+readings: a real system spends almost all its time well below the sum, which
+is the point, because a supply is chosen for the worst case rather than the
+average. And `recommended_psu_watts` is the larger of our arithmetic and the
+GPU vendor's own recommendation — `binding_constraint` records which of the
+two decided each row, so you can drop the vendor floor if you would rather
+size purely on the numbers.
+
+Board makers ship power profiles that raise these limits further. The Core
+Ultra 9 285K has a 295 W extreme profile some boards enable by default; where
+that applies the `note` column says so.
+
 ### EV efficiency — EPA figures
 
 `kwh_per_100_miles` and `epa_range_miles` are EPA test-cycle figures. Real-world consumption varies with temperature, speed and terrain, usually worse in winter.
@@ -169,6 +222,8 @@ Rates change. Check the `generatedAt` field before relying on this for anything 
 | 1099 vs W-2 comparison | Computed from the above, plus IRC 1401-1402, Rev. Proc. 2025-32 and the One Big Beautiful Bill Act |
 | LLM architectures | Each model's own `config.json` on Hugging Face. Meta gates its repositories, so those were read from public mirrors hosting the file unmodified — the computed parameter counts landing on the published sizes is the check that the mirrors are faithful |
 | Accelerator memory | Manufacturer specifications |
+| CPU power limits | Manufacturer specifications: AMD Package Power Tracking, Intel Maximum Turbo Power |
+| PSU sizing | Computed from the CPU and GPU tables plus a fixed platform allowance; standard supply sizes as sold |
 
 Per-row source strings are in the CSVs where they differ by row (`gpu-power-specs.csv`) and in the JSON `source` field per state (`us-state-income-tax-2026.json`).
 
