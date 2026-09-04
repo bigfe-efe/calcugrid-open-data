@@ -275,6 +275,29 @@ def check_llm() -> int:
         if abs(num(r["kv_bytes_per_token"]) - expected) > 1:
             fail(f"{tag} kv_bytes_per_token does not match 2*L*kv*d*2")
 
+        # Active against total. A dense model routes through everything it
+        # loads, so the two are equal; a mixture-of-experts model loads every
+        # expert and uses a few, so active is smaller and never larger. The
+        # two columns exist because memory follows the total and throughput
+        # follows the active count, and swapping them sends someone to the
+        # wrong hardware in whichever direction they swapped.
+        active = num(r["active_parameters_b"])
+        experts = num(r["num_experts"])
+        per_token = num(r["experts_per_token"])
+        if active is None or active > stated * 1.06:
+            fail(f"{tag} active {active}B exceeds the total {stated}B")
+        if experts == 0:
+            if abs(active - num(r["parameters_b"])) > 0.01:
+                fail(f"{tag} dense model with active {active}B against total {r['parameters_b']}B")
+            if per_token != 0:
+                fail(f"{tag} dense model routes {per_token} experts per token")
+        else:
+            if per_token < 1 or per_token > experts:
+                fail(f"{tag} routes {per_token} of {experts} experts per token")
+            if active >= num(r["parameters_b"]):
+                fail(f"{tag} mixture-of-experts model with no saving: "
+                     f"active {active}B against total {r['parameters_b']}B")
+
         if not 16 <= layers <= 200:
             fail(f"{tag} implausible layer count {layers}")
         if not 32 <= dim <= 512:

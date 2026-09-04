@@ -1,6 +1,6 @@
 # CalcuGrid Open Data
 
-Eight datasets that were surprisingly hard to find in machine-readable form, so they got assembled, unit-checked and audited. Published under **CC BY 4.0** — use them for anything, just say where they came from.
+Nine datasets that were surprisingly hard to find in machine-readable form, so they got assembled, unit-checked and audited. Published under **CC BY 4.0** — use them for anything, just say where they came from.
 
 Every file is plain CSV and JSON. No API, no key, no signup. Clone it or link the raw file.
 
@@ -35,6 +35,9 @@ git clone https://github.com/bigfe-efe/calcugrid-open-data.git
 | — method and caveats | — | `pc-psu-sizing.json` |
 
 `manifest.json` lists every file with row counts and the generation date.
+
+The four LLM tables are also published as a dataset on the Hugging Face Hub, with a browsable data viewer:
+[huggingface.co/datasets/BigFe/llm-vram-requirements](https://huggingface.co/datasets/BigFe/llm-vram-requirements)
 
 ---
 
@@ -76,7 +79,7 @@ A German 1.3 or a Filipino 1.25 is excellent work. Reading either as a US GPA tu
 **`parameters` is computed, not copied.** Derived from the architecture rather
 than taken from the model's name, so a transcription error in any config field
 shows up immediately as a model that is the wrong size. Compare `parameters_b`
-against `stated_size_b` — all fifteen agree within 0.3%, which is the check
+against `stated_size_b` — all twenty agree within 0.2%, which is the check
 that the architecture fields are right.
 
 **`head_dim` is read from the config, never derived.** It is tempting to
@@ -86,7 +89,7 @@ sets 256 where the division gives 224 — deriving it understates the KV cache b
 
 **Size the cache by `key_value_heads`, not `attention_heads`.** Grouped-query
 attention shares one key-value pair across several query heads. The `gqa_ratio`
-column is how much that saves: up to 8× in this dataset. Using the query head
+column is how much that saves: up to 16× in this dataset. Using the query head
 count is the commonest error in VRAM estimates and produces the wildly
 pessimistic numbers people quote.
 
@@ -94,6 +97,14 @@ pessimistic numbers people quote.
 kv_cache_bytes = 2 × layers × key_value_heads × head_dim × context × bytes
 weights_bytes  = parameters × bits_per_weight / 8
 ```
+
+**Mixture-of-experts models publish two parameter counts.** `parameters_b` is
+what gets loaded; `active_parameters_b` is what each token is routed through.
+Memory follows the first, throughput follows the second, and they point at
+different hardware — Qwen3 30B-A3B occupies 30.5B of weights and computes like
+a 3.35B model. `num_experts` and `experts_per_token` are 0 on a dense model,
+where the two parameter columns are equal, so code that reads either column
+works on both kinds.
 
 **Sliding-window attention is not modelled.** Gemma 2 alternates local and
 global attention layers, so its real cache at long context is smaller than
